@@ -3,6 +3,7 @@ import Logo from './logo'
 import Dropdown from '@/components/utils/dropdown'
 import ThemeToggle from './theme-toggle'
 import MobileMenu from './mobile-menu'
+import ConnectWallet from '@/components/connect-wallet';
 
 export default function Header() {
   return (
@@ -72,12 +73,17 @@ export default function Header() {
 
             {/* Desktop CTA on the right */}
             <ul className="flex justify-end flex-wrap items-center">
-              <li>
+              {/* <li>
                 <Link href="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">
-                  Request code
+                  Invite Code
                 </Link>
+              </li> */}
+              <li>
+                <ConnectWallet size="small" />
               </li>
             </ul>
+
+
           </nav>
 
           <MobileMenu />

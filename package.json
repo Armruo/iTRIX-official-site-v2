@@ -11,6 +11,10 @@
   "dependencies": {
     "@ant-design/web3": "^1.22.0",
     "@ant-design/web3-wagmi": "^2.10.2",
+    "@emotion/css": "^11.13.5",
+    "@emotion/hash": "^0.9.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@headlessui/react": "^1.7.17",
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.9.75",

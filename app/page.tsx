@@ -9,6 +9,7 @@ import Stats from '@/components/stats'
 import Carousel from '@/components/carousel'
 import Tabs from '@/components/tabs'
 import Process from '@/components/process'
+import HeroBlockChain from '@/components/blockchain'
 import PricingTables from '@/components/pricing-tables'
 import TestimonialsBlocks from '@/components/testimonials-blocks'
 import FeaturesBlocks from '@/components/features-blocks'
@@ -22,11 +23,12 @@ export default function Home() {
         <PageIllustration />
       </div>
       <Hero />
+      <HeroBlockChain />
       <Stats />
       <Carousel />
       <Tabs />
       <Process />
-      <PricingTables />
+      {/* <PricingTables /> */}
       <TestimonialsBlocks />
       <FeaturesBlocks />
       <Cta />

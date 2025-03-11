@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import './css/style.css'
 import { Inter, Red_Hat_Display } from 'next/font/google'
+import CommonWeb3Layout from "@/components/connect-provider";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -29,7 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${redhat.variable} font-inter antialiased bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 tracking-tight`}>
-        <ClientLayout>{children}</ClientLayout>
+        <CommonWeb3Layout>
+          <ClientLayout>{children}</ClientLayout>
+        </CommonWeb3Layout>
       </body>
     </html>
   )
