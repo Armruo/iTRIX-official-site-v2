@@ -234,7 +234,7 @@ export default function Footer() {
             </div>
 
             {/* Copyrights note */}
-            <div className="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; ITRIX.com. All rights reserved.</div>
+            <div className="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; itrix.ai. All rights reserved.</div>
           </div>
         </div>
       </div>

@@ -5,14 +5,14 @@ import SplineScene from './SplineScene';
 export default function HeroHome() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-32 pb-10 md:pt-40 md:pb-16">
+      <div className="max-w-[1900px] mx-auto px-6 sm:px-8 lg:px-10 2xl:px-16">
+        <div className="pt-32 pb-0 md:pt-40 md:pb-0">
 
           {/* Hero content */}
           <div className="md:grid md:grid-cols-12 md:gap-12 lg:gap-20 items-center">
 
             {/* Content */}
-            <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
+            <div className="md:col-span-6 lg:col-span-6 mb-8 md:mb-0 text-center md:text-left">
               <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black" data-aos="fade-down">Your website, reimagined</h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
               {/* CTA form */}
@@ -46,26 +46,12 @@ export default function HeroHome() {
               </ul>
             </div>
 
-            {/* Mobile mockup */}
-            {/* <div className="md:col-span-5 lg:col-span-5 text-center md:text-right" data-aos="fade-up" data-aos-delay="450">
-
-              <ModalVideoIphone
-                thumb={VideoThumb}
-                thumbWidth={290}
-                thumbHeight={624}
-                thumbAlt="Modal video thumbnail"
-                video="/videos/video.mp4"
-                videoWidth={1920}
-                videoHeight={1080} />
-
-            </div> */}
-
             {/* 3D Scene */}
-            <div className="md:w-[840px]">
+            <div className="md:col-span-6 lg:col-span-6">
               <SplineScene 
                 url="https://my.spline.design/robotcontactme-d7513cf9e8970d08cab4ecac824c11ea/"  // robot
                 // url="https://my.spline.design/brain-74544328dc9622e185c2931f91fbf2d8/" // brain
-                className="w-full h-[600px] md:h-[800px]"
+                className="w-full h-[600px] md:h-[600px]"
               />
             </div>
 

@@ -8,24 +8,24 @@ export default function HeroBlockChain() {
         <div className="py-12 md:py-20 border-t border-gray-200 dark:border-gray-800">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-red-hat-display mb-4">Web3 区块链解决方案</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
               提供高性能、安全可靠的区块链基础设施和智能合约开发服务，助力企业快速实现Web3转型
             </p>
-          </div>
+          </div> */}
 
           <div className="flex flex-wrap items-center">
             {/* 3D Animation */}
-            <div className="w-full lg:w-6/12 mb-12 lg:mb-0">
+            <div className="w-full lg:w-8/12 mb-12 lg:mb-0">
               <SplineScene 
-                url="https://my.spline.design/shiny3dcoinlogoanimation-c9083c127dfd32ad51911825592922d0/"
+                url="https://my.spline.design/hellodistortingintro-fd37843f2d4913466e6596827e247a74/"
                 className="w-full h-[400px] md:h-[500px]"
               />
             </div>
 
             {/* Content */}
-            <div className="w-full lg:w-6/12 px-4"> 
+            <div className="w-full lg:w-4/12 px-4"> 
               <div className="lg:ml-6">
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-8">
                   <h3 className="h4 font-red-hat-display mb-4">核心优势</h3>

@@ -8,7 +8,7 @@ import ConnectWallet from '@/components/connect-wallet';
 export default function Header() {
   return (
     <header className="absolute w-full z-30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-[1900px] mx-auto px-6 sm:px-6 lg:px-8 2xl:px-16">
         <div className="flex items-center justify-between h-20">
 
           {/* Site branding */}
