@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { primaryColor } from '@/utils/css';
+import { primaryColor } from '@/utils/wallet-css';
 
 interface IndexBtnProps {
   children: React.ReactNode;

@@ -13,7 +13,7 @@ import {
  } from '@ant-design/web3-solana';
 
 
-import { primaryColor } from '@/utils/css';
+import { primaryColor } from '@/utils/wallet-css';
 import { ConfigProvider } from 'antd';
 
 const walletConnectProjectId = '163d82f84c2f17748a8eb28340497988';
