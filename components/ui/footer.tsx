@@ -25,8 +25,8 @@ export default function Footer() {
                   gradientUnits="userSpaceOnUse"
                   gradientTransform="rotate(90 0 400) scale(315.089)"
                 >
-                  <stop stopColor="#3ABAB4" />
-                  <stop offset="1" stopColor="#3ABAB4" stopOpacity=".01" />
+                  <stop stopColor="#734fa1" />
+                  <stop offset="1" stopColor="#734fa1" stopOpacity=".01" />
                 </radialGradient>
               </defs>
             </svg>

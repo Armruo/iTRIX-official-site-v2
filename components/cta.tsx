@@ -15,8 +15,8 @@ export default function Cta() {
                   <stop stopColor="#667EEA" stopOpacity="0" offset="100%" />
                 </radialGradient>
                 <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="box-gr-b">
-                  <stop stopColor="#3ABAB4" offset="0%" />
-                  <stop stopColor="#3ABAB4" stopOpacity="0" offset="100%" />
+                  <stop stopColor="#734fa1" offset="0%" />
+                  <stop stopColor="#734fa1" stopOpacity="0" offset="100%" />
                 </radialGradient>
               </defs>
               <g transform="translate(-85 -369)" fill="none" fillRule="evenodd">

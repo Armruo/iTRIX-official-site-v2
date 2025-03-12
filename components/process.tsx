@@ -24,8 +24,8 @@ export default function Process() {
                 <stop stopColor="#667EEA" stopOpacity="0" offset="100%" />
               </radialGradient>
               <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="iphonesill__b">
-                <stop stopColor="#9F7AEA" offset="0%" />
-                <stop stopColor="#9F7AEA" stopOpacity="0" offset="100%" />
+                <stop stopColor="#568686" offset="0%" />
+                <stop stopColor="#568686" stopOpacity="0" offset="100%" />
               </radialGradient>
             </defs>
             <g transform="translate(-64 -64)" fill="none" fillRule="evenodd">

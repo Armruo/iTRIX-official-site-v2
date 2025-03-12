@@ -182,8 +182,8 @@ export default function TestimonialsCircles() {
             <svg className="mx-auto" viewBox="0 0 678 346" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="circle_b">
-                  <stop stopColor="#3ABAB4" offset="0%" />
-                  <stop stopColor="#3ABAB4" stopOpacity="0" offset="100%" />
+                  <stop stopColor="#734fa1" offset="0%" />
+                  <stop stopColor="#734fa1" stopOpacity="0" offset="100%" />
                 </radialGradient>
                 <linearGradient x1="50%" y1="50%" x2="50%" y2="89.386%" id="circle_a">
                   <stop stopColor="#2E2E33" offset="0%" />

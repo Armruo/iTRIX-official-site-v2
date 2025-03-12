@@ -44,8 +44,8 @@ export default function ModalVideoIphone({
               <stop offset="1" stopColor="#667EEA" stopOpacity=".01" />
             </radialGradient>
             <radialGradient id="piphoneill_paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 99 339) scale(189.054)">
-              <stop stopColor="#9F7AEA" />
-              <stop offset="1" stopColor="#9F7AEA" stopOpacity=".01" />
+              <stop stopColor="#568686" />
+              <stop offset="1" stopColor="#568686" stopOpacity=".01" />
             </radialGradient>
           </defs>
         </svg>
