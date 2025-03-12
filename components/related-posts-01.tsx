@@ -22,12 +22,12 @@ export default function RelatedPosts01() {
                 <header className="grow">
                   <a className="hover:underline" href="#0">
                     <h3 className="text-lg font-red-hat-display font-bold tracking-tight mb-2">
-                      Creating events in the pandemic
+                      Creator's Starter Guide: How to Begin Your Journey on ITRIX
                     </h3>
                   </a>
                 </header>
                 <footer>
-                  <div className="text-sm opacity-80">By Josh Wang · Nov 16, 2020</div>
+                  <div className="text-sm opacity-80">By ITRIX Labs · Jan 16, 2025</div>
                 </footer>
               </div>
             </article>
@@ -42,12 +42,12 @@ export default function RelatedPosts01() {
                 <header className="grow">
                   <a className="hover:underline" href="#0">
                     <h3 className="text-lg font-red-hat-display font-bold tracking-tight mb-2">
-                      5 Ways to grow your personal network
+                      Fan Interaction Guide: How to Support Your Favorite Creators on ITRIX
                     </h3>
                   </a>
                 </header>
                 <footer>
-                  <div className="text-sm opacity-80">By Yuri Lapko · Nov 14, 2020</div>
+                  <div className="text-sm opacity-80">By ITRIX Labs · Jan 20, 2025</div>
                 </footer>
               </div>
             </article>
@@ -62,12 +62,12 @@ export default function RelatedPosts01() {
                 <header className="grow">
                   <a className="hover:underline" href="#0">
                     <h3 className="text-lg font-red-hat-display font-bold tracking-tight mb-2">
-                      How to fix my website myself
+                      How to Earn IX Tokens through Tasks and Interactions on ITRIX
                     </h3>
                   </a>
                 </header>
                 <footer>
-                  <div className="text-sm opacity-80">By Josh Wang · Nov 10, 2020</div>
+                  <div className="text-sm opacity-80">By ITRIX Labs · Mar 20, 2025</div>
                 </footer>
               </div>
             </article>
@@ -82,12 +82,12 @@ export default function RelatedPosts01() {
                 <header className="grow">
                   <a className="hover:underline" href="#0">
                     <h3 className="text-lg font-red-hat-display font-bold tracking-tight mb-2">
-                      How COVID-19 redefined the entrepreneur
+                      ITRIX Creator's Success Secrets: Attract More Fans and Increase Earnings
                     </h3>
                   </a>
                 </header>
                 <footer>
-                  <div className="text-sm opacity-80">By Mary Champ · Nov 2, 2020</div>
+                  <div className="text-sm opacity-80">By ITRIX Labs · Mar 30, 2025</div>
                 </footer>
               </div>
             </article>

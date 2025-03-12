@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import RelatedImage01 from '@/public/images/related-post-01.jpg'
 import RelatedImage02 from '@/public/images/related-post-02.jpg'
-import Author01 from '@/public/images/news-author-04.jpg'
-import Author02 from '@/public/images/news-author-03.jpg'
+import Author01 from '@/public/images/logo.jpg'
+import Author02 from '@/public/images/logo.jpg'
 
 export default function RelatedPosts02() {
   return (
@@ -26,10 +26,10 @@ export default function RelatedPosts02() {
                   <header className="grow">
                     <a className="hover:underline" href="#0">
                       <h3 className="text-lg font-red-hat-display font-bold tracking-tight mb-2">
-                        How to talk about yourself in the best possible way
+                        Win-Win Guide for Fans and Creators: How to Build a Strong Community on ITRIX
                       </h3>
                     </a>
-                    <div className="text-sm opacity-80">Nov 16, 2020</div>
+                    <div className="text-sm opacity-80">Dec 16, 2024</div>
                   </header>
                   <footer>
                     {/* Author meta */}
@@ -39,7 +39,7 @@ export default function RelatedPosts02() {
                       </a>
                       <div>
                         <span className="opacity-75">By </span>
-                        <a className="font-medium hover:underline" href="#0">Mari Champ</a>
+                        <a className="font-medium hover:underline" href="#0">ITRIX Labs</a>
                       </div>
                     </div>
                   </footer>
@@ -56,10 +56,10 @@ export default function RelatedPosts02() {
                   <header className="grow">
                     <a className="hover:underline" href="#0">
                       <h3 className="text-lg font-red-hat-display font-bold tracking-tight mb-2">
-                        How I Park Inc make $5,000 every month by sellings gifts
+                        ITRIX Creator's Advanced Guide: Optimize Your Content for More Rewards
                       </h3>
                     </a>
-                    <div className="text-sm opacity-80">Nov 12, 2020</div>
+                    <div className="text-sm opacity-80">Fab 12, 2025</div>
                   </header>
                   <footer>
                     {/* Author meta */}
@@ -69,7 +69,7 @@ export default function RelatedPosts02() {
                       </a>
                       <div>
                         <span className="opacity-75">By </span>
-                        <a className="font-medium hover:underline" href="#0">Lisa Allison Champ</a>
+                        <a className="font-medium hover:underline" href="#0">ITRIX Labs</a>
                       </div>
                     </div>
                   </footer>

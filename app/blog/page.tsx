@@ -81,7 +81,7 @@ export default function Blog() {
                 <h4 className="h3 font-red-hat-display mb-8">Latest</h4>
 
                 {/* Articles container */}
-                <div className="grid gap-12 sm:grid-cols-2 sm:gap-x-6 md:gap-y-8 items-start">
+                <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 md:gap-y-8 items-start">
                   {posts.map((post, postIndex) => (
                     <PostItem key={postIndex} {...post} />
                   ))}

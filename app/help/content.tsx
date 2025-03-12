@@ -3,11 +3,7 @@
 import { useState } from 'react'
 
 import Image from 'next/image'
-import AuthorImage01 from '@/public/images/news-author-01.jpg'
-import AuthorImage02 from '@/public/images/news-author-02.jpg'
-import AuthorImage03 from '@/public/images/news-author-03.jpg'
-import AuthorImage04 from '@/public/images/news-author-04.jpg'
-import AuthorImage05 from '@/public/images/news-author-05.jpg'
+import AuthorImage from '@/public/images/logo.jpg'
 
 export default function HelpContent() {
   
@@ -156,7 +152,7 @@ export default function HelpContent() {
                           <span className="absolute inset-0 -m-px" aria-hidden="true">
                             <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
                           </span>
-                          <Image className="relative rounded-full" src={AuthorImage01} width={32} height={32} alt="Author 01" />
+                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 01" />
                         </a>
                       </div>
                       <div className="text-gray-500">
@@ -206,13 +202,13 @@ export default function HelpContent() {
                           <span className="absolute inset-0 -m-px" aria-hidden="true">
                             <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
                           </span>
-                          <Image className="relative rounded-full" src={AuthorImage01} width={32} height={32} alt="Author 01" />
+                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 01" />
                         </a>
                         <a className="relative -ml-2" href="#0">
                           <span className="absolute inset-0 -m-px" aria-hidden="true">
                             <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
                           </span>
-                          <Image className="relative rounded-full" src={AuthorImage02} width={32} height={32} alt="Author 02" />
+                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 02" />
                         </a>
                       </div>
                       <div className="text-gray-500">
@@ -266,7 +262,7 @@ export default function HelpContent() {
                           <span className="absolute inset-0 -m-px" aria-hidden="true">
                             <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
                           </span>
-                          <Image className="relative rounded-full" src={AuthorImage03} width={32} height={32} alt="Author 03" />
+                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 03" />
                         </a>
                       </div>
                       <div className="text-gray-500">
@@ -316,7 +312,7 @@ export default function HelpContent() {
                           <span className="absolute inset-0 -m-px" aria-hidden="true">
                             <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
                           </span>
-                          <Image className="relative rounded-full" src={AuthorImage04} width={32} height={32} alt="Author 04" />
+                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 04" />
                         </a>
                       </div>
                       <div className="text-gray-500">
@@ -366,7 +362,7 @@ export default function HelpContent() {
                           <span className="absolute inset-0 -m-px" aria-hidden="true">
                             <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
                           </span>
-                          <Image className="relative rounded-full" src={AuthorImage01} width={32} height={32} alt="Author 01" />
+                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 01" />
                         </a>
                       </div>
                       <div className="text-gray-500">
@@ -410,7 +406,7 @@ export default function HelpContent() {
                           <span className="absolute inset-0 -m-px" aria-hidden="true">
                             <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
                           </span>
-                          <Image className="relative rounded-full" src={AuthorImage05} width={32} height={32} alt="Author 05" />
+                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 05" />
                         </a>
                       </div>
                       <div className="text-gray-500">
