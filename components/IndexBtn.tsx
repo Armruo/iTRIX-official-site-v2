@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { primaryColor } from '@/utils/wallet-css';
+import { gradientBackground } from '@/styles/gradient';
 
 interface IndexBtnProps {
   children: React.ReactNode;
@@ -25,7 +26,8 @@ const IndexBtn: React.FC<IndexBtnProps> = ({
         height,
         fontSize,
         padding: '0 24px',
-        background: primaryColor,
+        // background: primaryColor,
+        background: gradientBackground.background,
         borderRadius: '26px',
         color: '#fff',
         border: 'none',

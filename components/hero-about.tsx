@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import HeroBg from '@/public/images/hero-bg-handcoin-resize2.jpg'
+import HeroBg from '@/public/images/news-05.jpg'
 import HeroImage from '@/public/images/about-hero.jpg'
 
 export default function HeroAbout() {
