@@ -78,7 +78,7 @@ export default function Header() {
                   Invite Code
                 </Link>
               </li> */}
-              <li>
+              <li className="ml-6">
                 <ConnectWallet size="small" />
               </li>
             </ul>

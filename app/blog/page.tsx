@@ -99,7 +99,7 @@ export default function Blog() {
 
               </div>
 
-              <Sidebar />
+              {/* <Sidebar /> */}
 
             </div>
           </div>

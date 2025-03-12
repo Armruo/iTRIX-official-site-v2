@@ -17,7 +17,7 @@ export default function About() {
       <Hero />
       <FeaturesGallery />
       <Timeline />
-      <Career />
+      {/* <Career /> */}
       <FeaturesAnimation />
       <Team />
       <CtaContact />
