@@ -39,7 +39,7 @@ export default function RelatedPosts02() {
                       </a>
                       <div>
                         <span className="opacity-75">By </span>
-                        <a className="font-medium hover:underline" href="#0">ITRIX Labs</a>
+                        <a className="font-medium hover:underline" href="#0">ITRIX Lab</a>
                       </div>
                     </div>
                   </footer>
@@ -69,7 +69,7 @@ export default function RelatedPosts02() {
                       </a>
                       <div>
                         <span className="opacity-75">By </span>
-                        <a className="font-medium hover:underline" href="#0">ITRIX Labs</a>
+                        <a className="font-medium hover:underline" href="#0">ITRIX Lab</a>
                       </div>
                     </div>
                   </footer>

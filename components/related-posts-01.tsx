@@ -27,7 +27,7 @@ export default function RelatedPosts01() {
                   </a>
                 </header>
                 <footer>
-                  <div className="text-sm opacity-80">By ITRIX Labs · Jan 16, 2025</div>
+                  <div className="text-sm opacity-80">By ITRIX Lab · Jan 16, 2025</div>
                 </footer>
               </div>
             </article>
@@ -47,7 +47,7 @@ export default function RelatedPosts01() {
                   </a>
                 </header>
                 <footer>
-                  <div className="text-sm opacity-80">By ITRIX Labs · Jan 20, 2025</div>
+                  <div className="text-sm opacity-80">By ITRIX Lab · Jan 20, 2025</div>
                 </footer>
               </div>
             </article>
@@ -67,7 +67,7 @@ export default function RelatedPosts01() {
                   </a>
                 </header>
                 <footer>
-                  <div className="text-sm opacity-80">By ITRIX Labs · Mar 20, 2025</div>
+                  <div className="text-sm opacity-80">By ITRIX Lab · Mar 20, 2025</div>
                 </footer>
               </div>
             </article>
@@ -87,7 +87,7 @@ export default function RelatedPosts01() {
                   </a>
                 </header>
                 <footer>
-                  <div className="text-sm opacity-80">By ITRIX Labs · Mar 30, 2025</div>
+                  <div className="text-sm opacity-80">By ITRIX Lab · Mar 30, 2025</div>
                 </footer>
               </div>
             </article>
