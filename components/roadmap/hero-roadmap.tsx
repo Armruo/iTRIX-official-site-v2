@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import User01 from '@/public/images/user/user-28-01.jpg'
-import User02 from '@/public/images/user/user-28-02.jpg'
-import User03 from '@/public/images/user/user-28-03.jpg'
-import User05 from '@/public/images/user/user-28-05.jpg'
-import User06 from '@/public/images/user/user-28-06.jpg'
-import User08 from '@/public/images/user/user-28-08.jpg'
-import User09 from '@/public/images/user/user-28-09.jpg'
+// import User01 from '@/public/images/user/user-28-01.jpg'
+// import User02 from '@/public/images/user/user-28-02.jpg'
+// import User03 from '@/public/images/user/user-28-03.jpg'
+// import User05 from '@/public/images/user/user-28-05.jpg'
+// import User06 from '@/public/images/user/user-28-06.jpg'
+// import User08 from '@/public/images/user/user-28-08.jpg'
+// import User09 from '@/public/images/user/user-28-09.jpg'
 import React from 'react'
 import HeroBg from '@/public/images/news-05.jpg'
 
@@ -22,27 +22,20 @@ export default function HeroRoadmap() {
 
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
                 <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-                    <div className="text-center">
-                        <div className="relative flex justify-center items-center">
+                    <div>
+                        <div className="relative flex items-start">
 
                             {/* Roadmap 内容 */}
                             {/* Page header */}
-                            <div className="sm:flex sm:justify-between sm:items-center px-4 sm:px-6 py-8 border-b border-gray-200 dark:border-gray-700/60">
-
-                                {/* Left: Title */}
+                            {/* <div className="sm:flex sm:justify-between sm:items-center px-4 sm:px-6 py-8 border-b border-gray-200 dark:border-gray-700/60">
                                 <div className="mb-4 sm:mb-0">
                                     <h1 className="text-2xl md:text-3xl text-gray-800 dark:text-gray-100 font-bold">Roadmap</h1>
                                 </div>
 
-                                {/* Right: Actions */}
                                 <div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
-
-                                    {/* Add event button */}
                                     <button className="btn bg-gray-900 text-gray-100 hover:bg-gray-800 dark:bg-gray-100 dark:text-gray-800 dark:hover:bg-white">Add Event</button>
-
                                 </div>
-
-                            </div>
+                            </div> */}
 
                             <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-[96rem] mx-auto">
                                 <div className="max-w-3xl m-auto">
@@ -54,13 +47,13 @@ export default function HeroRoadmap() {
                                         <article className="pt-6">
                                             <div className="xl:flex">
                                                 <div className="w-32 shrink-0">
-                                                    <h2 className="text-xl leading-snug font-bold text-gray-800 dark:text-gray-100 xl:leading-7 mb-4 xl:mb-0">2024 Q1</h2>
+                                                    <h2 className="text-xl leading-snug font-bold text-gray-800 dark:text-gray-100 xl:leading-7 mb-4 xl:mb-0">2025 Q1</h2>
                                                 </div>
                                                 <div className="grow pb-6 border-b border-gray-200 dark:border-gray-700/60">
                                                     <header>
                                                         <div className="flex flex-nowrap items-center space-x-2 mb-6">
                                                             {/* Avatars */}
-                                                            <div className="flex shrink-0 -space-x-3 -ml-px">
+                                                            {/* <div className="flex shrink-0 -space-x-3 -ml-px">
                                                                 <a className="block" href="#0">
                                                                 <Image className="rounded-full border-2 border-white dark:border-gray-800 box-content" src={User05} width={28} height={28} alt="User 05" />
                                                                 </a>
@@ -73,8 +66,8 @@ export default function HeroRoadmap() {
                                                                 <a className="block" href="#0">
                                                                 <Image className="rounded-full border-2 border-white dark:border-gray-800 box-content" src={User06} width={28} height={28} alt="User 06" />
                                                                 </a>
-                                                            </div>
-                                                            <div className="text-gray-400 dark:text-gray-600">·</div>
+                                                            </div> */}
+                                                            {/* <div className="text-gray-400 dark:text-gray-600">·</div> */}
                                                             <div>
                                                                 <div className="text-xs inline-flex font-medium bg-green-500/20 text-green-700 rounded-full text-center px-2.5 py-1">Completed</div>
                                                             </div>
@@ -142,13 +135,13 @@ export default function HeroRoadmap() {
                                         <article className="pt-6">
                                         <div className="xl:flex">
                                             <div className="w-32 shrink-0">
-                                            <h2 className="text-xl leading-snug font-bold text-gray-800 dark:text-gray-100 xl:leading-7 mb-4 xl:mb-0">2024 Q2</h2>
+                                            <h2 className="text-xl leading-snug font-bold text-gray-800 dark:text-gray-100 xl:leading-7 mb-4 xl:mb-0">2025 Q2</h2>
                                             </div>
                                             <div className="grow pb-6 border-b border-gray-200 dark:border-gray-700/60">
                                             <header>
                                                 <div className="flex flex-nowrap items-center space-x-2 mb-6">
                                                 {/* Avatars */}
-                                                <div className="flex shrink-0 -space-x-3 -ml-px">
+                                                {/* <div className="flex shrink-0 -space-x-3 -ml-px">
                                                     <a className="block" href="#0">
                                                     <Image className="rounded-full border-2 border-white dark:border-gray-800 box-content" src={User03} width={28} height={28} alt="User 03" />
                                                     </a>
@@ -158,8 +151,8 @@ export default function HeroRoadmap() {
                                                     <a className="block" href="#0">
                                                     <Image className="rounded-full border-2 border-white dark:border-gray-800 box-content" src={User01} width={28} height={28} alt="User 01" />
                                                     </a>
-                                                </div>
-                                                <div className="text-gray-400 dark:text-gray-600">·</div>
+                                                </div> */}
+                                                {/* <div className="text-gray-400 dark:text-gray-600">·</div> */}
                                                 <div>
                                                     <div className="btn-xs text-xs bg-violet-500/20 text-violet-600 px-2.5 py-1 rounded-full shadow-none">Working on</div>
                                                 </div>
@@ -227,13 +220,13 @@ export default function HeroRoadmap() {
                                         <article className="pt-6">
                                         <div className="xl:flex">
                                             <div className="w-32 shrink-0">
-                                            <h2 className="text-xl leading-snug font-bold text-gray-800 dark:text-gray-100 xl:leading-7 mb-4 xl:mb-0">2024 Q3</h2>
+                                            <h2 className="text-xl leading-snug font-bold text-gray-800 dark:text-gray-100 xl:leading-7 mb-4 xl:mb-0">2025 Q3</h2>
                                             </div>
                                             <div className="grow pb-6 border-b border-gray-200 dark:border-gray-700/60">
                                             <header>
                                                 <div className="flex flex-nowrap items-center space-x-2 mb-6">
                                                 {/* Avatars */}
-                                                <div className="flex shrink-0 -space-x-3 -ml-px">
+                                                {/* <div className="flex shrink-0 -space-x-3 -ml-px">
                                                     <a className="block" href="#0">
                                                     <Image className="rounded-full border-2 border-white dark:border-gray-800 box-content" src={User06} width={28} height={28} alt="User 03" />
                                                     </a>
@@ -243,8 +236,8 @@ export default function HeroRoadmap() {
                                                     <a className="block" href="#0">
                                                     <Image className="rounded-full border-2 border-white dark:border-gray-800 box-content" src={User09} width={28} height={28} alt="User 01" />
                                                     </a>
-                                                </div>
-                                                <div className="text-gray-400 dark:text-gray-600">·</div>
+                                                </div> */}
+                                                {/* <div className="text-gray-400 dark:text-gray-600">·</div> */}
                                                 <div>
                                                     <div className="text-xs inline-flex font-medium bg-yellow-500/20 text-yellow-700 rounded-full text-center px-2.5 py-1">Planned</div>
                                                 </div>
@@ -286,21 +279,21 @@ export default function HeroRoadmap() {
                                         <article className="pt-6">
                                         <div className="xl:flex">
                                             <div className="w-32 shrink-0">
-                                            <h2 className="text-xl leading-snug font-bold text-gray-800 dark:text-gray-100 xl:leading-7 mb-4 xl:mb-0">2024 Q4</h2>
+                                            <h2 className="text-xl leading-snug font-bold text-gray-800 dark:text-gray-100 xl:leading-7 mb-4 xl:mb-0">2025 Q4</h2>
                                             </div>
                                             <div className="grow pb-6 border-b border-gray-200 dark:border-gray-700/60">
                                             <header>
                                                 <div className="flex flex-nowrap items-center space-x-2 mb-6">
                                                 {/* Avatars */}
-                                                <div className="flex shrink-0 -space-x-3 -ml-px">
+                                                {/* <div className="flex shrink-0 -space-x-3 -ml-px">
                                                     <a className="block" href="#0">
                                                     <Image className="rounded-full border-2 border-white dark:border-gray-800 box-content" src={User06} width={28} height={28} alt="User 03" />
                                                     </a>
                                                     <a className="block" href="#0">
                                                     <Image className="rounded-full border-2 border-white dark:border-gray-800 box-content" src={User02} width={28} height={28} alt="User 02" />
                                                     </a>
-                                                </div>
-                                                <div className="text-gray-400 dark:text-gray-600">·</div>
+                                                </div> */}
+                                                {/* <div className="text-gray-400 dark:text-gray-600">·</div> */}
                                                 <div>
                                                     <div className="text-xs inline-flex font-medium bg-yellow-500/20 text-yellow-700 rounded-full text-center px-2.5 py-1">Planned</div>
                                                 </div>
