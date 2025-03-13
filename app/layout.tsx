@@ -16,7 +16,7 @@ const redhat = Red_Hat_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Appy - Next.js App Landing Page',
+  title: 'ITRIX - Next.js App Landing Page',
   description: 'A modern landing page template built with Next.js and Tailwind CSS',
 }
 

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Testimonials - Appy',
+  title: 'Testimonials - ITRIX',
   description: 'Page description',
 }
 

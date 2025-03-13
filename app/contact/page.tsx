@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Contact - Appy',
+  title: 'Contact - ITRIX',
   description: 'Page description',
 }
 
@@ -19,7 +19,7 @@ export default function Contact() {
 
             {/* Page header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h1 className="h1 font-red-hat-display mb-4">Get started with Appy in seconds</h1>
+              <h1 className="h1 font-red-hat-display mb-4">Get started with ITRIX in seconds</h1>
               <p className="text-xl text-gray-600 dark:text-gray-400">We'll send you a text with a link to download the app.</p>
             </div>
 
@@ -63,7 +63,7 @@ export default function Contact() {
                     <label className="block text-gray-800 dark:text-gray-300 text-sm font-medium" htmlFor="message">Details</label>
                     <span className="text-sm text-gray-500">Optional</span>
                   </div>
-                  <textarea id="message" rows={4} className="form-textarea w-full" placeholder="What do you want to build with Appy?"></textarea>
+                  <textarea id="message" rows={4} className="form-textarea w-full" placeholder="What do you want to build with ITRIX?"></textarea>
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-5">

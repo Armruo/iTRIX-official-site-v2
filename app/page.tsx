@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home - Appy',
+  title: 'Home - ITRIX',
   description: 'Page description',
 }
 
@@ -23,6 +23,7 @@ export default function Home() {
       <div className="relative max-w-6xl mx-auto h-0 pointer-events-none -z-1" aria-hidden="true">
         <PageIllustration />
       </div>
+      
       <Hero />
       <SplineBlockchain />
       <HeroBlockChain />

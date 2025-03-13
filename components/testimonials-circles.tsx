@@ -3,26 +3,26 @@
 import { useState } from 'react'
 
 import Image from 'next/image'
-import UserImage1 from '@/public/images//user-1.jpg'
-import UserImage2 from '@/public/images//user-2.jpg'
-import UserImage3 from '@/public/images//user-3.jpg'
-import UserImage4 from '@/public/images//user-4.jpg'
-import UserImage5 from '@/public/images//user-5.jpg'
-import UserImage6 from '@/public/images//user-6.jpg'
-import UserImage7 from '@/public/images//user-7.jpg'
-import UserImage8 from '@/public/images//user-8.jpg'
-import UserImage9 from '@/public/images//user-9.jpg'
-import UserImage10 from '@/public/images//user-10.jpg'
-import UserImage11 from '@/public/images//user-11.jpg'
-import UserImage12 from '@/public/images//user-12.jpg'
-import UserImage13 from '@/public/images//user-13.jpg'
-import UserImage14 from '@/public/images//user-14.jpg'
-import UserImage15 from '@/public/images//user-15.jpg'
-import UserImage16 from '@/public/images//user-16.jpg'
-import UserImage17 from '@/public/images//user-17.jpg'
-import UserImage18 from '@/public/images//user-18.jpg'
-import UserImage19 from '@/public/images//user-19.jpg'
-import UserImage20 from '@/public/images//user-20.jpg'
+import UserImage1 from '@/public/images/user/user-1.jpg'
+import UserImage2 from '@/public/images/user/user-2.jpg'
+import UserImage3 from '@/public/images/user/user-3.jpg'
+import UserImage4 from '@/public/images/user/user-4.jpg'
+import UserImage5 from '@/public/images/user/user-5.jpg'
+import UserImage6 from '@/public/images/user/user-6.jpg'
+import UserImage7 from '@/public/images/user/user-7.jpg'
+import UserImage8 from '@/public/images/user/user-8.jpg'
+import UserImage9 from '@/public/images/user/user-9.jpg'
+import UserImage10 from '@/public/images/user/user-10.jpg'
+import UserImage11 from '@/public/images/user/user-11.jpg'
+import UserImage12 from '@/public/images/user/user-12.jpg'
+import UserImage13 from '@/public/images/user/user-13.jpg'
+import UserImage14 from '@/public/images/user/user-14.jpg'
+import UserImage15 from '@/public/images/user/user-15.jpg'
+import UserImage16 from '@/public/images/user/user-16.jpg'
+import UserImage17 from '@/public/images/user/user-17.jpg'
+import UserImage18 from '@/public/images/user/user-18.jpg'
+import UserImage19 from '@/public/images/user/user-19.jpg'
+import UserImage20 from '@/public/images/user/user-20.jpg'
 
 export default function TestimonialsCircles() {
 
@@ -68,7 +68,7 @@ export default function TestimonialsCircles() {
       image: UserImage6,
       size: 80,
       style: { maxWidth: '11.8%', top: '32%', left: '30%' },
-      comment: 'I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.',
+      comment: 'I am so hITRIX, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.',
       name: 'Fiona Schultz',
     },
     {

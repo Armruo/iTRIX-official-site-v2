@@ -23,7 +23,7 @@ export default function TestimonialsBlocks() {
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Andy Croll</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Appy.com</a>
+                <cite className="not-italic">—Andy Croll</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">ITRIX.com</a>
               </div>
             </div>
 
