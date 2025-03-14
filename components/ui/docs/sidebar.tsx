@@ -77,13 +77,13 @@ export default function SupportSidebar() {
               <nav className="md:block">
                 <ul className="text-sm">
                   {/* 1st level */}
-                  <SidebarLinkGroup open={segments.includes('documentation')}>
+                  <SidebarLinkGroup open={true}>
                     {(handleClick, open) => {
                       return (
                         <>
                           <a
                             href="#0"
-                            className={`relative flex items-center font-[650] text-slate-800 p-1 before:absolute before:inset-0 before:rounded before:bg-gradient-to-tr before:from-blue-400 before:to-purple-500 before:opacity-20 before:-z-10 before:pointer-events-none dark:text-slate-200 ${!segments.includes('documentation') && 'before:hidden'
+                            className={`relative flex items-center font-[650] text-slate-800 p-1 before:absolute before:inset-0 before:rounded before:bg-gradient-to-tr before:from-blue-400 before:to-purple-500 before:opacity-20 before:-z-10 before:pointer-events-none dark:text-slate-200 ${!open && 'before:hidden'
                               }`}
                             onClick={(e) => {
                               e.preventDefault();
@@ -104,11 +104,11 @@ export default function SupportSidebar() {
                                 d="M19.888 7.804c.073.132.112.28.112.43v7.892c0 .31-.161.597-.426.758l-7.11 4.346c-.14.085-.3.13-.464.13v-8.736l7.888-4.82Z"
                               />
                             </svg>
-                            <span>Documentation</span>
+                            <span>Whitepaper</span>
                           </a>
                           <ul className={`mb-3 ml-4 pl-6 border-l border-slate-200 dark:border-slate-800 ${!open && 'hidden'}`}>
                             <li className="mt-3">
-                              <SidebarLink href="/documentation/fundamentals">
+                              <SidebarLink href="/docs/whitepaper/fundamentals">
                                 Fundamentals
                               </SidebarLink>
                             </li>
@@ -167,7 +167,7 @@ export default function SupportSidebar() {
                     }}
                   </SidebarLinkGroup>
                   {/* 1st level */}
-                  <SidebarLinkGroup open={segments.includes('guides')}>
+                  {/* <SidebarLinkGroup open={segments.includes('guides')}>
                     {(handleClick, open) => {
                       return (
                         <>
@@ -226,9 +226,10 @@ export default function SupportSidebar() {
                         </>
                       )
                     }}
-                  </SidebarLinkGroup>
+                  </SidebarLinkGroup> */}
+
                   {/* 1st level */}
-                  <li className="mb-1">
+                  {/* <li className="mb-1">
                     <Link
                       href="/help/how-can-we-help"
                       className={`relative flex items-center font-[650] text-slate-800 p-1 before:absolute before:inset-0 before:rounded before:bg-gradient-to-tr before:from-blue-400 before:to-purple-500 before:opacity-20 before:-z-10 before:pointer-events-none dark:text-slate-200 ${!segments.includes('help') && 'before:hidden'}`}
@@ -250,7 +251,7 @@ export default function SupportSidebar() {
                       </svg>
                       <span>Help / Support</span>
                     </Link>
-                  </li>                  
+                  </li>                   */}
                 </ul>
               </nav>
             </div>
