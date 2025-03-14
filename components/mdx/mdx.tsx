@@ -1,10 +1,18 @@
+'use client'
+
 import { useMDXComponent } from 'next-contentlayer/hooks'
 import PostLink from './link'
 import PostImage from './image'
+import Banner from './banner'
+import Accordion from './accordion'
+import ModalVideo from '../modal-video'
 
 const mdxComponents = {
   Link: PostLink,
   Image: PostImage,
+  Banner,
+  Accordion,
+  ModalVideo,
 }
 
 interface MdxProps {
