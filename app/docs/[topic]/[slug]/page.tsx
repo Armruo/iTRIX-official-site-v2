@@ -87,7 +87,7 @@ export default async function SingleDoc({ params }: {
           <PageNavigation prevArticle={doc.prev} nextArticle={doc.next} />
 
           {/* Content footer */}
-          <Footer />
+          {/* <Footer /> */}
 
         </div>
 
