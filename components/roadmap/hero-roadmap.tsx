@@ -21,7 +21,17 @@ export default function HeroRoadmap() {
             </div>
 
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-                <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+                <div className="pt-32 pb-6 md:pt-40 md:pb-10">
+                <div className="max-w-3xl mx-auto text-center">
+                    <h1 className="h1 font-red-hat-display mb-4" data-aos="fade-down">Roadmap</h1>
+                    {/* <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Our customers are building some of the world's most original, useful and
+                    loved products.</p> */}
+                </div>
+                </div>
+            </div>
+
+            <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+                <div className="pt-10 pb-12 md:pt-8 md:pb-20">
                     <div>
                         <div className="relative flex items-start">
 
@@ -84,9 +94,9 @@ export default function HeroRoadmap() {
                                                                 <path d="M14.4 8.4L13 7l-4 4-2-2-1.4 1.4L9 13.8z" />
                                                             </svg>
                                                             </div>
-                                                            <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Product V1 - Early Access</h3>
+                                                            <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Complete Web3.0 Infrastructure Development</h3>
                                                         </div>
-                                                        <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                        <div className="pl-9">Build a decentralized infrastructure on Solana to ensure high performance and low transaction costs.</div>
                                                         </li>
                                                         {/* List item */}
                                                         <li className="relative py-2">
@@ -97,9 +107,9 @@ export default function HeroRoadmap() {
                                                                 <path d="M14.4 8.4L13 7l-4 4-2-2-1.4 1.4L9 13.8z" />
                                                             </svg>
                                                             </div>
-                                                            <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Web3 Compatibility</h3>
+                                                            <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Implement AI-Powered Smart Interaction Features</h3>
                                                         </div>
-                                                        <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                        <div className="pl-9">Integrate AI technology to enable user interaction with AI avatars, delivering personalized social experiences.</div>
                                                         </li>
                                                         {/* List item */}
                                                         <li className="relative py-2">
@@ -110,9 +120,9 @@ export default function HeroRoadmap() {
                                                                 <path d="M14.4 8.4L13 7l-4 4-2-2-1.4 1.4L9 13.8z" />
                                                             </svg>
                                                             </div>
-                                                            <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Proof-of-Funds Compliance Key</h3>
+                                                            <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Develop Decentralized Incentive Mechanism and Token Economy Model</h3>
                                                         </div>
-                                                        <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                        <div className="pl-9">Design a token economy model to incentivize users to earn rewards through creation and interaction.</div>
                                                         </li>
                                                         {/* List item */}
                                                         <li className="relative py-2">
@@ -122,9 +132,9 @@ export default function HeroRoadmap() {
                                                                 <path d="M14.4 8.4L13 7l-4 4-2-2-1.4 1.4L9 13.8z" />
                                                             </svg>
                                                             </div>
-                                                            <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Activity Feed Integration</h3>
+                                                            <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Launch Basic Social Media Features</h3>
                                                         </div>
-                                                        <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                        <div className="pl-9">Enable users to post content, like, comment, and share, laying the foundation for social interaction.</div>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -169,9 +179,9 @@ export default function HeroRoadmap() {
                                                         <path d="M14.4 8.4L13 7l-4 4-2-2-1.4 1.4L9 13.8z" />
                                                     </svg>
                                                     </div>
-                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Product V1 - Early Access</h3>
+                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Launch "Create to Earn" Feature</h3>
                                                 </div>
-                                                <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                <div className="pl-9">Creators earn platform tokens by publishing high-quality content, enabling monetization through creation.</div>
                                                 </li>
                                                 {/* List item */}
                                                 <li className="relative py-2">
@@ -182,9 +192,9 @@ export default function HeroRoadmap() {
                                                         <path d="M14.4 8.4L13 7l-4 4-2-2-1.4 1.4L9 13.8z" />
                                                     </svg>
                                                     </div>
-                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Web3 Compatibility</h3>
+                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Introduce AI-Assisted Creation Tools</h3>
                                                 </div>
-                                                <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                <div className="pl-9">Provide AI tools to assist creators in content generation, lowering barriers and improving content quality.</div>
                                                 </li>
                                                 {/* List item */}
                                                 <li className="relative py-2">
@@ -195,9 +205,9 @@ export default function HeroRoadmap() {
                                                         <path d="M14.4 8.4L13 7l-4 4-2-2-1.4 1.4L9 13.8z" />
                                                     </svg>
                                                     </div>
-                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Proof-of-Funds Compliance Key</h3>
+                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Initiate Platform Token Airdrop and Early User Reward Program</h3>
                                                 </div>
-                                                <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                <div className="pl-9">Attract early users through token airdrops and reward programs to expand platform influence.</div>
                                                 </li>
                                                 {/* List item */}
                                                 <li className="relative py-2">
@@ -207,9 +217,9 @@ export default function HeroRoadmap() {
                                                         <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z" />
                                                     </svg>
                                                     </div>
-                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Activity Feed Integration</h3>
+                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Partner with High-Quality Creators and KOLs</h3>
                                                 </div>
-                                                <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                <div className="pl-9">Invite renowned creators and KOLs to join, enriching the platform's content ecosystem.</div>
                                                 </li>
                                             </ul>
                                             </div>
@@ -237,7 +247,7 @@ export default function HeroRoadmap() {
                                                     <Image className="rounded-full border-2 border-white dark:border-gray-800 box-content" src={User09} width={28} height={28} alt="User 01" />
                                                     </a>
                                                 </div> */}
-                                                {/* <div className="text-gray-400 dark:text-gray-600">·</div> */}
+                                                {/* <div className="text-gray-400 dark:text-gray-100">Smart Interaction & Ecosystem Expansion</div> */}
                                                 <div>
                                                     <div className="text-xs inline-flex font-medium bg-yellow-500/20 text-yellow-700 rounded-full text-center px-2.5 py-1">Planned</div>
                                                 </div>
@@ -254,9 +264,9 @@ export default function HeroRoadmap() {
                                                         <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z" />
                                                     </svg>
                                                     </div>
-                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Product V1 - Early Access</h3>
+                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Launch AI Digital Avatar Feature</h3>
                                                 </div>
-                                                <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                <div className="pl-9">Fans can interact 1-on-1 with AI avatars, enjoying experiences similar to interacting with real influencers.</div>
                                                 </li>
                                                 {/* List item */}
                                                 <li className="relative py-2">
@@ -266,9 +276,9 @@ export default function HeroRoadmap() {
                                                         <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z" />
                                                     </svg>
                                                     </div>
-                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Web3 Compatibility</h3>
+                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Expand Platform Task System</h3>
                                                 </div>
-                                                <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                <div className="pl-9">Users earn tokens by completing interactive tasks, boosting platform engagement.</div>
                                                 </li>
                                             </ul>
                                             </div>
@@ -310,9 +320,9 @@ export default function HeroRoadmap() {
                                                         <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z" />
                                                     </svg>
                                                     </div>
-                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Product V1 - Early Access</h3>
+                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Launch Global Strategy</h3>
                                                 </div>
-                                                <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                <div className="pl-9">Support multi-language and localized operations to attract global users to the platform.</div>
                                                 </li>
                                                 {/* List item */}
                                                 <li className="relative py-2">
@@ -322,9 +332,9 @@ export default function HeroRoadmap() {
                                                         <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z" />
                                                     </svg>
                                                     </div>
-                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">Web3 Compatibility</h3>
+                                                    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 pl-9">List Platform Tokens on Major Exchanges</h3>
                                                 </div>
-                                                <div className="pl-9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                                                <div className="pl-9">List platform tokens on major exchanges to enhance liquidity and market value.</div>
                                                 </li>
                                             </ul>
                                             </div>

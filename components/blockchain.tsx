@@ -15,17 +15,24 @@ export default function HeroBlockChain() {
             </p>
           </div> */}
 
+          {/* 3D Animation */}
+          <div className="w-full lg:w-12/12 mb-12 lg:mb-0">
+            <SplineScene 
+              url="https://my.spline.design/hellodistortingintro-fd37843f2d4913466e6596827e247a74/"
+              className="w-full h-[600px] md:h-[700px]"
+            />
+          </div>
           <div className="flex flex-wrap items-center">
             {/* 3D Animation */}
-            <div className="w-full lg:w-8/12 mb-12 lg:mb-0">
+            {/* <div className="w-full lg:w-8/12 mb-12 lg:mb-0">
               <SplineScene 
                 url="https://my.spline.design/hellodistortingintro-fd37843f2d4913466e6596827e247a74/"
                 className="w-full h-[400px] md:h-[500px]"
               />
-            </div>
+            </div> */}
 
             {/* Content */}
-            <div className="w-full lg:w-4/12 px-4"> 
+            {/* <div className="w-full lg:w-4/12 px-4"> 
               <div className="lg:ml-6">
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-8">
                   <h3 className="h4 font-red-hat-display mb-4">核心优势</h3>
@@ -60,7 +67,7 @@ export default function HeroBlockChain() {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
         </div>

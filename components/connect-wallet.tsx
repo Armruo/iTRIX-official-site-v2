@@ -29,7 +29,11 @@ const MyConnectButton: React.FC<ConnectorTriggerProps & Props> = ({
             onDisconnectClick?.();
           }}
         >
-          <Button title={account?.address} color="blue" shape="round">
+          <Button 
+            title={account?.address} 
+            className="bg-white dark:bg-gray-800 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-700" 
+            shape="round"
+          >
             {account?.name || <Address ellipsis address={account.address} />}
           </Button>
         </Popconfirm>
@@ -56,14 +60,14 @@ const ConnectWallet: React.FC<Props> = ({ style, size }) => {
   return (
     <Connector
       modalProps={{
-        footer: (
-          <>
-            Powered by{' '}
-            <a href="https://web3.ant.design/" target="_blank" rel="noreferrer">
-              Ant Design Web3
-            </a>
-          </>
-        ),
+        // footer: (
+        //   <>
+        //     Powered by{' '}
+        //     <a href="https://web3.ant.design/" target="_blank" rel="noreferrer">
+        //       Ant Design Web3
+        //     </a>
+        //   </>
+        // ),
       }}
     >
       <MyConnectButton style={style} size={size} />

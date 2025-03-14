@@ -65,14 +65,14 @@ export default function Header() {
                     Help center
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="/404"
                     className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
                   >
                     404
                   </Link>
-                </li>
+                </li> */}
               </Dropdown>
             </ul>
 
