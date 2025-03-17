@@ -4,11 +4,28 @@ import Image from 'next/image'
 import SmartSavingCard from '@/components/SmartSavingCard'
 import LoadingSpinner from '@/components/LoadingSpinner'
 import UserActivities from '@/components/UserActivities'
-import UserAddress from '@/components/UserAddress'
+import UserProfileCard from '@/components/UserProfileCard'
 import { fetchUserProfile } from '@/lib/api'
 import { Suspense } from 'react'
 import React from 'react'
 import HeroBg from '@/public/images/news-05.jpg'
+
+import Datepicker from '@/components/datepicker'
+import AnalyticsCard01 from '@/components/user/analytics/analytics-card-01'
+import AnalyticsCard02 from '@/components/user/analytics/analytics-card-02'
+import AnalyticsCard03 from '@/components/user/analytics/analytics-card-03'
+import AnalyticsCard04 from '@/components/user/analytics/analytics-card-04'
+import AnalyticsCard05 from '@/components/user/analytics/analytics-card-05'
+import AnalyticsCard06 from '@/components/user/analytics/analytics-card-06'
+import AnalyticsCard07 from '@/components/user/analytics/analytics-card-07'
+import AnalyticsCard08 from '@/components/user/analytics/analytics-card-08'
+import AnalyticsCard09 from '@/components/user/analytics/analytics-card-09'
+import AnalyticsCard10 from '@/components/user/analytics/analytics-card-10'
+import AnalyticsCard11 from '@/components/user/analytics/analytics-card-11'
+import DashboardCard01 from '@/components/user/analytics/dashboard-card-01'
+import DashboardCard02 from '@/components/user/analytics/dashboard-card-02'
+import DashboardCard03 from '@/components/user/analytics/dashboard-card-03'
+import Orders from '@/components/user/transaction/order-content'
 
 export const metadata: Metadata = {
   title: 'User Profile',
@@ -21,56 +38,69 @@ interface UserPageProps {
   }
 }
 
+// 格式化用户名显示：前6个字符 + ... + 后4个字符
+function formatUsername(username: string) {
+  if (username.length <= 10) return username;
+  return `${username.slice(0, 6)}...${username.slice(-4)}`;
+}
+
 async function UserContent({ userId }: { userId: string }) {
   const userData = await fetchUserProfile(userId);
 
   return (
-    <>
-      {/* User Basic Info */}
-      <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-        <div className="relative inline-flex mb-4">
-          {/* User Avatar */}
-          <div className="w-24 h-24 rounded-full overflow-hidden">
-            <img
-              src={userData.avatar}
-              alt="User Avatar"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-        {/* User Address */}
-        <UserAddress address={userData.address} />
-      </div>
+    <div className="max-w-[1900px] mx-auto px-6 sm:px-8 lg:px-10 2xl:px-16">
+      {/* User Profile Card */}
+      <UserProfileCard
+        userId={userData.id}
+        username={formatUsername(userData.id)}
+        avatar={userData.avatar}
+      />
 
       {/* Smart Saving Card */}
-      <div className="max-w-4xl mx-auto mb-12">
-        <SmartSavingCard />
+      <SmartSavingCard />
+
+      {/* Cards */}
+      <div className="grid grid-cols-12 gap-6">
+
+        {/* Line chart (Acme Plus) */}
+        <DashboardCard01 />
+        {/* Line chart (Acme Advanced) */}
+        <DashboardCard02 />
+        {/* Line chart (Acme Professional) */}
+        <DashboardCard03 />
+
+        {/* Stacked bar chart (Acquisition Channels) */}
+        <AnalyticsCard03 />
+        {/* Horizontal bar chart (Audience Overview) */}
+        <AnalyticsCard04 />
+
+        {/* Line chart (Analytics) */}
+        {/* <AnalyticsCard01 /> */}
+        {/*  Line chart (Active Users Right Now) */}
+        {/* <AnalyticsCard02 /> */}
+        
+        {/* Report card (Top Channels) */}
+        {/* <AnalyticsCard05 /> */}
+        {/* Report card (Top Pages) */}
+        {/* <AnalyticsCard06 /> */}
+        {/* Report card (Top Countries) */}
+        {/* <AnalyticsCard07 /> */}
+        
+        {/* Doughnut chart (Sessions By Device) */}
+        {/* <AnalyticsCard08 /> */}
+        {/* Doughnut chart (Visit By Age Category) */}
+        {/* <AnalyticsCard09 /> */}
+        {/* Polar chart (Sessions By Gender) */}
+        {/* <AnalyticsCard10 /> */}
+
+        {/* Table (Top Products) */}
+        <AnalyticsCard11 />
+
+        {/* <Orders /> */}
+
       </div>
 
-      {/* User Statistics */}
-      <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
-        <div className="relative flex flex-col items-center">
-          <h4 className="h4 mb-2">{userData.stats.activitiesCount}</h4>
-          <p className="text-lg text-gray-400">Activities</p>
-        </div>
-        <div className="relative flex flex-col items-center">
-          <h4 className="h4 mb-2">{userData.stats.badgesCount}</h4>
-          <p className="text-lg text-gray-400">Badges</p>
-        </div>
-        <div className="relative flex flex-col items-center">
-          <h4 className="h4 mb-2">{userData.stats.contributionScore}</h4>
-          <p className="text-lg text-gray-400">Contribution Score</p>
-        </div>
-      </div>
-
-      {/* Activity History */}
-      <div className="max-w-3xl mx-auto mt-12">
-        <h3 className="h3 mb-6">Activity History</h3>
-        <div className="border rounded-lg">
-          <UserActivities activities={userData.activities} />
-        </div>
-      </div>
-    </>
+    </div>
   );
 }
 
@@ -87,7 +117,7 @@ export default function UserPage({ params }: UserPageProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-white dark:from-gray-900" aria-hidden="true"></div>
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <Suspense fallback={<LoadingSpinner />}>
             <UserContent userId={params.id} />

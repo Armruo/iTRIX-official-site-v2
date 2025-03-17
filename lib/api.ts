@@ -11,7 +11,7 @@ export async function fetchUserProfile(userId: string): Promise<UserProfile> {
   return {
     id: userId,
     address: userId,
-    avatar: `https://api.dicebear.com/9.x/bottts/svg?seed=${userId}`,
+    avatar: `https://api.dicebear.com/9.x/glass/svg?seed=${userId}`,
     stats: {
       activitiesCount: Math.floor(Math.random() * 100),
       badgesCount: Math.floor(Math.random() * 50),

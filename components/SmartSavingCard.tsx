@@ -75,11 +75,11 @@ export default function SmartSavingCard() {
                 className="max-w-[24px]"
               />
               <div className="font-bold text-sm sm:text-base text-white">
-                Multiple Chain Support
+                Efficient Empowerment
               </div>
             </div>
             <div className="text-sm text-gray-200">
-              Compatibility with over 16 chains across Galxe.
+              Avatar automated interaction, enhancing efficiency.
             </div>
           </div>
 

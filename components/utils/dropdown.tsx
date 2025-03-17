@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { Transition } from '@headlessui/react'
 
-type DropdownProps = {
+interface DropdownProps {
   children: React.ReactNode
   title: string
 }
