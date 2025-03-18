@@ -1,10 +1,28 @@
+'use client'
+
 import { useMDXComponent } from 'next-contentlayer/hooks'
 import PostLink from './link'
 import PostImage from './image'
+import Banner from './banner'
+import Accordion from './accordion'
+import ModalVideo from '../modal-video'
+import PostTag from './tag'
+import PostTable, { TableHead, TableBody, TableHeadRow, TableBodyRow, TableTh, TableTd } from './table'
 
 const mdxComponents = {
   Link: PostLink,
   Image: PostImage,
+  Banner,
+  Accordion,
+  ModalVideo,
+  Tag: PostTag,
+  Table: PostTable,
+  THead: TableHead,
+  TBody: TableBody,
+  ThRow: TableHeadRow,
+  TbRow: TableBodyRow,
+  Th: TableTh,
+  Td: TableTd,
 }
 
 interface MdxProps {
