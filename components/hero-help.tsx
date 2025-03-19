@@ -7,8 +7,10 @@ export default function HeroHelp() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="h1 font-red-hat-display mb-4" data-aos="fade-down">How can we help you today?</h1>
-            <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Bite sized guides and tutorials to help you get the most out of ITRIX.</p>
+            <h1 className="h1 font-red-hat-display mb-4" data-aos="fade-down">Frequently Asked Question</h1>
+            <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
+              Answering Your Questions, Exploring ITRIX’s Future.
+            </p>
             <div className="max-w-2xl mx-auto md:px-4">
               <form className="relative flex items-center mt-8" data-aos="fade-down" data-aos-delay="300">
                 <input type="search" className="form-input w-full pl-12" placeholder="Search anything…" aria-label="Search anything" />

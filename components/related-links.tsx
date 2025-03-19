@@ -32,7 +32,7 @@ export default function RelatedLinks() {
               <svg className="w-8 h-8 mb-3" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <path className="fill-current" d="M25.324 21H22v-2h3.324a6 6 0 014.992 2.671l1.206 1.81-1.16.451-15.167 5.9a7 7 0 01-6.3-.619L0 23.55V13h3c2.994 0 5.922 1.078 7.5 3H15a6 6 0 016 6v1H8v-2h10.874A4.002 4.002 0 0015 18H9.466l-.297-.443C8.123 15.995 5.612 15 3 15H2v7.451l7.97 5.075a5 5 0 004.5.442l13.996-5.444A4 4 0 0025.324 21zM25.6 8.439L19 15.27l-.72-.744-5.884-6.092a5.046 5.046 0 010-6.968A4.74 4.74 0 0119 1.223a4.738 4.738 0 016.603.243A5.046 5.046 0 0125.6 8.44zm-1.442-1.385a3.045 3.045 0 00-.001-4.206 2.738 2.738 0 00-4.307.445l-.849 1.371-.85-1.37a2.74 2.74 0 00-4.309-.447 3.045 3.045 0 00-.004 4.202L19 12.392l5.158-5.338z" fill="#FFF" fillRule="nonzero" />
               </svg>
-              <div className="font-red-hat-display text-xl font-black tracking-tighter mb-1">FAQs</div>
+              <div className="font-red-hat-display text-xl font-black tracking-tighter mb-1">Help Center</div>
               <div className="grow opacity-80 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
               <svg className="w-4 h-4 mb-1 transform group-hover:rotate-45 transition duration-150 ease-in-out" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path className="fill-current" d="M14 1H6v2h5.586L1.293 13.293l1.414 1.414L13 4.414V10h2V2a1 1 0 00-1-1z" />

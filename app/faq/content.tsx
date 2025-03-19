@@ -116,6 +116,33 @@ export default function HelpContent() {
 
             {/* Articles */}
             <div className="-mb-2">
+              {/* 6th Article */}
+              <article className={`mb-2 ${!['', '4'].includes(category) && 'hidden'}`}>
+                <div className="flex pr-6 py-5 bg-white dark:bg-gray-800 divide-x divide-gray-200 dark:divide-gray-700 shadow-2xl">
+                  {/* Category icon */}
+                  <div className="flex items-center px-4 sm:px-8">
+                    <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                      <circle className="fill-current text-pink-100 dark:hidden" cx="16" cy="16" r="16" />
+                      <path
+                        className="fill-current text-pink-500"
+                        d="M14.515 11.398l-1.918-1.75.178-.601A5.487 5.487 0 007.415 2l3 2.999L5 10.414 2.002 7.416a5.49 5.49 0 007.046 5.359l.6-.177 1.615 1.767 3.252-2.967zm-4.73 4.315l-.79-.865A7.49 7.49 0 01.421 5.036l.526-1.502L5 7.586 7.586 5 3.535.949l1.5-.527a7.487 7.487 0 019.813 8.572L16 10.045l1.153-1.051A7.49 7.49 0 0126.964.422l1.502.526L24.414 5 27 7.586l4.051-4.051.527 1.5a7.487 7.487 0 01-8.572 9.813L8.255 31.022a3 3 0 01-4.338.1L.879 28.082a3 3 0 01.1-4.338l8.806-8.032zm7.444 8.166l1.477-1.349.675.739 5.842 6.4a1 1 0 001.446.033l3.038-3.038a1 1 0 00-.033-1.446l-7.487-6.828 1.348-1.478.739.674 6.748 6.154a3 3 0 01.1 4.338l-3.039 3.038a3 3 0 01-4.338-.099L17.23 23.88zM27 10.414L21.586 5l2.998-2.998a5.49 5.49 0 00-5.359 7.046l.177.6-.462.422L2.326 25.223a1 1 0 00-.033 1.446l3.038 3.038a1 1 0 001.446-.033l15.575-17.077.601.178A5.487 5.487 0 0030 7.415l-2.999 3z"
+                      />
+                    </svg>
+                  </div>
+                  {/* Content */}
+                  <div className="pl-6">
+                    <header>
+                      <h3 className="font-red-hat-display text-xl font-black tracking-tighter mb-1">
+                        <a href="#0">How is ITRIX different from other social media platforms?</a>
+                      </h3>
+                    </header>
+                    <p className="text-gray-600 dark:text-gray-400">
+                      ITRIX combines Web3.0 and AI technologies, offering decentralized incentives and smart interactions, returning traffic monetization rights to users and creators.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
               {/* 1st Article */}
               <article className={`mb-2 ${!['', '1'].includes(category) && 'hidden'}`}>
                 <div className="flex pr-6 py-5 bg-white dark:bg-gray-800 divide-x divide-gray-200 dark:divide-gray-700 shadow-2xl">
@@ -133,12 +160,11 @@ export default function HelpContent() {
                   <div className="pl-6">
                     <header>
                       <h3 className="font-red-hat-display text-xl font-black tracking-tighter mb-1">
-                        <a href="#0">Intro to the CMS Editor</a>
+                        <a href="#0">How does ITRIX help creators monetize?</a>
                       </h3>
                     </header>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Et leo duis ut diam quam nulla porttitor porttitor lacus luctus accumsan tortor, lorem dolor sed viverra ipsum nunc aliquet
-                      bibendum enim eu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                    Creators earn platform tokens by publishing high-quality content, while fans can support them through subscriptions, tips, and interactions, enabling "Create to Earn" and "Social to Earn."
                     </p>
                     <a className="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
                       <span>Learn more</span>
@@ -146,22 +172,6 @@ export default function HelpContent() {
                         <path className="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
                       </svg>
                     </a>
-                    <footer className="text-sm flex items-center mt-3">
-                      <div className="flex shrink-0 mr-3">
-                        <a className="relative" href="#0">
-                          <span className="absolute inset-0 -m-px" aria-hidden="true">
-                            <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
-                          </span>
-                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 01" />
-                        </a>
-                      </div>
-                      <div className="text-gray-500">
-                        <span>Written by </span>
-                        <a className="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">
-                          Mark Varsano
-                        </a>
-                      </div>
-                    </footer>
                   </div>
                 </div>
               </article>
@@ -183,12 +193,11 @@ export default function HelpContent() {
                   <div className="pl-6">
                     <header>
                       <h3 className="font-red-hat-display text-xl font-black tracking-tighter mb-1">
-                        <a href="#0">Overview dynamic content</a>
+                        <a href="#0">How can regular users participate in ITRIX and earn rewards?</a>
                       </h3>
                     </header>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Et leo duis ut diam quam nulla porttitor porttitor lacus luctus accumsan tortor, lorem dolor sed viverra ipsum nunc aliquet
-                      bibendum enim eu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                    Regular users can earn platform tokens by completing tasks (e.g., liking, commenting, sharing) and interacting with AI avatars. The platform encourages everyone to become creators.
                     </p>
                     <a className="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
                       <span>Learn more</span>
@@ -196,7 +205,7 @@ export default function HelpContent() {
                         <path className="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
                       </svg>
                     </a>
-                    <footer className="text-sm flex items-center mt-3">
+                    {/* <footer className="text-sm flex items-center mt-3">
                       <div className="flex shrink-0 mr-3">
                         <a className="relative" href="#0">
                           <span className="absolute inset-0 -m-px" aria-hidden="true">
@@ -221,7 +230,7 @@ export default function HelpContent() {
                           Elly Taylor
                         </a>
                       </div>
-                    </footer>
+                    </footer> */}
                   </div>
                 </div>
               </article>
@@ -243,12 +252,11 @@ export default function HelpContent() {
                   <div className="pl-6">
                     <header>
                       <h3 className="font-red-hat-display text-xl font-black tracking-tighter mb-1">
-                        <a href="#0">Import collection items</a>
+                        <a href="#0">What AI features does ITRIX offer?</a>
                       </h3>
                     </header>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Et leo duis ut diam quam nulla porttitor porttitor lacus luctus accumsan tortor, lorem dolor sed viverra ipsum nunc aliquet
-                      bibendum enim eu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                    ITRIX offers AI-powered digital avatars, smart interactions, content generation tools, and voice integration to enhance user and creator experiences.
                     </p>
                     <a className="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
                       <span>Learn more</span>
@@ -256,22 +264,6 @@ export default function HelpContent() {
                         <path className="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
                       </svg>
                     </a>
-                    <footer className="text-sm flex items-center mt-3">
-                      <div className="flex shrink-0 mr-3">
-                        <a className="relative" href="#0">
-                          <span className="absolute inset-0 -m-px" aria-hidden="true">
-                            <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
-                          </span>
-                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 03" />
-                        </a>
-                      </div>
-                      <div className="text-gray-500">
-                        <span>Written by </span>
-                        <a className="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">
-                          Lisa Allison
-                        </a>
-                      </div>
-                    </footer>
                   </div>
                 </div>
               </article>
@@ -293,35 +285,18 @@ export default function HelpContent() {
                   <div className="pl-6">
                     <header>
                       <h3 className="font-red-hat-display text-xl font-black tracking-tighter mb-1">
-                        <a href="#0">Connect a custom domain on ITRIX</a>
+                        <a href="#0">How does ITRIX ensure user data security?</a>
                       </h3>
                     </header>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Et leo duis ut diam quam nulla porttitor porttitor lacus luctus accumsan tortor, lorem dolor sed viverra ipsum nunc aliquet
-                      bibendum enim eu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                      ITRIX is built on a trusted blockchain architecture, ensuring data transparency and traceability, while using advanced encryption to protect user privacy.
                     </p>
-                    <a className="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
+                    {/* <a className="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
                       <span>Learn more</span>
                       <svg className="w-3 h-3 shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path className="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
                       </svg>
-                    </a>
-                    <footer className="text-sm flex items-center mt-3">
-                      <div className="flex shrink-0 mr-3">
-                        <a className="relative" href="#0">
-                          <span className="absolute inset-0 -m-px" aria-hidden="true">
-                            <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
-                          </span>
-                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 04" />
-                        </a>
-                      </div>
-                      <div className="text-gray-500">
-                        <span>Written by </span>
-                        <a className="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">
-                          Mary Champ
-                        </a>
-                      </div>
-                    </footer>
+                    </a> */}
                   </div>
                 </div>
               </article>
@@ -343,12 +318,11 @@ export default function HelpContent() {
                   <div className="pl-6">
                     <header>
                       <h3 className="font-red-hat-display text-xl font-black tracking-tighter mb-1">
-                        <a href="#0">Project and page passwords</a>
+                        <a href="#0">What are the use cases for ITRIX tokens (ITX)?</a>
                       </h3>
                     </header>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Et leo duis ut diam quam nulla porttitor porttitor lacus luctus accumsan tortor, lorem dolor sed viverra ipsum nunc aliquet
-                      bibendum enim eu. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                    ITX can be used to tip creators, subscribe to content, purchase virtual gifts, participate in platform governance, and exchange for other digital assets.
                     </p>
                     <a className="inline-flex items-center font-medium text-teal-500 hover:underline mt-2" href="#0">
                       <span>Learn more</span>
@@ -356,69 +330,11 @@ export default function HelpContent() {
                         <path className="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
                       </svg>
                     </a>
-                    <footer className="text-sm flex items-center mt-3">
-                      <div className="flex shrink-0 mr-3">
-                        <a className="relative" href="#0">
-                          <span className="absolute inset-0 -m-px" aria-hidden="true">
-                            <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
-                          </span>
-                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 01" />
-                        </a>
-                      </div>
-                      <div className="text-gray-500">
-                        <span>Written by </span>
-                        <a className="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">
-                          Mark Varsano
-                        </a>
-                      </div>
-                    </footer>
                   </div>
                 </div>
               </article>
 
-              {/* 6th Article */}
-              <article className={`mb-2 ${!['', '4'].includes(category) && 'hidden'}`}>
-                <div className="flex pr-6 py-5 bg-white dark:bg-gray-800 divide-x divide-gray-200 dark:divide-gray-700 shadow-2xl">
-                  {/* Category icon */}
-                  <div className="flex items-center px-4 sm:px-8">
-                    <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                      <circle className="fill-current text-pink-100 dark:hidden" cx="16" cy="16" r="16" />
-                      <path
-                        className="fill-current text-pink-500"
-                        d="M14.515 11.398l-1.918-1.75.178-.601A5.487 5.487 0 007.415 2l3 2.999L5 10.414 2.002 7.416a5.49 5.49 0 007.046 5.359l.6-.177 1.615 1.767 3.252-2.967zm-4.73 4.315l-.79-.865A7.49 7.49 0 01.421 5.036l.526-1.502L5 7.586 7.586 5 3.535.949l1.5-.527a7.487 7.487 0 019.813 8.572L16 10.045l1.153-1.051A7.49 7.49 0 0126.964.422l1.502.526L24.414 5 27 7.586l4.051-4.051.527 1.5a7.487 7.487 0 01-8.572 9.813L8.255 31.022a3 3 0 01-4.338.1L.879 28.082a3 3 0 01.1-4.338l8.806-8.032zm7.444 8.166l1.477-1.349.675.739 5.842 6.4a1 1 0 001.446.033l3.038-3.038a1 1 0 00-.033-1.446l-7.487-6.828 1.348-1.478.739.674 6.748 6.154a3 3 0 01.1 4.338l-3.039 3.038a3 3 0 01-4.338-.099L17.23 23.88zM27 10.414L21.586 5l2.998-2.998a5.49 5.49 0 00-5.359 7.046l.177.6-.462.422L2.326 25.223a1 1 0 00-.033 1.446l3.038 3.038a1 1 0 001.446-.033l15.575-17.077.601.178A5.487 5.487 0 0030 7.415l-2.999 3z"
-                      />
-                    </svg>
-                  </div>
-                  {/* Content */}
-                  <div className="pl-6">
-                    <header>
-                      <h3 className="font-red-hat-display text-xl font-black tracking-tighter mb-1">
-                        <a href="#0">Content-driven design</a>
-                      </h3>
-                    </header>
-                    <p className="text-gray-600 dark:text-gray-400">
-                      Et leo duis ut diam quam nulla porttitor porttitor lacus luctus accumsan tortor, lorem dolor sed viverra ipsum nunc aliquet
-                      bibendum enim eu.
-                    </p>
-                    <footer className="text-sm flex items-center mt-3">
-                      <div className="flex shrink-0 mr-3">
-                        <a className="relative" href="#0">
-                          <span className="absolute inset-0 -m-px" aria-hidden="true">
-                            <span className="absolute inset-0 -m-px bg-white dark:bg-gray-800 rounded-full"></span>
-                          </span>
-                          <Image className="relative rounded-full" src={AuthorImage} width={32} height={32} alt="Author 05" />
-                        </a>
-                      </div>
-                      <div className="text-gray-500">
-                        <span>Written by </span>
-                        <a className="font-medium text-gray-800 dark:text-gray-400 hover:underline" href="#0">
-                          Yuri Lapko
-                        </a>
-                      </div>
-                    </footer>
-                  </div>
-                </div>
-              </article>
+              
             </div>
 
             {/* Pagination */}

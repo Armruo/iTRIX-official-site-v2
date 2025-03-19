@@ -1,14 +1,13 @@
 export const metadata = {
-  title: 'Help - ITRIX',
-  description: 'Page description',
+  title: 'Features - ITRIX',
+  description: 'Explore ITRIX Features',
 }
 
 import PageIllustration from '@/components/page-illustration'
-import Hero from '@/components/hero-help'
+import Hero from './hero'
 import Content from './content'
-import RelatedLinks from '@/components/related-links'
 
-export default function Help() {
+export default function Features() {
   return (
     <>
       {/*  Page illustration */}
@@ -17,7 +16,6 @@ export default function Help() {
       </div>    
       <Hero />
       <Content />
-      <RelatedLinks />
     </>
   )
 }
