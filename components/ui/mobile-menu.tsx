@@ -153,6 +153,15 @@ export default function MobileMenu() {
                 <ul className="pl-4">
                   <li>
                     <Link
+                      href="/team"
+                      className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2"
+                      onClick={() => setMobileNavOpen(false)}
+                    >
+                      Team
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href="/faq"
                       className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2"
                       onClick={() => setMobileNavOpen(false)}
@@ -160,15 +169,6 @@ export default function MobileMenu() {
                       FAQ
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link
-                      href="/404"
-                      className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2"
-                      onClick={() => setMobileNavOpen(false)}
-                    >
-                      404
-                    </Link>
-                  </li> */}
                 </ul>
               </li>
               {/* <li>
