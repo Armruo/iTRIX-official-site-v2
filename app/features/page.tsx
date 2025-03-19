@@ -6,6 +6,7 @@ export const metadata = {
 import PageIllustration from '@/components/page-illustration'
 import Hero from './hero'
 import Content from './content'
+import Video from '@/components/use-cases-video'
 
 export default function Features() {
   return (
@@ -16,6 +17,7 @@ export default function Features() {
       </div>    
       <Hero />
       <Content />
+      <Video />
     </>
   )
 }
