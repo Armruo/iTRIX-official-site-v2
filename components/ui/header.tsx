@@ -98,6 +98,14 @@ export default function Header() {
                     FAQ
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/user/3HhCohCQhyEMUcZRZqkVmasFsedAJjSFyRRMhVPHW2Sz"
+                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
+                  >
+                    User Account(临时)
+                  </Link>
+                </li>
               </Dropdown>
             </ul>
 
