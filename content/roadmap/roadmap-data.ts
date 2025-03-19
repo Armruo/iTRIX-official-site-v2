@@ -2,59 +2,106 @@ import { RoadmapData } from '@/types/roadmap';
 
 export const roadmapData: RoadmapData = [
   {
-    phase: '2025 Q1',
+    phase: 'Completed',
     status: 'completed',
     steps: [
       {
-        title: 'Complete Web3.0 Infrastructure Development',
-        desc: 'Build a decentralized infrastructure on Solana to ensure high performance and low transaction costs.',
+        title: 'Custom AI Model, Precise Digital Avatar Creation',
+        desc: 'Developed a custom AI model to enable users to create highly personalized digital avatars, delivering precise interaction experiences.',
         finished: true
       },
       {
-        title: 'Implement AI-Powered Smart Interaction Features',
-        desc: 'Integrate AI technology to enable user interaction with AI avatars, delivering personalized social experiences.',
+        title: 'Trusted Blockchain Architecture, Data Transparency & Security',
+        desc: 'Built a trusted blockchain architecture to ensure data transparency, traceability, and robust security.',
         finished: true
       },
       {
-        title: 'Develop Decentralized Incentive Mechanism and Token Economy Model',
-        desc: 'Design a token economy model to incentivize users to earn rewards through creation and interaction.',
+        title: 'Self-developed Smart Computing Engine, Efficient Resource & Cost Optimization',
+        desc: 'Developed a smart computing engine to achieve efficient resource allocation and cost optimization, enhancing platform performance.',
         finished: true
       },
-      {
-        title: 'Launch Basic Social Media Features',
-        desc: 'Enable users to post content, like, comment, and share, laying the foundation for social interaction.',
-        finished: true
-      }
     ]
   },
   {
-    phase: '2025 Q2',
+    phase: 'Phase Ⅰ',
     status: 'working on',
     steps: [
       {
-        title: 'Enhance Content Creation Tools',
-        desc: 'Provide creators with advanced tools for content creation and management.',
+        title: 'Avatar Launch, Personalized Interaction, Innovative Voice Integration',
+        desc: 'Launched the digital avatar feature, enabling personalized interaction and voice integration for an innovative social experience.',
         finished: true
       },
       {
-        title: 'Partner with High-Quality Creators and KOLs',
-        desc: "Invite renowned creators and KOLs to join, enriching the platform's content ecosystem.",
+        title: 'ITX Issued, Seed Funding, Ecosystem Co-building',
+        desc: "Issued ITX tokens and initiated seed funding to attract early supporters for ecosystem co-building.",
         finished: false
       }
     ]
   },
   {
-    phase: '2025 Q3',
+    phase: 'Phase Ⅱ',
     status: 'planned',
     steps: [
       {
-        title: 'Launch AI Digital Avatar Feature',
-        desc: 'Fans can interact 1-on-1 with AI avatars, enjoying experiences similar to interacting with real influencers.',
+        title: 'Beta Launch, Celebrity KOL Engagement, Upgraded Realistic Interaction',
+        desc: 'Released the Beta version, focusing on attracting celebrities and KOLs to enhance the realistic interaction experience of digital avatars.',
         finished: false
       },
       {
-        title: 'Expand Platform Task System',
-        desc: 'Users earn tokens by completing interactive tasks, boosting platform engagement.',
+        title: 'ITX Exchange Listing, Improved Liquidity, Steady Value Growth',
+        desc: 'Listed ITX tokens on major exchanges to improve liquidity and steadily increase token value.',
+        finished: false
+      }
+    ]
+  },
+  {
+    phase: 'Phase Ⅲ',
+    status: 'planned',
+    steps: [
+      {
+        title: 'Platform Launch, Expanded Scenarios, Enhanced Avatar Experience',
+        desc: 'Officially launched the platform, expanded multi-dimensional use cases, and further enhanced the functionality and experience of digital avatars.',
+        finished: false
+      },
+      {
+        title: 'Open Ecosystem, Quality Developers, Empowered Applications',
+        desc: 'Fully opened the platform ecosystem to attract quality developers and enrich the application ecosystem.',
+        finished: false
+      },
+      {
+        title: 'Innovative Gifts & Subscriptions, Enhanced Creator Monetization',
+        desc: 'Introduced virtual gifts and subscription models to enhance user interaction and help creators monetize their content.',
+        finished: false
+      },
+      {
+        title: 'Global Community, User Unity, Sustainable Growth',
+        desc: 'Built a global community ecosystem, unifying user efforts to drive sustainable platform growth.',
+        finished: false
+      }
+    ]
+  },
+  {
+    phase: 'Phase Ⅳ',
+    status: 'planned',
+    steps: [
+      {
+        title: 'Advanced Features, Multimodal & VR Immersion',
+        desc: 'Iterated advanced features to support multimodal interaction and VR technology, delivering a more immersive social experience.',
+        finished: false
+      },
+      {
+        title: 'Token Optimization, Enhanced Governance, Ecosystem Growth',
+        desc: 'Optimized the token economy model and enhanced community governance to drive continuous ecosystem value growth.',
+        finished: false
+      },
+      {
+        title: 'Community Autonomy, User Co-creation, Sustainable Prosperity',
+        desc: 'Deepened community autonomy and unified user co-creation efforts to ensure long-term ecosystem prosperity.',
+        finished: false
+      },
+      {
+        title: 'Emerging Markets, Global Expansion Acceleration',
+        desc: "Focused on emerging markets to accelerate global expansion and enhance the platform's international influence.",
         finished: false
       }
     ]
