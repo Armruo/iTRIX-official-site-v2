@@ -11,7 +11,7 @@ import Tabs from '@/components/tabs'
 import Process from '@/components/process'
 import HeroBlockChain from '@/components/blockchain'
 import PricingTables from '@/components/pricing-tables'
-import TestimonialsBlocks from '@/components/testimonials-blocks'
+import UseCasesBlocks from '@/components/use-cases-blocks'
 import SplineBlockchain from '@/components/spline-blockchain'
 import FeaturesBlocks from '@/components/features-blocks'
 import Cta from '@/components/cta'
@@ -32,7 +32,7 @@ export default function Home() {
       <Tabs />
       <Process />
       {/* <PricingTables /> */}
-      <TestimonialsBlocks />
+      <UseCasesBlocks />
       <FeaturesBlocks />
       <Cta />
     </>

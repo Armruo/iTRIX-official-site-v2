@@ -1,7 +1,7 @@
 import VideoThumb from '@/public/images/video-testimonial.jpg'
 import ModalVideo from '@/components/modal-video'
 
-export default function TestimonialsVideo() {
+export default function UseCasesVideo() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

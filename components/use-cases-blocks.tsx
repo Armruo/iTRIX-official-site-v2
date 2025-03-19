@@ -4,13 +4,13 @@ import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
 import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 import TestimonialImage04 from '@/public/images/testimonial-04.jpg'
 
-export default function TestimonialsBlocks() {  
+export default function UseCasesBlocks() {  
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-transparent dark:border-gray-800">
 
-          {/* Testimonials */}
+          {/* UseCases */}
           <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:gap-12 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
 
             {/* 1st testimonial */}
