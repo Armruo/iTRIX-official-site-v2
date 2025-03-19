@@ -14,10 +14,11 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="h1 mb-4" data-aos="fade-up">Features</h1>
-            <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-up" data-aos-delay="200">
+            <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 via-slate-200 to-slate-200/60 pb-6">
+            Virtual Avatar Cloning</h1>
+            {/* <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-up" data-aos-delay="200">
               Discover the powerful capabilities of ITRIX
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

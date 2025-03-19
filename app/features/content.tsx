@@ -3,9 +3,10 @@ import Image from 'next/image'
 import Customers01 from '@/public/images/feature-01.png'
 import Customers02 from '@/public/images/feature-02.png'
 import Customers03 from '@/public/images/feature-03.png'
+import Feature04 from '@/public/images/feature-04.png'
+import Feature05 from '@/public/images/feature-05.png'
 import AboutIllustration from '@/public/images/about-illustration.svg'
 import Icon from '@/public/images/about-icon.svg'
-
 
 export default function Content() {
   return (
@@ -113,10 +114,10 @@ export default function Content() {
             </div>
           </div>
 
+
           {/* Voice Features Section */}
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="grid md:grid-cols-2 gap-12 md:gap-16">
-              
               {/* Voice Cloning Card */}
               <div className="relative bg-gradient-to-tr from-slate-800 to-slate-700/50 p-6 rounded-2xl overflow-hidden group hover:scale-105 transition-transform duration-300" data-aos="fade-right">
                 <div className="absolute right-0 top-0 -mt-4 -mr-4 w-24 h-24 bg-purple-500/30 rounded-full blur-2xl transform group-hover:scale-150 group-hover:opacity-70 transition-all duration-500"></div>
@@ -137,7 +138,6 @@ export default function Content() {
                   </div>
                 </div>
               </div>
-
               {/* Language Card */}
               <div className="relative bg-gradient-to-tr from-slate-800 to-slate-700/50 p-6 rounded-2xl overflow-hidden group hover:scale-105 transition-transform duration-300" data-aos="fade-left">
                 <div className="absolute right-0 top-0 -mt-4 -mr-4 w-24 h-24 bg-blue-500/30 rounded-full blur-2xl transform group-hover:scale-150 group-hover:opacity-70 transition-all duration-500"></div>
@@ -161,6 +161,97 @@ export default function Content() {
                 </div>
               </div>
 
+            </div>
+          </div>
+
+          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+              <div className="max-w-3xl mx-auto text-center">
+                <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 via-slate-200 to-slate-200/60 pb-6">
+                Intelligent Copywriting</h1>
+                <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-up" data-aos-delay="200">
+                  
+                  AI generates precise, scenario-based copywriting with efficient refinement, achieving perfect expression.
+                </p>
+              </div>
+
+              {/* Feature 04 Image with Effects */}
+              <div className="relative mt-12 md:mt-20" data-aos="zoom-y-out">
+                <div className="relative flex justify-center">
+                  {/* Background glow effect */}
+                  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <div className="w-96 h-96 bg-purple-500/30 rounded-full blur-3xl opacity-50"></div>
+                  </div>
+                  
+                  {/* Image container with perspective effect */}
+                  <div className="relative perspective-1000">
+                    <div className="transform hover:rotate-y-12 transition-transform duration-700 ease-in-out">
+                      <div className="relative">
+                        {/* Decorative elements */}
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
+                        
+                        {/* Main image */}
+                        <div className="relative">
+                          <Image
+                            src={Feature04}
+                            width={800}
+                            height={600}
+                            alt="Intelligent Copywriting"
+                            className="rounded-2xl shadow-2xl"
+                          />
+                          {/* Overlay gradient */}
+                          <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/10 to-blue-500/10 rounded-2xl"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+              <div className="max-w-3xl mx-auto text-center">
+                <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 via-slate-200 to-slate-200/60 pb-6">
+                Intelligent Editing</h1>
+                <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-up" data-aos-delay="200">
+                AI-powered Theme Matching, One-click Material Editing, Auto-generation of Multi-version Videos, Easily Meets Multi-scenario Marketing, Maximizes Creative Efficiency
+                </p>
+              </div>
+
+              {/* Feature 05 Image with Effects */}
+              <div className="relative mt-12 md:mt-20" data-aos="zoom-y-out">
+                <div className="relative flex justify-center">
+                  {/* Background glow effect */}
+                  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <div className="w-96 h-96 bg-blue-500/30 rounded-full blur-3xl opacity-50"></div>
+                  </div>
+                  
+                  {/* Image container with floating effect */}
+                  <div className="relative">
+                    <div className="animate-float-slow">
+                      <div className="relative">
+                        {/* Decorative frame */}
+                        <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                        
+                        {/* Main image */}
+                        <div className="relative">
+                          <Image
+                            src={Feature05}
+                            width={800}
+                            height={600}
+                            alt="Intelligent Editing"
+                            className="rounded-2xl shadow-2xl"
+                          />
+                          {/* Overlay pattern */}
+                          <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-transparent to-purple-500/10 rounded-2xl"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
