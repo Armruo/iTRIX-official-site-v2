@@ -89,29 +89,80 @@ export default function Content() {
             </div>
           </div>
 
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="pt-32 pb-10 md:pt-40">
+        
 
-            {/* Hero content */}
-            <div className="text-center">
-              {/* <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The folks behind the product</div> */}
-              <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 via-slate-200 to-slate-200/60 pb-6">
-              Intelligent Voice Cloning</h1>
-              {/* Rings illustration */}
-              <div className="inline-flex items-center justify-center relative">
-                {/* Particles animation */}
-                <div className="absolute inset-0 -z-10" aria-hidden="true">
-                  <canvas data-particle-animation data-particle-quantity="10"></canvas>
+          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <div className="pt-32 pb-10 md:pt-40">
+              {/* Hero content */}
+              <div className="text-center">
+                {/* <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The folks behind the product</div> */}
+                <h2 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 via-slate-200 to-slate-200/60 pb-6">
+                Intelligent Voice Cloning</h2>
+                {/* Rings illustration */}
+                <div className="inline-flex items-center justify-center relative">
+                  {/* Particles animation */}
+                  <div className="absolute inset-0 -z-10" aria-hidden="true">
+                    <canvas data-particle-animation data-particle-quantity="10"></canvas>
+                  </div>
+                  <div className="inline-flex [mask-image:_radial_gradient(circle_at_bottom,transparent_15%,black_70%)]">
+                    <Image src={AboutIllustration} width={446} height={446} alt="About illustration" />
+                  </div>
+                  <Image className="absolute mt-[30%] drop-shadow-lg animate-float" src={Icon} width={72} height={72} alt="About icon" />
                 </div>
-                <div className="inline-flex [mask-image:_radial-gradient(circle_at_bottom,transparent_15%,black_70%)]">
-                  <Image src={AboutIllustration} width={446} height={446} alt="About illustration" />
-                </div>
-                <Image className="absolute mt-[30%] drop-shadow-lg animate-float" src={Icon} width={72} height={72} alt="About icon" />
               </div>
             </div>
-
           </div>
-        </div>
+
+          {/* Voice Features Section */}
+          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <div className="grid md:grid-cols-2 gap-12 md:gap-16">
+              
+              {/* Voice Cloning Card */}
+              <div className="relative bg-gradient-to-tr from-slate-800 to-slate-700/50 p-6 rounded-2xl overflow-hidden group hover:scale-105 transition-transform duration-300" data-aos="fade-right">
+                <div className="absolute right-0 top-0 -mt-4 -mr-4 w-24 h-24 bg-purple-500/30 rounded-full blur-2xl transform group-hover:scale-150 group-hover:opacity-70 transition-all duration-500"></div>
+                <div className="relative">
+                  <div className="flex items-center space-x-4 mb-3">
+                    <div className="inline-flex p-2 bg-purple-500/10 rounded-lg">
+                      <svg className="w-6 h-6 fill-purple-500" viewBox="0 0 24 24">
+                        <path d="M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z" />
+                      </svg>
+                    </div>
+                    <h3 className="h4 text-purple-500">Voice · Precision Cloning</h3>
+                  </div>
+                  <p className="text-slate-400">Advanced acoustic algorithms precisely replicate voice, authentically restoring vocal charm.</p>
+                  <div className="mt-4">
+                    <div className="w-full bg-slate-700/30 h-1 rounded-full overflow-hidden">
+                      <div className="w-3/4 h-full bg-purple-500 rounded-full animate-pulse"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Language Card */}
+              <div className="relative bg-gradient-to-tr from-slate-800 to-slate-700/50 p-6 rounded-2xl overflow-hidden group hover:scale-105 transition-transform duration-300" data-aos="fade-left">
+                <div className="absolute right-0 top-0 -mt-4 -mr-4 w-24 h-24 bg-blue-500/30 rounded-full blur-2xl transform group-hover:scale-150 group-hover:opacity-70 transition-all duration-500"></div>
+                <div className="relative">
+                  <div className="flex items-center space-x-4 mb-3">
+                    <div className="inline-flex p-2 bg-blue-500/10 rounded-lg">
+                      <svg className="w-6 h-6 fill-blue-500" viewBox="0 0 24 24">
+                        <path d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z" />
+                      </svg>
+                    </div>
+                    <h3 className="h4 text-blue-500">Language · Seamless Translation</h3>
+                  </div>
+                  <p className="text-slate-400">Intelligent real-time language switching breaks barriers, empowering global interactions.</p>
+                  <div className="mt-4 flex space-x-2">
+                    <span className="px-2 py-1 text-xs bg-blue-500/10 text-blue-500 rounded">EN</span>
+                    <span className="px-2 py-1 text-xs bg-blue-500/10 text-blue-500 rounded animate-pulse">中文</span>
+                    <span className="px-2 py-1 text-xs bg-blue-500/10 text-blue-500 rounded">日本語</span>
+                    <span className="px-2 py-1 text-xs bg-blue-500/10 text-blue-500 rounded">한국어</span>
+                    <span className="px-2 py-1 text-xs bg-blue-500/10 text-blue-500 rounded">Latina</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
 
         </div>
       </div>
