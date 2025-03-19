@@ -30,6 +30,23 @@ export default function Header() {
                   About
                 </Link>
               </li>
+              
+              <li>
+                <Link
+                  href="/digital-avatar-system"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Digital Avatar System
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/features"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Features
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/roadmap"
@@ -52,22 +69,6 @@ export default function Header() {
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Docs
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/digital-avatar-system"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Digital Avatar System
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/features"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Features
                 </Link>
               </li>
               <li>

@@ -93,6 +93,25 @@ export default function MobileMenu() {
                   About
                 </Link>
               </li>
+              
+              <li>
+                <Link
+                  href="/digital-avatar-system"
+                  className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  Digital Avatar System
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/features"
+                  className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
+                  onClick={() => setMobileNavOpen(false)}
+                >
+                  Features
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/roadmap"
@@ -118,24 +137,6 @@ export default function MobileMenu() {
                   onClick={() => setMobileNavOpen(false)}
                 >
                   Docs
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/digital-avatar-system"
-                  className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
-                  onClick={() => setMobileNavOpen(false)}
-                >
-                  Digital Avatar System
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/features"
-                  className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
-                  onClick={() => setMobileNavOpen(false)}
-                >
-                  Features
                 </Link>
               </li>
               <li>
