@@ -15,6 +15,7 @@ import UseCasesBlocks from '@/components/use-cases-blocks'
 import SplineBlockchain from '@/components/spline-blockchain'
 import FeaturesBlocks from '@/components/features-blocks'
 import Cta from '@/components/cta'
+import HowToUse from '@/components/how-to-use'
 
 export default function Home() {
   return (
@@ -29,11 +30,12 @@ export default function Home() {
       <HeroBlockChain />
       <Stats />
       <Carousel />
-      <Tabs />
-      <Process />
+      {/* <Tabs /> */}
+      {/* <Process /> */}
       {/* <PricingTables /> */}
       <UseCasesBlocks />
       <FeaturesBlocks />
+      <HowToUse />
       <Cta />
     </>
   )
