@@ -4,8 +4,8 @@ import React, { useEffect, useState, useRef } from 'react';
 
 const HowToUse = () => {
   const [activeCard, setActiveCard] = useState(1);
-  const sectionRef = useRef(null);
-  const wheelTimeoutRef = useRef(null);
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const wheelTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const totalCards = 7;
   const touchStartRef = useRef(0);
 
