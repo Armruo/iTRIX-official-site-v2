@@ -2,6 +2,7 @@ import { defineNestedType, defineDocumentType, makeSource } from 'contentlayer/s
 import remarkGfm from 'remark-gfm'
 import rehypePrettyCode from 'rehype-pretty-code'
 import rehypeSlug from 'rehype-slug'
+import { remarkPlugins } from './mdx-plugins'
 
 const NameSlugPair = defineNestedType(() => ({
   name: 'NameSlugPair',
@@ -93,13 +94,13 @@ export default makeSource({
   contentDirPath: 'content',
   documentTypes: [Post, Doc],
   mdx: {
-    remarkPlugins: [[remarkGfm, { singleTilde: false }]],
+    remarkPlugins: [remarkGfm],
     rehypePlugins: [
       rehypeSlug,
       [
         rehypePrettyCode,
         {
-          theme: 'one-dark-pro',
+          theme: 'github-dark',
           onVisitLine(node) {
             if (node.children.length === 0) {
               node.children = [{ type: 'text', value: ' ' }]
