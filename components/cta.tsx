@@ -2,51 +2,38 @@ export default function Cta() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-
-        {/* CTA box */}
-        <div className="dark relative bg-gray-800 py-10 px-8 md:py-16 md:px-12">
-
-          {/* Background illustration */}
-          <div className="absolute inset-0 left-auto  pointer-events-none" aria-hidden="true">
-            <svg className="h-full" width="400" height="232" viewBox="0 0 400 232" xmlns="http://www.w3.org/2000/svg">
+        <div className="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
+          {/* Radial gradient */}
+          <div className="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
+            <div className="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-70" />
+            <div className="absolute w-1/4 h-1/4 translate-z-0 bg-purple-400 rounded-full blur-[40px]" />
+          </div>
+          {/* Blurred shape */}
+          <div className="absolute bottom-0 translate-y-1/2 left-0 blur-2xl opacity-50 pointer-events-none -z-10" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
               <defs>
-                <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="box-gr-a">
-                  <stop stopColor="#667EEA" offset="0%" />
-                  <stop stopColor="#667EEA" stopOpacity="0" offset="100%" />
-                </radialGradient>
-                <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="box-gr-b">
-                  <stop stopColor="#734fa1" offset="0%" />
-                  <stop stopColor="#734fa1" stopOpacity="0" offset="100%" />
-                </radialGradient>
+                <linearGradient id="bs5-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%">
+                  <stop offset="0%" stopColor="#A855F7" />
+                  <stop offset="100%" stopColor="#6366F1" stopOpacity="0" />
+                </linearGradient>
               </defs>
-              <g transform="translate(-85 -369)" fill="none" fillRule="evenodd">
-                <circle fillOpacity=".16" fill="url(#box-gr-a)" cx="413" cy="688" r="240" />
-                <circle fillOpacity=".24" fill="url(#box-gr-b)" cx="400" cy="400" r="400" />
-              </g>
+              <path fill="url(#bs5-a)" fillRule="evenodd" d="m0 0 461 369-284 58z" transform="matrix(1 0 0 -1 0 427)" />
             </svg>
           </div>
-
-          <div className="relative flex flex-col lg:flex-row justify-between items-center">
-
-            {/* CTA content */}
-            <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 font-red-hat-display text-gray-100">Free until you're ready to launch</h3>
-            </div>
-
-            {/* CTA form */}
-            <form className="w-full lg:w-1/2">
-              <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <input type="tel" className="form-input text-gray-100 w-full mb-2 sm:mb-0 sm:mr-2" placeholder="Phone number" aria-label="Phone number" />
-                <a className="btn text-white bg-teal-500 hover:bg-teal-400 shrink-0" href="#0">Explorer dApp</a>
-              </div>
-              {/* Success message */}
-              {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
-            </form>
-
+          {/* Content */}
+          <div className="max-w-3xl mx-auto text-center">
+            {/* <div>
+              <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The security first platform</div>
+            </div> */}
+            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Create Your Digital Avatar, Unlock AI Interaction</h2>
+            {/* <p className="text-lg text-slate-400 mb-8">All the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p> */}
+            {/* <div>
+              <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="#0">
+                Get Started <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              </a>
+            </div> */}
           </div>
-
         </div>
-
       </div>
     </section>
   )
