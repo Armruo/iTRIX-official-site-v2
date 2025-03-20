@@ -19,7 +19,7 @@ export default function HeroUseCases() {
             <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
             ITRIX demonstrates its technological strengths across various application scenarios, showcasing its diverse commercial value.</p>
             {/* <div className="mt-8" data-aos="fade-down" data-aos-delay="300">
-              <Link className="btn text-white bg-teal-500 hover:bg-teal-400 ml-3" href="/contact">Invite Code</Link>
+              <Link className="btn text-white bg-teal-500 hover:bg-teal-400 ml-3" href="/contact">Explorer dApp</Link>
             </div> */}
           </div>
         </div>
