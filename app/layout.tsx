@@ -16,8 +16,11 @@ const redhat = Red_Hat_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'ITRIX - Next.js App Landing Page',
-  description: 'A modern landing page template built with Next.js and Tailwind CSS',
+  title: 'ITRIX - AI Avatar Social Platform',
+  description: 'Next-generation intelligent avatar social platform built on Web 3.0 and AI large-model technology',
+  icons: {
+    icon: '/images/logo-x-round.png'
+  }
 }
 
 import ClientLayout from './client-layout'

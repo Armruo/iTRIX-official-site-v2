@@ -53,6 +53,8 @@
     "pino-pretty": "^13.0.0",
     "postcss": "^8.4.23",
     "react-flatpickr": "^3.10.13",
+    "rehype-pretty-code": "^0.14.1",
+    "remark-gfm": "^4.0.1",
     "tailwindcss": "^3.3.3"
   }
 }

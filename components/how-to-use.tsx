@@ -115,6 +115,34 @@ const HowToUse = () => {
     };
   };
 
+  const styles = `
+    @keyframes gradient-shift-slow {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(10%, 15%) rotate(5deg); }
+      50% { transform: translate(-5%, -10%) rotate(-5deg); }
+      75% { transform: translate(-15%, 5%) rotate(3deg); }
+    }
+
+    @keyframes gradient-shift-medium {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      33% { transform: translate(-10%, 15%) rotate(-3deg); }
+      66% { transform: translate(15%, -10%) rotate(6deg); }
+    }
+
+    @keyframes spotlight {
+      0% { transform: translate(-50%, -50%) scale(0); }
+      100% { transform: translate(0, 0) scale(1); }
+    }
+  `;
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const styleTag = document.createElement('style');
+      styleTag.textContent = styles;
+      document.head.appendChild(styleTag);
+    }
+  }, []);
+
   return (
     <section 
       ref={sectionRef} 
@@ -203,38 +231,3 @@ const HowToUse = () => {
 };
 
 export default HowToUse;
-
-// 在文件末尾添加全局样式
-const style = document.createElement('style');
-style.textContent = `
-  @keyframes gradient-shift-slow {
-    0%, 100% { transform: translate(0, 0) rotate(0deg); }
-    25% { transform: translate(10%, 15%) rotate(5deg); }
-    50% { transform: translate(-5%, -10%) rotate(-5deg); }
-    75% { transform: translate(-15%, 5%) rotate(3deg); }
-  }
-
-  @keyframes gradient-shift-medium {
-    0%, 100% { transform: translate(0, 0) rotate(0deg); }
-    33% { transform: translate(-10%, 15%) rotate(-3deg); }
-    66% { transform: translate(15%, -10%) rotate(6deg); }
-  }
-
-  @keyframes spotlight {
-    0% { transform: translate(-50%, -50%) scale(0); }
-    100% { transform: translate(0, 0) scale(1); }
-  }
-
-  .animate-gradient-slow {
-    animation: gradient-shift-slow 20s infinite;
-  }
-
-  .animate-gradient-medium {
-    animation: gradient-shift-medium 15s infinite;
-  }
-
-  .animate-spotlight {
-    animation: spotlight 2s ease-out forwards;
-  }
-`;
-document.head.appendChild(style);
