@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import HeroBg from '@/public/images/news-05.jpg'
 import HeroImage from '@/public/images/about-hero.jpg'
+import HowToUse from '@/components/how-to-use'
 
 export default function HeroAbout() {
   return (
@@ -13,8 +14,8 @@ export default function HeroAbout() {
       </div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-          <div className="text-center">
+        {/* <div className="pt-32 pb-12 md:pt-40 md:pb-20"> */}
+          {/* <div className="text-center">
             <div className="relative flex justify-center items-center">
               <div className="relative inline-flex items-start" data-aos="fade-up">
                 <Image className="opacity-50" src={HeroImage} width={768} height={432} priority alt="About hero" />
@@ -25,9 +26,10 @@ export default function HeroAbout() {
               </div>
               <div className="absolute bottom-0 -mb-8 w-0.5 h-16 bg-gray-300 dark:bg-gray-700" aria-hidden="true"></div>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
+      <HowToUse />
 
     </section>
   )

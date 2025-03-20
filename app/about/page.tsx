@@ -15,12 +15,12 @@ export default function About() {
   return (
     <>
       <Hero />
-      <FeaturesGallery />
-      <Timeline />
+      {/* <FeaturesGallery /> */}
+      {/* <Timeline /> */}
       {/* <Career /> */}
-      <FeaturesAnimation />
-      <Team />
-      <CtaContact />
+      {/* <FeaturesAnimation /> */}
+      {/* <Team /> */}
+      {/* <CtaContact /> */}
     </>
   )
 }

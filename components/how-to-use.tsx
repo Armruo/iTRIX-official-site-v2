@@ -128,7 +128,7 @@ const HowToUse = () => {
         <p className="absolute text-[#55425d] font-bold
           sm:left-[1.5vw] sm:top-[1.3vw] sm:text-[8.36vw] sm:leading-[5vw] sm:-translate-x-1/3 sm:translate-y-full
           left-[20.33vw] -translate-x-[45%] -rotate-90 text-[24.8vw] leading-[14.93vw] text-nowrap">
-          ITRIX <br /> Intelligent <br /> Matrix
+          Creator <br /> Value <br /> Upgrade
         </p>
       </div>
 
@@ -138,15 +138,15 @@ const HowToUse = () => {
         w-[227.73vw] h-[227.73vw] top-[-15vw] left-[41.43vw]" />
 
       {/* 主标题 */}
-      <div className="absolute z-[126] left-1/2 -translate-x-1/2 whitespace-nowrap
+      {/* <div className="absolute z-[126] left-1/2 -translate-x-1/2 whitespace-nowrap
         sm:top-[8vw] sm:text-center
-        top-[30vw]">
-        <h2 className="text-white font-bold font-mono
+        top-[20vw]">
+        <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 via-slate-200 to-slate-200/60 
           sm:text-[2.5vw] sm:tracking-wider
           text-[6vw] tracking-wide">
           Creator Value Upgrade
-        </h2>
-      </div>
+        </h1>
+      </div> */}
 
       {/* 卡片容器 */}
       <div className="z-[125] absolute w-full
@@ -170,7 +170,7 @@ const HowToUse = () => {
                 </div>
                 
                 <div className="flex flex-col gap-[2.14vw] relative">
-                  <p className="font-bold font-mono text-white
+                  <p className="font-bold font-mono text-black dark:text-white
                     sm:text-[2vw] sm:leading-[1.14vw]
                     text-[6.4vw] leading-[3.73vw]">
                     {cardIndex === 1 && "Personalized Interaction"}
@@ -182,7 +182,7 @@ const HowToUse = () => {
                     {cardIndex === 7 && "Innovative Monetization"}
                   </p>
                 </div>
-                <p className="font-inter font-normal text-[#ECECEC] relative
+                <p className="font-inter font-normal text-black dark:text-white relative
                   sm:text-[1.28vw] sm:leading-[1.57vw] sm:w-[24.28vw]
                   text-[2.93vw] leading-[3.2vw]">
                   {cardIndex === 1 && "AI avatars communicate precisely, customizing fan experiences."}
