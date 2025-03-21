@@ -136,7 +136,7 @@ export default function MobileMenu() {
                   <li>
                     <Link
                       href="/team"
-                      className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2"
+                      className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       onClick={() => setMobileNavOpen(false)}
                     >
                       Team
@@ -163,7 +163,7 @@ export default function MobileMenu() {
                   <li>
                     <Link
                       href="/faq"
-                      className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2"
+                      className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       onClick={() => setMobileNavOpen(false)}
                     >
                       FAQ

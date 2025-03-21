@@ -25,7 +25,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   About
                 </Link>
@@ -34,7 +34,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/digital-avatar-system"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Digital Avatar System
                 </Link>
@@ -42,7 +42,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/features"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Features
                 </Link>
@@ -50,7 +50,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/roadmap"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Roadmap
                 </Link>
@@ -58,7 +58,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/use-cases"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Use Cases
                 </Link>
@@ -68,32 +68,32 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
+                    href="/blog"
+                    className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  >
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/docs"
+                    className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  >
+                    Docs
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     href="/team"
-                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
+                    className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                   >
                     Team
                   </Link>
                 </li>
                 <li>
-                <Link
-                  href="/blog"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/docs"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Docs
-                </Link>
-              </li>
-                <li>
                   <Link
                     href="/faq"
-                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
+                    className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                   >
                     FAQ
                   </Link>
