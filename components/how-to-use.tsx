@@ -210,7 +210,7 @@ const HowToUse = () => {
                     {cardIndex === 7 && "Innovative Monetization"}
                   </p>
                 </div>
-                <p className="font-inter font-normal text-black dark:text-white relative
+                <p className="font-aspekta font-normal text-black dark:text-white relative
                   sm:text-[1.28vw] sm:leading-[1.57vw] sm:w-[24.28vw]
                   text-[2.93vw] leading-[3.2vw]">
                   {cardIndex === 1 && "AI avatars communicate precisely, customizing fan experiences."}

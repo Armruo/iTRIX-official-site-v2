@@ -1,13 +1,13 @@
-import { Nothing_You_Could_Do } from 'next/font/google'
+// import { Nothing_You_Could_Do } from 'next/font/google'
 import localFont from 'next/font/local'
 import ClientLayout from './client-layout'
 
-const nycd = Nothing_You_Could_Do({
-  subsets: ['latin'],
-  variable: '--font-nycd',
-  weight: '400',
-  display: 'swap'
-})
+// const nycd = Nothing_You_Could_Do({
+//   subsets: ['latin'],
+//   variable: '--font-nycd',
+//   weight: '400',
+//   display: 'swap'
+// })
 
 const aspekta = localFont({
   src: [
@@ -38,7 +38,7 @@ export default function DocsLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className={`${nycd.variable} ${aspekta.variable} font-aspekta`}>
+    <div className={`${aspekta.variable} font-aspekta`}>
       <ClientLayout>{children}</ClientLayout>
     </div>
   )

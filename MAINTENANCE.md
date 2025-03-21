@@ -27,6 +27,7 @@ tar -czf project-$(date +%Y%m%d_%H%M%S).tar.gz .
 
 # 传输到服务器
 scp -P 22170 project-*.tar.gz root@connect.westb.seetacloud.com:/root/autodl-tmp/itrix-web/
+scp project.tar.gz root@8.211.150.2:/root/projects/itrix-web/
 ```
 
 
