@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   title: 'ITRIX - AI Avatar Social Platform',
   description: 'Next-generation intelligent avatar social platform built on Web 3.0 and AI large-model technology',
   icons: {
-    icon: '/images/logo-x-round.png'
+    icon: '/images/logo-x-round-3.png'
   }
 }
 
