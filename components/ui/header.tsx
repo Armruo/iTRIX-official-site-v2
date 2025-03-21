@@ -57,22 +57,6 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/blog"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/docs"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Docs
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/use-cases"
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
@@ -90,6 +74,22 @@ export default function Header() {
                     Team
                   </Link>
                 </li>
+                <li>
+                <Link
+                  href="/blog"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/docs"
+                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Docs
+                </Link>
+              </li>
                 <li>
                   <Link
                     href="/faq"

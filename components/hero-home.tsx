@@ -14,7 +14,9 @@ export default function HeroHome() {
             {/* Content */}
             <div className="md:col-span-6 lg:col-span-6 mb-8 md:mb-0 text-center md:text-left">
               <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-200 via-slate-200 to-slate-200/60" data-aos="fade-down">
-                Real-time Influence, Anywhere, Anytime</h1>
+                <span className="block">Real-time Influence</span>
+                <span className="block">Anywhere, Anytime</span>
+              </h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
               ITRIX is a next-generation intelligent avatar social platform built on Web 3.0 and AI large-model technology. It deeply learns user social behavior data, precisely creating personalized, highly realistic AI avatars for cross-scenario intelligent interactions. Through decentralized incentives, ITRIX empowers creators and users to enjoy value rewards from content creation and platform engagement.</p>
               {/* CTA form */}
