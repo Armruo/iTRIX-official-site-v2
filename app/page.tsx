@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       
       <Hero />
-      <SplineBlockchain />
+      {/* <SplineBlockchain /> */}
       <HeroBlockChain />
       <Stats />
       <Carousel />

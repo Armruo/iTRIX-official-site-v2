@@ -2,6 +2,8 @@ import VideoThumb from '@/public/images/mockup-image-01.jpg'
 import ModalVideoIphone from '@/components/modal-video-iphone'
 import SplineScene from './SplineScene';
 
+import Spline from '@splinetool/react-spline';
+
 export default function HeroHome() {
   return (
     <section>
@@ -13,7 +15,7 @@ export default function HeroHome() {
 
             {/* Content */}
             <div className="md:col-span-6 lg:col-span-6 mb-8 md:mb-0 text-center md:text-left">
-              <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-200 via-slate-200 to-slate-200/60" data-aos="fade-down">
+              <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-600 via-slate-200 to-slate-600" data-aos="fade-down">
                 <span className="block">Real-time Influence</span>
                 <span className="block">Anywhere, Anytime</span>
               </h1>
@@ -63,11 +65,14 @@ export default function HeroHome() {
 
             {/* 3D Scene */}
             <div className="md:col-span-6 lg:col-span-6">
-              <SplineScene 
-                url="https://my.spline.design/robotcontactme-d7513cf9e8970d08cab4ecac824c11ea/"  // robot
-                // url="https://my.spline.design/brain-74544328dc9622e185c2931f91fbf2d8/" // brain
-                className="w-full h-[600px] md:h-[600px]"
-              />
+              <div className="relative w-full h-[700px] md:h-[800px]">
+                <div className="absolute inset-0">
+                  <Spline 
+                    scene="https://prod.spline.design/Wa-Xmo2KATInDEzN/scene.splinecode"
+                    className="w-full h-full"
+                  />
+                </div>
+              </div>
             </div>
 
           </div>
