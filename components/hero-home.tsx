@@ -68,7 +68,8 @@ export default function HeroHome() {
               <div className="relative w-full h-[700px] md:h-[800px]">
                 <div className="absolute inset-0">
                   <Spline 
-                    scene="https://prod.spline.design/Wa-Xmo2KATInDEzN/scene.splinecode"
+                    // scene="https://prod.spline.design/Wa-Xmo2KATInDEzN/scene.splinecode" // robot
+                    scene="https://prod.spline.design/olAQR3L0cJoJh1zU/scene.splinecode"
                     className="w-full h-full"
                   />
                 </div>

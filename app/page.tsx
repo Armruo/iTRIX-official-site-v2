@@ -5,6 +5,7 @@ export const metadata = {
 
 import PageIllustration from '@/components/page-illustration'
 import Hero from '@/components/hero-home'
+import HeroNew from '@/components/hero-home-new'
 import Stats from '@/components/stats'
 import Carousel from '@/components/carousel'
 import Tabs from '@/components/tabs'
@@ -16,6 +17,7 @@ import SplineBlockchain from '@/components/spline-blockchain'
 import FeaturesBlocks from '@/components/features-blocks'
 import Cta from '@/components/cta'
 import FeaturesAnimation from '@/components/features-animation'
+import Clients from '@/components/hero-client'
 
 export default function Home() {
   return (
@@ -25,10 +27,10 @@ export default function Home() {
         <PageIllustration />
       </div>
       
-      <Hero />
+      <HeroNew />
+      <Clients />
       {/* <SplineBlockchain /> */}
       <HeroBlockChain />
-      <Stats />
       <Carousel />
       <FeaturesAnimation />
       {/* <Tabs /> */}

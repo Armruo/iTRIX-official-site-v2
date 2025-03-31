@@ -24,6 +24,7 @@ cd ~/projects/ingru/iTRIX-official-site-v2
 
 # 创建带时间戳的压缩包
 tar -czf project-$(date +%Y%m%d_%H%M%S).tar.gz .
+tar -czf project.tar.gz .
 
 # 传输到服务器
 scp -P 22170 project-*.tar.gz root@connect.westb.seetacloud.com:/root/autodl-tmp/itrix-web/
