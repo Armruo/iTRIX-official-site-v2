@@ -1,4 +1,4 @@
-{
+const translation = {
   "common": {
     "learnMore": "En savoir plus",
     "getStarted": "Commencer",
@@ -153,3 +153,5 @@
     }
   }
 }
+
+export default translation

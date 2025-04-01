@@ -1,4 +1,4 @@
-{
+const transaction = {
   "common": {
     "learnMore": "Mehr erfahren",
     "getStarted": "Loslegen",
@@ -153,3 +153,5 @@
     }
   }
 }
+
+export default translation
