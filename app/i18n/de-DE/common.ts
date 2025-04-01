@@ -82,25 +82,54 @@ const translation = {
 
   digitalAvatarSystem: {
     title: "Digitales Avatar-System",
-    desc: "Szenische Intelligenz · Erneuerte Einflussnahme",
+    desc: "Intelligente Integration · Erneuerte Einflussnahme",
     items: [
       {
         title: "Prominente",
-        desc: "KI reproduziert präzise Stimme und Bild, tiefgreifende Entwicklung persönlicher IP"
+        desc: "KI reproduziert präzise Stimme und Bild, entwickelt persönliche IP weiter"
       },
       {
         title: "Branchen-KOLs",
-        desc: "Intelligente Content-Optimierung, effiziente Interaktion steigert Einfluss"
+        desc: "Intelligente Inhaltsoptimierung, effiziente Interaktion steigert Einfluss"
       },
       {
-        title: "Influencer",
-        desc: "KI-gesteuerte kreative Inhalte, präzises Follower-Wachstum"
+        title: "Content Creators",
+        desc: "KI-gesteuerte kreative Inhalte treffen präzise die Zielgruppe, fördern unbegrenztes Wachstum"
       },
       {
-        title: "Marken",
-        desc: "KI-gesteuerte Marketing-Innovation, präzise Markenwertverbesserung"
+        title: "Unternehmensmarken",
+        desc: "KI-gestützte Marketing-Innovation, präzise Markenwertsteigerung"
       }
     ],
+    techEmpower: {
+      title: "Technologische Befähigung",
+      description: "Modernste KI-Avatar-Technologie, die Stimmklonen, intelligentes Editing und KI-Texterstellung integriert, schafft multimodale Interaktion und ein KI-gesteuertes Avatar-Ökosystem.",
+      subTitle: "ITRIX nutzt modernste KI- und Blockchain-Technologien",
+      subDesc: "Durch KI-gestützte Avatar-Technologie können Nutzer mit hochrealistischen digitalen Avataren interagieren und ein immersives soziales Erlebnis genießen. Ob für Content-Erstellung, Fan-Interaktion oder persönlichen Ausdruck, ITRIXs technologische Befähigung eröffnet neue Möglichkeiten für Nutzer und Creator.",
+      features: [
+        "Multimodale Interaktion, immersives Erlebnis",
+        "KI-gesteuerte Erstellung, niedrige Einstiegshürden",
+        "Hochrealistische Avatare, persönlicher Ausdruck"
+      ]
+    },
+    scenario: {
+      title: "Szenario-Innovation",
+      description: "Avatar-Erscheinungsbild-Wiederherstellung, Gestensimulation, Bewegungserfassung, intelligente Sprachinteraktion, autonomes Lernen, Echtzeit-Rendering. Unbegrenzte Avatare und Szenarien, 24/7 One-Stop digitale Mensch-Lösung.",
+      features: [
+        {
+          title: "Avatar",
+          desc: "Erstellen Sie einzigartige digitale Avatare mit hochrealistischer virtueller Bildtechnologie und läuten Sie eine neue Ära der personalisierten sozialen Interaktion ein."
+        },
+        {
+          title: "Interaktion",
+          desc: "Bieten Sie multimodale intelligente Interaktionserlebnisse für natürliches und immersives Engagement mit virtuellen Avataren."
+        },
+        {
+          title: "Lösung",
+          desc: "Bieten Sie eine One-Stop digitale Mensch-Lösung, die den gesamten Weg von der Erstellung bis zur Monetarisierung abdeckt."
+        }
+      ]
+    },
     das1: {
       title: "Technologische Innovation",
       description: "Modernste KI-virtuelle Bildtechnologie, Integration von Stimmklonen, intelligenter Videobearbeitung, KI-Texterstellung und anderen Kernfähigkeiten zur Schaffung eines KI-gesteuerten virtuellen Avatar-Ökosystems mit multimodaler Interaktion."

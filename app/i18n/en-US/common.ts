@@ -102,13 +102,34 @@ const translation = {
         desc: "AI-powered marketing innovation, precise brand value enhancement."
       }
     ],
-    das1: {
+    techEmpower: {
       title: "Technology Empowerment",
-      description: "Cutting-edge AI avatar technology integrating voice cloning, smart editing, and intelligent copywriting, creating multimodal interaction and AI-driven avatar ecosystem."
+      description: "Cutting-edge AI avatar technology integrating voice cloning, smart editing, and intelligent copywriting, creating multimodal interaction and AI-driven avatar ecosystem.",
+      subTitle: "ITRIX leverages cutting-edge AI & Blockchain technologies",
+      subDesc: "Through AI-powered avatar technology, users can interact with highly realistic digital avatars, enjoying an immersive social experience. Whether for content creation, fan interaction, or personalized expression, ITRIX's technology empowerment opens up new possibilities for users and creators.",
+      features: [
+        "Multimodal Interaction, Immersive Experience",
+        "AI-Driven Creation, Lowering Barriers",
+        "Highly Realistic Avatars, Personalized Expression"
+      ]
     },
-    das2: {
+    scenario: {
       title: "Scenario Innovation",
-      description: "Avatar appearance restoration, gesture simulation, motion capture, smart voice interaction, autonomous learning, real-time rendering. Unlimited avatars and scenarios, 24/7 one-stop digital human solution."
+      description: "Avatar appearance restoration, gesture simulation, motion capture, smart voice interaction, autonomous learning, real-time rendering. Unlimited avatars and scenarios, 24/7 one-stop digital human solution.",
+      features: [
+        {
+          title: "Avatar",
+          desc: "Create unique digital avatars with highly realistic virtual image technology, ushering in a new era of personalized social interaction."
+        },
+        {
+          title: "Interaction",
+          desc: "Deliver multimodal smart interaction experiences, enabling natural and immersive engagement with virtual avatars."
+        },
+        {
+          title: "Solution",
+          desc: "Offer a one-stop digital human solution, covering the entire journey from creation to monetization."
+        }
+      ]
     },
     coreValues: {
       title: "Core Values",

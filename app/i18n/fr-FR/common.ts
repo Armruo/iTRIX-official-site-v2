@@ -83,47 +83,51 @@ const translation = {
 
   digitalAvatarSystem: {
     title: "Système d'Avatar Numérique",
-    desc: "Intelligence Scénique · Influence Renouvelée",
+    desc: "Intégration Intelligente · Influence Renouvelée",
     items: [
       {
         title: "Célébrités",
-        desc: "L'IA reproduit précisément la voix et l'image, évolution profonde de l'IP personnelle"
+        desc: "L'IA reproduit avec précision la voix et l'image, faisant évoluer profondément l'IP personnelle"
       },
       {
         title: "KOLs de l'Industrie",
-        desc: "Optimisation intelligente du contenu, interaction efficace augmente l'influence"
+        desc: "Optimisation intelligente du contenu, l'interaction efficace augmente l'influence"
       },
       {
-        title: "Influenceurs",
-        desc: "Contenu créatif piloté par l'IA, croissance précise des abonnés"
+        title: "Créateurs de Contenu",
+        desc: "Contenu créatif piloté par l'IA, ciblage précis de l'audience"
       },
       {
-        title: "Marques",
-        desc: "Innovation marketing pilotée par l'IA, amélioration précise de la valeur de marque"
+        title: "Marques d'Entreprise",
+        desc: "Innovation marketing pilotée par l'IA, amélioration précise de la valeur de la marque"
       }
     ],
-    das1: {
-      title: "Innovation Technologique",
-      description: "Technologie d'image virtuelle IA de pointe, intégrant le clonage vocal, l'édition vidéo intelligente, la rédaction IA et d'autres capacités essentielles pour créer un écosystème d'avatar virtuel alimenté par l'IA avec interaction multimodale."
+    techEmpower: {
+      title: "Autonomisation Technologique",
+      description: "Technologie d'avatar IA de pointe intégrant le clonage vocal, l'édition intelligente et la rédaction intelligente, créant une interaction multimodale et un écosystème d'avatars piloté par l'IA.",
+      subTitle: "ITRIX exploite les technologies de pointe de l'IA et de la Blockchain",
+      subDesc: "Grâce à la technologie d'avatar pilotée par l'IA, les utilisateurs peuvent interagir avec des avatars numériques hautement réalistes, profitant d'une expérience sociale immersive. Que ce soit pour la création de contenu, l'interaction avec les fans ou l'expression personnalisée, l'autonomisation technologique d'ITRIX ouvre de nouvelles possibilités pour les utilisateurs et les créateurs.",
+      features: [
+        "Interaction Multimodale, Expérience Immersive",
+        "Création Pilotée par l'IA, Réduction des Barrières",
+        "Avatars Hautement Réalistes, Expression Personnelle"
+      ]
     },
-    das2: {
+    scenario: {
       title: "Innovation de Scénarios",
-      description: "Reproduction d'apparence de personnages virtuels, simulation de poses, capture de mouvement, interaction vocale intelligente, apprentissage autonome et rendu en temps réel, avatars et scénarios illimités, solution humaine numérique tout-en-un 24/7."
-    },
-    coreValues: {
-      title: "Valeurs Fondamentales",
-      items: [
+      description: "Restauration d'apparence d'avatar, simulation de gestes, capture de mouvement, interaction vocale intelligente, apprentissage autonome, rendu en temps réel. Avatars et scénarios illimités, solution humaine numérique tout-en-un 24/7.",
+      features: [
         {
-          title: "Présence Virtuelle",
-          description: "Remplacement de l'action réelle par avatar IA, innovation dans la production de vidéos courtes."
+          title: "Avatar",
+          desc: "Créez des avatars numériques uniques avec une technologie d'image virtuelle hautement réaliste, inaugurant une nouvelle ère d'interaction sociale personnalisée."
         },
         {
-          title: "Efficacité des Coûts",
-          description: "Réduction significative de la période de tournage, des coûts et de la difficulté de production."
+          title: "Interaction",
+          desc: "Fournissez des expériences d'interaction intelligente multimodale, permettant un engagement naturel et immersif avec des avatars virtuels."
         },
         {
-          title: "Déploiement Matriciel",
-          description: "Expansion rapide à l'échelle, acquisition précise de trafic et conversion de leads."
+          title: "Solution",
+          desc: "Offrez une solution humaine numérique tout-en-un, couvrant tout le parcours de la création à la monétisation."
         }
       ]
     }

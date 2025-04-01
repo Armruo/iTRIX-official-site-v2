@@ -82,51 +82,55 @@ const translation = {
   },
 
   digitalAvatarSystem: {
-    subTitle: "Sistema de Avatar Digital",
-    desc: "Inteligencia Escénica · Influencia Renovada",
+    title: "Sistema de Avatar Digital",
+    desc: "Integración Inteligente · Influencia Renovada",
     items: [
       {
         title: "Celebridades",
-        desc: "IA recrea con precisión voz e imagen, evolución profunda del IP personal"
+        desc: "La IA reproduce con precisión voz e imagen, evolucionando profundamente el IP personal"
       },
       {
         title: "KOLs de la Industria",
         desc: "Optimización inteligente de contenido, interacción eficiente aumenta la influencia"
       },
       {
-        title: "Influencers",
-        desc: "Contenido creativo impulsado por IA, precisión en el crecimiento de seguidores"
+        title: "Creadores de Contenido",
+        desc: "Contenido creativo impulsado por IA alcanza con precisión al público objetivo"
       },
       {
-        title: "Marcas",
+        title: "Marcas Empresariales",
         desc: "Innovación de marketing impulsada por IA, mejora precisa del valor de marca"
       }
     ],
-    das1: {
-      title: "Innovación Tecnológica",
-      description: "Tecnología de imagen virtual AI de vanguardia, integrando clonación de voz, edición inteligente de video, redacción AI y otras capacidades centrales para crear un ecosistema de avatar virtual impulsado por AI con interacción multimodal."
+    techEmpower: {
+      title: "Empoderamiento Tecnológico",
+      description: "Tecnología de avatar de IA de vanguardia que integra clonación de voz, edición inteligente y redacción inteligente, creando interacción multimodal y un ecosistema de avatares impulsado por IA.",
+      subTitle: "ITRIX aprovecha las tecnologías de IA y Blockchain de vanguardia",
+      subDesc: "A través de la tecnología de avatar impulsada por IA, los usuarios pueden interactuar con avatares digitales altamente realistas, disfrutando de una experiencia social inmersiva. Ya sea para creación de contenido, interacción con fans o expresión personalizada, el empoderamiento tecnológico de ITRIX abre nuevas posibilidades para usuarios y creadores.",
+      features: [
+        "Interacción Multimodal, Experiencia Inmersiva",
+        "Creación Impulsada por IA, Reducción de Barreras",
+        "Avatares Altamente Realistas, Expresión Personal"
+      ]
     },
-    das2: {
+    scenario: {
       title: "Innovación de Escenarios",
-      description: "Reproducción de apariencia de personajes virtuales, simulación de poses, captura de movimiento, interacción de voz inteligente, aprendizaje autónomo y renderizado en tiempo real, avatares y escenarios ilimitados, solución digital humana todo en uno 24/7."
-    },
-    coreValues: {
-      title: "Valores Fundamentales",
-      items: [
+      description: "Restauración de apariencia de avatar, simulación de gestos, captura de movimiento, interacción de voz inteligente, aprendizaje autónomo, renderizado en tiempo real. Avatares y escenarios ilimitados, solución digital humana todo en uno 24/7.",
+      features: [
         {
-          title: "Presencia Virtual",
-          description: "Sustitución de acción real por avatar AI, innovación en producción de videos cortos."
+          title: "Avatar",
+          desc: "Cree avatares digitales únicos con tecnología de imagen virtual altamente realista, inaugurando una nueva era de interacción social personalizada."
         },
         {
-          title: "Eficiencia de Costos",
-          description: "Reducción significativa del período de filmación, costos y dificultad de producción."
+          title: "Interacción",
+          desc: "Proporcione experiencias de interacción inteligente multimodal, permitiendo un compromiso natural e inmersivo con avatares virtuales."
         },
         {
-          title: "Despliegue Matricial",
-          description: "Rápida expansión a escala, adquisición precisa de tráfico y conversión de leads."
+          title: "Solución",
+          desc: "Ofrezca una solución digital humana todo en uno, cubriendo todo el viaje desde la creación hasta la monetización."
         }
       ]
-    }
+    },
   },
 
   features: {
