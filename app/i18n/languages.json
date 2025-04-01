@@ -22,13 +22,6 @@
         "supported": true
       },
       {
-        "value": "pt-BR",
-        "name": "Português (Brasil)",
-        "prompt_name": "Portuguese",
-        "example": "Olá, ITRIX!",
-        "supported": true
-      },
-      {
         "value": "es-ES",
         "name": "Español (España)",
         "prompt_name": "Spanish",
@@ -68,83 +61,6 @@
         "name": "Русский (Россия)",
         "prompt_name": "Russian",
         "example": " Привет, ITRIX!",
-        "supported": true
-      },
-      {
-        "value": "it-IT",
-        "name": "Italiano (Italia)",
-        "prompt_name": "Italian",
-        "example": "Ciao, ITRIX!",
-        "supported": true
-      },
-      {
-        "value": "th-TH",
-        "name": "ไทย (ประเทศไทย)",
-        "prompt_name": "Thai",
-        "example": "สวัสดี ITRIX!",
-        "supported": true
-      },
-      {
-        "value": "id-ID",
-        "name": "Bahasa Indonesia",
-        "prompt_name": "Indonesian",
-        "example": "Saluto, ITRIX!",
-        "supported": false
-      },
-      {
-        "value": "uk-UA",
-        "name": "Українська (Україна)",
-        "prompt_name": "Ukrainian",
-        "example": "Привет, ITRIX!",
-        "supported": true
-      },
-      {
-        "value": "vi-VN",
-        "name": "Tiếng Việt (Việt Nam)",
-        "prompt_name": "Vietnamese",
-        "example": "Xin chào, ITRIX!",
-        "supported": true
-      },
-      {
-        "value": "ro-RO",
-        "name": "Română (România)",
-        "prompt_name": "Romanian",
-        "example": "Salut, ITRIX!",
-        "supported": true
-      },
-      {
-        "value": "pl-PL",
-        "name": "Polski (Polish)",
-        "prompt_name": "Polish",
-        "example": "Cześć, ITRIX!",
-        "supported": true
-      },
-      {
-        "value": "hi-IN",
-        "name": "Hindi (India)",
-        "prompt_name": "Hindi",
-        "example": "नमस्ते, ITRIX!",
-        "supported": "true"
-      },
-      {
-        "value": "tr-TR",
-        "name": "Türkçe",
-        "prompt_name": "Türkçe",
-        "example": "Selam!",
-        "supported": "true"
-      },
-      {
-        "value": "fa-IR",
-        "name": "Farsi (Iran)",
-        "prompt_name": "Farsi",
-        "example": "سلام, دیفای!",
-        "supported": true
-      },
-      {
-        "value": "sl-SI",
-        "name": "Slovensko (Slovenija)",
-        "prompt_name": "Slovensko",
-        "example": "Zdravo, ITRIX!",
         "supported": true
       }
     ]

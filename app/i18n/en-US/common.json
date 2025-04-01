@@ -44,15 +44,7 @@
         "title": "49K",
         "description": "Days turn around"
       }
-    ],
-    "homeIntro1": {
-      "title": "Personalized Interaction",
-      "description": "AI avatars communicate precisely, customizing fan experiences."  
-    },
-    "homeIntro2": {
-      "title": "Fan Monetization",
-      "description": "Membership payment model, maximizing fan value."  
-    }
+    ]
   },
 
   "about": {
