@@ -4,6 +4,9 @@ import './css/style.css'
 import CommonWeb3Layout from "@/components/connect-provider";
 import localFont from 'next/font/local'
 
+import I18nServer from '@/components/i18n-server'
+import { getLocaleOnServer } from '@/app/i18n/server'
+
 // const inter = Inter({
 //   subsets: ['latin'],
 //   variable: '--font-inter',
@@ -50,11 +53,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  const locale = getLocaleOnServer()
+
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale ?? 'en'} suppressHydrationWarning>
       <body className={`${cabinet.variable} font-aspekta antialiased bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 tracking-tight`}>
         <CommonWeb3Layout>
-          <ClientLayout>{children}</ClientLayout>
+          <ClientLayout>
+            <I18nServer>{children}</I18nServer>
+          </ClientLayout>
         </CommonWeb3Layout>
       </body>
     </html>
