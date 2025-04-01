@@ -866,6 +866,13 @@
   resolved "https://registry.npmjs.org/@fal-works/esbuild-plugin-global-externals/-/esbuild-plugin-global-externals-2.1.2.tgz"
   integrity sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==
 
+"@formatjs/intl-localematcher@^0.5.10":
+  version "0.5.10"
+  resolved "https://registry.npmjs.org/@formatjs/intl-localematcher/-/intl-localematcher-0.5.10.tgz"
+  integrity sha512-af3qATX+m4Rnd9+wHcjJ4w2ijq+rAVP3CCinJQvFv1kgSu1W6jypUmvleJxcewdxmutM8dmIRZFxO/IQBZmP2Q==
+  dependencies:
+    tslib "2"
+
 "@grpc/grpc-js@^1.7.1":
   version "1.12.6"
   resolved "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.12.6.tgz"
@@ -2546,6 +2553,11 @@
   version "0.7.32"
   resolved "https://registry.npmjs.org/@types/ms/-/ms-0.7.32.tgz"
   integrity sha512-xPSg0jm4mqgEkNhowKgZFBNtwoEwF6gJ4Dhww+GFpm3IgtNseHQZ5IqdNwnquZEoANxyDAKDRAdVo4Z72VvD/g==
+
+"@types/negotiator@^0.6.3":
+  version "0.6.3"
+  resolved "https://registry.npmjs.org/@types/negotiator/-/negotiator-0.6.3.tgz"
+  integrity sha512-JkXTOdKs5MF086b/pt8C3+yVp3iDUwG635L7oCH6HvJvvr6lSUU5oe/gLXnPEfYRROHjJIPgCV6cuAg8gGkntQ==
 
 "@types/node@*", "@types/node@^20.9.0", "@types/node@>=13.7.0":
   version "20.17.24"
@@ -5264,6 +5276,13 @@ i18next-http-backend@^3.0.2:
   dependencies:
     cross-fetch "4.0.0"
 
+i18next-resources-to-backend@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/i18next-resources-to-backend/-/i18next-resources-to-backend-1.2.1.tgz"
+  integrity sha512-okHbVA+HZ7n1/76MsfhPqDou0fptl2dAlhRDu2ideXloRRduzHsqDOznJBef+R3DFZnbvWoBW+KxJ7fnFjd6Yw==
+  dependencies:
+    "@babel/runtime" "^7.23.2"
+
 i18next@^23.16.8:
   version "23.16.8"
   resolved "https://registry.npmjs.org/i18next/-/i18next-23.16.8.tgz"
@@ -6677,6 +6696,11 @@ near-seed-phrase@^0.2.0:
     bs58 "^4.0.1"
     near-hd-key "^1.2.1"
     tweetnacl "^1.0.2"
+
+negotiator@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.npmjs.org/negotiator/-/negotiator-0.6.4.tgz"
+  integrity sha512-myRT3DiWPHqho5PrJaIRyaMv2kgYf0mUVgBNOYMuCH5Ki1yEiQaf/ZJuQ62nvpc44wL5WDbTX7yGJi1Neevw8w==
 
 next-contentlayer@^0.3.4:
   version "0.3.4"
@@ -8684,6 +8708,11 @@ tslib@1.14.1:
   version "1.14.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+
+tslib@2:
+  version "2.8.1"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tunnel-rat@^0.1.2:
   version "0.1.2"
