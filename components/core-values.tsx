@@ -1,14 +1,22 @@
+'use client'
+
 import Image from 'next/image'
 import FeaturesImage from '@/public/images/features.svg'
+import { useTranslation } from 'react-i18next'
 
 export default function CoreValues() {
+
+  const { t } = useTranslation();
+
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Core Values</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">
+              {t('common.digitalAvatarSystem.coreValues.title')}
+            </h2>
           </div>
           <div className="pb-16" data-aos="zoom-out">
             <Image src={FeaturesImage} alt="Features" />
@@ -35,8 +43,10 @@ export default function CoreValues() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-700 dark:text-gray-200 text-center mb-2">Virtual Presence</h4>
-              <p className="text-lg text-gray-400 text-center">AI avatars replace humans, innovating short-video production.</p>
+              <h4 className="h4 text-gray-700 dark:text-gray-200 text-center mb-2">{t('common.digitalAvatarSystem.coreValues.items.0.title')}</h4>
+              <p className="text-lg text-gray-400 text-center">
+                {t('common.digitalAvatarSystem.coreValues.items.0.description')}
+              </p>
             </div>
             {/* 2nd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -58,10 +68,10 @@ export default function CoreValues() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-700 dark:text-gray-200 text-center mb-2">Cost Efficiency</h4>
+              <h4 className="h4 text-gray-700 dark:text-gray-200 text-center mb-2">{t('common.digitalAvatarSystem.coreValues.items.1.title')}</h4>
               <p className="text-lg text-gray-400 text-center">
-                Significantly reduce production 
-                time, costs, and complexity.</p>
+                {t('common.digitalAvatarSystem.coreValues.items.1.description')}
+              </p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
@@ -83,8 +93,10 @@ export default function CoreValues() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-700 dark:text-gray-200 text-center mb-2">Matrix Deployment</h4>
-              <p className="text-lg text-gray-400 text-center">Rapid scaling, precise traffic acquisition and lead conversion.</p>
+              <h4 className="h4 text-gray-700 dark:text-gray-200 text-center mb-2">{t('common.digitalAvatarSystem.coreValues.items.2.title')}</h4>
+              <p className="text-lg text-gray-400 text-center">
+                {t('common.digitalAvatarSystem.coreValues.items.2.description')}
+              </p>
             </div>
           </div>
         </div>

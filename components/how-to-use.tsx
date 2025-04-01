@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useEffect, useState, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const HowToUse = () => {
   const [activeCard, setActiveCard] = useState(1);
@@ -8,6 +9,7 @@ const HowToUse = () => {
   const wheelTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const totalCards = 7;
   const touchStartRef = useRef(0);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleWheel = (e: WheelEvent) => {

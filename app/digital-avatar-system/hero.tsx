@@ -1,8 +1,13 @@
+'use client'
 import Image from 'next/image'
 import HeroBg from '@/public/images/news-05.jpg'
 import HeroImage from '@/public/images/digital-avatar/avatar-bg.png'
+import { useTranslation } from 'react-i18next'
 
 export default function Hero() {
+
+  const { t } = useTranslation()
+
   return (
     <section className="relative">
       {/* Background image */}
@@ -20,9 +25,11 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-t from-white dark:from-gray-900" aria-hidden="true"></div>
               </div>
               <div className="absolute max-w-3xl mx-auto text-center" data-aos="fade-down">
-                  <h1 className="h1 mb-4" data-aos="fade-up">Digital Avatar System</h1>
+                  <h1 className="h1 mb-4" data-aos="fade-up">
+                    {t('common.digitalAvatarSystem.title')}
+                  </h1>
                   <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-up" data-aos-delay="200">
-                    Intelligent Scenario Integration · Enhanced Influence
+                    {t('common.digitalAvatarSystem.desc')}
                   </p>
               </div>
             </div>

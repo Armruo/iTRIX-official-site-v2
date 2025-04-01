@@ -1,20 +1,16 @@
+'use client'
+
 import Image from 'next/image'
 import Recruitment01 from '@/public/images/digital-avatar/recruitment-01.jpg'
 import Recruitment02 from '@/public/images/digital-avatar/recruitment-02.jpg'
 import Recruitment03 from '@/public/images/digital-avatar/recruitment-03.jpg'
 import Recruitment04 from '@/public/images/digital-avatar/recruitment-04.jpg'
+import { useTranslation } from "react-i18next";
 
-interface Item {
-  area: string
-  positions: {
-    title: string
-    location: string
-    link: string
-  }[]
-}
 
 export default function ScenarioInnovation() {
 
+  const { t } = useTranslation();
 
   return (
     <section className="relative">
@@ -38,10 +34,10 @@ export default function ScenarioInnovation() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-                Scenario Innovation
+                {t('common.digitalAvatarSystem.scenario.title')}
             </h2>
             <p className="text-lg text-slate-400">
-                Avatar appearance restoration, gesture simulation, motion capture, smart voice interaction, autonomous learning, real-time rendering. Unlimited avatars and scenarios, 24/7 one-stop digital human solution.
+                {t('common.digitalAvatarSystem.scenario.description')}
             </p>
           </div>
 
@@ -57,22 +53,22 @@ export default function ScenarioInnovation() {
                   </g>
                 </svg>
               </div>
-              <div className="font-bold text-slate-100 mb-1">Avatar</div>
+              <div className="font-bold text-slate-100 mb-1">{t('common.digitalAvatarSystem.scenario.features.0.title')}</div>
               <p className="text-sm text-slate-400">
-                Create unique digital avatars with highly realistic virtual image technology, ushering in a new era of personalized social interaction.
-                </p>
+                {t('common.digitalAvatarSystem.scenario.features.0.desc')}
+              </p>
             </div>
             {/* Block #2 */}
             <div className="text-center p-5">
               <div className="inline-flex items-center justify-center h-12 w-12 rounded-full border border-transparent [background:linear-gradient(theme(colors.slate.800),_theme(colors.slate.800))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                  <path className="fill-slate-200" d="M9.423 12.278H.87L11.614.458l-1.037 7.264h8.553L8.386 19.542l1.037-7.264Zm-6.293-1h7.447l-.74 5.18 7.033-7.736H9.423l.74-5.18-7.033 7.736Z" opacity=".8" />
+                  <path className="fill-slate-200" d="M9.423 12.278H.87L11.614.458c.094-.127.142-.275.142-.427V-1.5h.984l-.104 2.4c-.004.07.015.14.054.197l10.88 13.554h-8.553c-.127 0-.245.063-.316.168L10.374 22h-1.015l.064-9.722z" />
                 </svg>
               </div>
-              <div className="font-bold text-slate-100 mb-1">Interaction</div>
+              <div className="font-bold text-slate-100 mb-1">{t('common.digitalAvatarSystem.scenario.features.1.title')}</div>
               <p className="text-sm text-slate-400">
-                Deliver multimodal smart interaction experiences, enabling natural and immersive engagement with virtual avatars.
-                </p>
+                {t('common.digitalAvatarSystem.scenario.features.1.desc')}
+              </p>
             </div>
             {/* Block #3 */}
             <div className="text-center p-5">
@@ -84,10 +80,10 @@ export default function ScenarioInnovation() {
                   </g>
                 </svg>
               </div>
-              <div className="font-bold text-slate-100 mb-1">Solution</div>
+              <div className="font-bold text-slate-100 mb-1">{t('common.digitalAvatarSystem.scenario.features.2.title')}</div>
               <p className="text-sm text-slate-400">
-              Offer a one-stop digital human solution, covering the entire journey from creation to monetization.
-                </p>
+                {t('common.digitalAvatarSystem.scenario.features.2.desc')}
+              </p>
             </div>
           </div>
 

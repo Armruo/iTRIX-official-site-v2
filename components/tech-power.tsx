@@ -1,8 +1,14 @@
+'use client'
+
 import Image from 'next/image'
 import Illustration from '@/public/images/digital-avatar/features-illustration.svg'
 import FeaturesImage from '@/public/images/digital-avatar/features-02.png'
+import { useTranslation } from 'react-i18next'
 
 export default function TechEmpower() {
+
+  const { t } = useTranslation()
+
   return (
     <section className="relative">
       {/* Bg gradient */}
@@ -15,9 +21,11 @@ export default function TechEmpower() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans mb-4">Technology Empowerment</h2>
+            <h2 className="h2 font-uncut-sans mb-4">{t('common.digitalAvatarSystem.techEmpower.title')}</h2>
             <div className="max-w-2xl mx-auto">
-              <p className="text-xl text-gray-400">Cutting-edge AI avatar technology integrating voice cloning, smart editing, and intelligent copywriting, creating multimodal interaction and AI-driven avatar ecosystem.</p>
+              <p className="text-xl text-gray-400">
+                {t('common.digitalAvatarSystem.techEmpower.description')}
+              </p>
             </div>
           </div>
           {/* Section content */}
@@ -25,27 +33,28 @@ export default function TechEmpower() {
             {/* Content */}
             <div className="md:w-7/12 lg:w-1/2 order-1 md:order-none" data-aos="zoom-out" data-aos-delay="200">
               <div className="text-center md:text-left">
-                <h3 className="h3 font-uncut-sans text-4xl mb-4">ITRIX leverages cutting-edge AI & Blockchain technologies</h3>
+                <h3 className="h3 font-uncut-sans text-4xl mb-4">{t('common.digitalAvatarSystem.techEmpower.subTitle')}</h3>
                 <p className="text-xl text-gray-400 mb-6">
-                Through AI-powered avatar technology, users can interact with highly realistic digital avatars, enjoying an immersive social experience. Whether for content creation, fan interaction, or personalized expression, ITRIX's technology empowerment opens up new possibilities for users and creators.</p>
+                  {t('common.digitalAvatarSystem.techEmpower.subDesc')}
+                </p>
                 <ul className="inline-flex flex-col text-lg text-gray-400 space-y-3">
                   <li className="flex items-center">
                     <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Multimodal Interaction, Immersive Experience</span>
+                    <span>{t('common.digitalAvatarSystem.techEmpower.features.0')}</span>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>AI-Driven Creation, Lowering Barriers</span>
+                    <span>{t('common.digitalAvatarSystem.techEmpower.features.1')}</span>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Highly Realistic Avatars, Personalized Expression</span>
+                    <span>{t('common.digitalAvatarSystem.techEmpower.features.2')}</span>
                   </li>
                 </ul>
               </div>

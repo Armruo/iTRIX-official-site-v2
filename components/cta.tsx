@@ -1,4 +1,11 @@
+'use client'
+
+import { useTranslation } from 'react-i18next'
+
 export default function Cta() {
+
+  const { t } = useTranslation()
+
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -26,7 +33,8 @@ export default function Cta() {
               <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The security first platform</div>
             </div> */}
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-600 via-slate-200 dark:from-purple-400 dark:to-blue-400 dark:via-slate-200 pb-4">
-            Create Your Digital Avatar, Unlock AI Interaction</h2>
+              {t('common.cta.content')}
+            </h2>
             {/* <p className="text-lg text-slate-400 mb-8">All the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p> */}
             {/* <div>
               <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="#0">

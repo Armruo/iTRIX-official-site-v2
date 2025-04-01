@@ -7,18 +7,6 @@ import { LanguagesSupported } from './language'
 const loadLangResources = (lang: string) => ({
     translation: {
       common: require(`./${lang}/common`).default,
-    //   home: require(`./${lang}/home`).default,
-    //   about: require(`./${lang}/about`).default,
-    //   features: require(`./${lang}/features`).default,
-    //   blog: require(`./${lang}/blog`).default,
-    //   contact: require(`./${lang}/contact`).default,
-    //   docs: require(`./${lang}/docs`).default,
-    //   faq: require(`./${lang}/faq`).default,
-    //   team: require(`./${lang}/team`).default,
-    //   useCases: require(`./${lang}/use-cases`).default,
-    //   components: require(`./${lang}/components`).default,
-    //   digitalAvatar: require(`./${lang}/digital-avatar`).default,
-    //   roadmap: require(`./${lang}/roadmap`).default,
     },
 })
 
@@ -28,11 +16,30 @@ const resources = LanguagesSupported.reduce((acc: any, lang: string) => {
     return acc
 }, {})
 
+// 获取初始语言
+const getInitialLanguage = () => {
+    // 如果在客户端，先检查 cookie
+    if (typeof window !== 'undefined') {
+        const localeCookie = document.cookie.split(';').find(c => c.trim().startsWith('locale='))
+        if (localeCookie) {
+            const locale = localeCookie.split('=')[1]
+            if (LanguagesSupported.includes(locale)) {
+                return locale
+            }
+        }
+    }
+    // 默认返回英文
+    return 'en-US'
+}
+
 i18n.use(initReactI18next)
     .init({
-        lng: undefined,
+        lng: getInitialLanguage(),
         fallbackLng: 'en-US',
         resources,
+        interpolation: {
+            escapeValue: false,
+        },
     })
 
 export const changeLanguage = i18n.changeLanguage

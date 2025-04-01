@@ -2,14 +2,13 @@
 
 import Spline from '@splinetool/react-spline';
 
-import { useContext } from 'use-context-selector'
 import { useTranslation } from 'react-i18next'
-import I18n from '@/context/i18n'
+import i18next from '@/app/i18n/i18next-config'
 
 export default function HeroHomeNew() {
 
-    const { locale } = useContext(I18n)
     const { t } = useTranslation()
+    const currentLanguage = i18next.language || 'en-US'
 
     return (
         <section>
@@ -29,9 +28,13 @@ export default function HeroHomeNew() {
                 {/* 内容容器 */}
                 <div className="relative z-10 flex flex-col justify-center max-w-[1900px] mx-auto px-6 sm:px-8 lg:px-10 2xl:px-16 h-full">
                     <div className="md:max-w-xl lg:max-w-2xl">
+                        {/* {process.env.NODE_ENV === 'development' && (
+                            <div className="text-sm text-gray-500 mb-4">
+                                Current Language: {currentLanguage}
+                            </div>
+                        )} */}
                         <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-600 via-slate-200 to-slate-600" data-aos="fade-down">
                             <span className="block">{t('common.home.hero.title')}</span>
-                            <span className="block">{t('common.home.hero.title2')}</span>
                         </h1>
                         <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
                             {t('common.home.hero.description')}
@@ -48,7 +51,7 @@ export default function HeroHomeNew() {
                                     hover:after:scale-95 hover:after:opacity-0"
                                     href="#0">
                                     <span className="relative z-10 flex items-center">
-                                    {t('common.home.hero.cta')}
+                                        {t('common.home.hero.dAppButton')}
                                         <svg className="w-4 h-4 ml-2 -mr-1 transition-transform group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                             <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>

@@ -1,4 +1,11 @@
+'use client'
+
+import { useTranslation } from "react-i18next"
+
 export default function Content() {
+
+  const { t } = useTranslation()
+
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -11,10 +18,10 @@ export default function Content() {
               <div className="flex flex-col h-full">
                 <div className="mb-4">
                 <div className="text-2xl font-bold mb-2 bg-gradient-to-r from-purple-500 to-pink-400 bg-clip-text text-transparent">
-                    Celebrities
+                    {t('common.digitalAvatarSystem.items.0.title')}
                   </div>
                   <p className="text-gray-600 dark:text-gray-400">
-                    AI accurately replicates voice and image, profoundly evolving personalized IP.
+                    {t('common.digitalAvatarSystem.items.0.desc')}
                   </p>
                 </div>
               </div>
@@ -25,10 +32,10 @@ export default function Content() {
               <div className="flex flex-col h-full">
                 <div className="mb-4">
                   <div className="text-2xl font-bold mb-2 bg-gradient-to-r from-purple-500 to-pink-400 bg-clip-text text-transparent">
-                    Industry KOLs
+                    {t('common.digitalAvatarSystem.items.1.title')}
                   </div>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Smart content optimization and efficient interaction amplify influence.
+                    {t('common.digitalAvatarSystem.items.1.desc')}
                   </p>
                 </div>
               </div>
@@ -39,10 +46,10 @@ export default function Content() {
               <div className="flex flex-col h-full">
                 <div className="mb-4">
                 <div className="text-2xl font-bold mb-2 bg-gradient-to-r from-purple-500 to-pink-400 bg-clip-text text-transparent">
-                    Content Creators
+                    {t('common.digitalAvatarSystem.items.2.title')}
                   </div>
                   <p className="text-gray-600 dark:text-gray-400">
-                    AI-generated creative content precisely targets audiences, driving unlimited growth.
+                    {t('common.digitalAvatarSystem.items.2.desc')}
                   </p>
                 </div>
               </div>
@@ -53,10 +60,10 @@ export default function Content() {
               <div className="flex flex-col h-full">
                 <div className="mb-4">
                 <div className="text-2xl font-bold mb-2 bg-gradient-to-r from-purple-500 to-pink-400 bg-clip-text text-transparent">
-                    Enterprise Brands
+                    {t('common.digitalAvatarSystem.items.3.title')}
                   </div>
                   <p className="text-gray-600 dark:text-gray-400">
-                    AI-powered marketing innovation precisely unlocks brand value.
+                    {t('common.digitalAvatarSystem.items.3.desc')}
                   </p>
                 </div>
               </div>

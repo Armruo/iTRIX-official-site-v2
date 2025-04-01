@@ -1,11 +1,19 @@
+'use client'
+
 import Link from 'next/link'
 import Logo from './logo'
 import Dropdown from '@/components/utils/dropdown'
 import ThemeToggle from './theme-toggle'
 import MobileMenu from './mobile-menu'
 import ConnectWallet from '@/components/connect-wallet';
+import LanguageSwitcher from '@/components/language-switcher';
+
+import { useTranslation } from 'react-i18next'
 
 export default function Header() {
+
+  const { t } = useTranslation()
+
   return (
     <header className="absolute w-full z-30">
       <div className="max-w-[1900px] mx-auto px-6 sm:px-6 lg:px-8 2xl:px-16">
@@ -27,7 +35,7 @@ export default function Header() {
                   href="/about"
                   className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  About
+                  {t('common.navigation.about')}
                 </Link>
               </li>
               
@@ -36,7 +44,7 @@ export default function Header() {
                   href="/digital-avatar-system"
                   className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Digital Avatar System
+                  {t('common.navigation.digitalAvatarSystem')}
                 </Link>
               </li>
               <li>
@@ -44,7 +52,7 @@ export default function Header() {
                   href="/features"
                   className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Features
+                  {t('common.navigation.features')}
                 </Link>
               </li>
               <li>
@@ -52,7 +60,7 @@ export default function Header() {
                   href="/roadmap"
                   className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Roadmap
+                  {t('common.navigation.roadmap')}
                 </Link>
               </li>
               <li>
@@ -60,18 +68,18 @@ export default function Header() {
                   href="/use-cases"
                   className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Use Cases
+                  {t('common.navigation.useCases')}
                 </Link>
               </li>
               {/* 1st level: hover */}
-              <Dropdown title="Resources">
+              <Dropdown title={t('common.navigation.resources')}>
                 {/* 2nd level: hover */}
                 <li>
                   <Link
                     href="/blog"
                     className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                   >
-                    Blog
+                    {t('common.navigation.blog')}
                   </Link>
                 </li>
                 <li>
@@ -79,7 +87,7 @@ export default function Header() {
                     href="/docs"
                     className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                   >
-                    Docs
+                    {t('common.navigation.docs')}
                   </Link>
                 </li>
                 <li>
@@ -87,7 +95,7 @@ export default function Header() {
                     href="/team"
                     className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                   >
-                    Team
+                    {t('common.navigation.team')}
                   </Link>
                 </li>
                 <li>
@@ -95,7 +103,7 @@ export default function Header() {
                     href="/faq"
                     className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                   >
-                    FAQ
+                    {t('common.navigation.faq')}  
                   </Link>
                 </li>
                 <li>
@@ -109,21 +117,18 @@ export default function Header() {
               </Dropdown>
             </ul>
 
-            {/* Desktop lights switch */}
-            <ThemeToggle className="ml-3" />
+            {/* Desktop language and theme switches */}
+            <div className="flex items-center ml-3">
+              <LanguageSwitcher />
+              <ThemeToggle className="ml-3" />
+            </div>
 
             {/* Desktop CTA on the right */}
             <ul className="flex justify-end flex-wrap items-center">
-              {/* <li>
-                <Link href="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">
-                  Explorer dApp
-                </Link>
-              </li> */}
               <li className="ml-6">
                 <ConnectWallet size="small" />
               </li>
             </ul>
-
 
           </nav>
 

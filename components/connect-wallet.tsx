@@ -1,4 +1,5 @@
-import IndexBtn from '@/components/IndexBtn';
+'use client'
+
 import {
   Address,
   Connector,
@@ -6,10 +7,12 @@ import {
 } from '@ant-design/web3';
 import { Button, Popconfirm } from 'antd';
 import React from 'react';
+import { useTranslation } from 'react-i18next'
+import IndexBtn from '@/components/IndexBtn';
 
 interface Props {
   style?: React.CSSProperties;
-  size?: 'small';
+  size?: 'small' | 'middle' | 'large';
 }
 
 const MyConnectButton: React.FC<ConnectorTriggerProps & Props> = ({
@@ -20,11 +23,16 @@ const MyConnectButton: React.FC<ConnectorTriggerProps & Props> = ({
   loading,
   account,
 }) => {
+
+  const { t } = useTranslation()
+  const connectText = t('common.wallet.connect'); 
+  const disconnectSureText = t('common.wallet.disconnectSure'); 
+
   if (account && !loading) {
     return (
       <div style={{ position: 'relative' }}>
         <Popconfirm
-          title="Are you sure you want to disconnect?"
+          title={disconnectSureText}
           onConfirm={async () => {
             onDisconnectClick?.();
           }}
@@ -49,8 +57,8 @@ const MyConnectButton: React.FC<ConnectorTriggerProps & Props> = ({
         onClick={onConnectClick}
       >
         {loading
-          ? "Connecting..."
-          : "Connect Wallet"}
+          ? t('common.wallet.connecting')
+          : connectText}
       </IndexBtn>
     </div>
   );
