@@ -1,8 +1,11 @@
+'use client'
+
 import Image from 'next/image'
 import React from 'react'
 import HeroBg from '@/public/images/news-05.jpg'
-import { roadmapData } from '@/content/roadmap/roadmap-data'
+import { useRoadmapData } from '@/content/roadmap/roadmap-data'
 import { RoadmapPhase, RoadmapStep } from '@/types/roadmap'
+import { useTranslation } from 'react-i18next'
 
 const StatusBadge = ({ status }: { status: RoadmapPhase['status'] }) => {
   const statusStyles = {
@@ -84,6 +87,10 @@ const RoadmapPhase = ({ phase }: { phase: RoadmapPhase }) => (
 )
 
 export default function HeroRoadmap() {
+  const roadmapData = useRoadmapData();
+  
+  const { t } = useTranslation();
+  
   return (
     <section className="relative">
       {/* Background image */}
