@@ -8,9 +8,9 @@ const translation = {
   navigation: {
     "": "",
     home: "Accueil",
-    about: "À Propos",
+    about: "À propos",
     digitalAvatarSystem: "Système d'Avatar Numérique",
-    features: "Modules Fonctionnels",
+    features: "Fonctionnalités",
     roadmap: "Feuille de Route",
     useCases: "Cas d'Utilisation",
     resources: "Ressources",
@@ -23,8 +23,8 @@ const translation = {
 
   home: {
     hero: {
-      title: "N'importe quand, n'importe où, possibilités infinies",
-      description: "ITRIX est une plateforme de médias sociaux Web3.0 alimentée par l'IA qui apprend des données d'activité des utilisateurs sur les plateformes sociales pour créer des agents IA hautement personnalisés et réalistes comme avatars numériques pour l'interaction multi-scénarios.",
+      title: "Partout et à tout moment, des possibilités infinies",
+      description: "ITRIX est une plateforme de médias sociaux Web3.0 alimentée par l'IA qui apprend des données d'activité des utilisateurs sur les plateformes sociales pour créer des agents intelligents hautement personnalisés et réalistes en tant qu'avatars IA pour l'interaction multi-scénarios.",
       dAppButton: "Explorer DApp"
     },
     homeDatas: [
@@ -82,6 +82,26 @@ const translation = {
   },
 
   digitalAvatarSystem: {
+    title: "Système d'Avatar Numérique",
+    desc: "Intelligence Scénique · Influence Renouvelée",
+    items: [
+      {
+        title: "Célébrités",
+        desc: "L'IA reproduit précisément la voix et l'image, évolution profonde de l'IP personnelle"
+      },
+      {
+        title: "KOLs de l'Industrie",
+        desc: "Optimisation intelligente du contenu, interaction efficace augmente l'influence"
+      },
+      {
+        title: "Influenceurs",
+        desc: "Contenu créatif piloté par l'IA, croissance précise des abonnés"
+      },
+      {
+        title: "Marques",
+        desc: "Innovation marketing pilotée par l'IA, amélioration précise de la valeur de marque"
+      }
+    ],
     das1: {
       title: "Innovation Technologique",
       description: "Technologie d'image virtuelle IA de pointe, intégrant le clonage vocal, l'édition vidéo intelligente, la rédaction IA et d'autres capacités essentielles pour créer un écosystème d'avatar virtuel alimenté par l'IA avec interaction multimodale."
@@ -151,6 +171,16 @@ const translation = {
       title: "Édition Vidéo IA",
       description: "Correspondance de style thématique IA, édition de matériel en un clic, génération automatique de multiples versions vidéo, adaptation à divers scénarios marketing, maximisation de l'efficacité de production"
     }
+  },
+
+  wallet: {
+    connect: "Connect Wallet",
+    connecting: "Connecting...",
+    disconnectSure: "Are you sure you want to disconnect?",
+  },
+
+  cta: {
+    content: "Créez votre Avatar Numérique personnalisé et découvrez une nouvelle expérience d'interaction IA"
   }
 }
 

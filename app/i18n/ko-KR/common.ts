@@ -8,9 +8,9 @@ const translation = {
   navigation: {
     "": "",
     home: "홈",
-    about: "회사 소개",
+    about: "소개",
     digitalAvatarSystem: "디지털 아바타 시스템",
-    features: "기능 모듈",
+    features: "기능",
     roadmap: "로드맵",
     useCases: "사용 사례",
     resources: "리소스",
@@ -24,25 +24,25 @@ const translation = {
   home: {
     hero: {
       title: "언제 어디서나, 무한한 가능성",
-      description: "ITRIX는 소셜 플랫폼에서 사용자의 활동 데이터를 학습하여 다중 시나리오 상호작용을 위한 디지털 아바타로서 고도로 개인화된 현실적인 AI 에이전트를 생성하는 AI 기반 Web3.0 소셜 미디어 플랫폼입니다.",
+      description: "ITRIX는 사용자의 소셜 플랫폼 활동 데이터를 학습하여 다중 시나리오 상호작용을 위한 AI 아바타로서 개인화된 고충실도 지능형 에이전트를 생성하는 AI 기반 Web3.0 소셜 미디어 플랫폼입니다.",
       dAppButton: "DApp 탐색"
     },
     homeDatas: [
       {
         title: "2.4M",
-        description: "회전일수"
+        description: "회전일"
       },
       {
         title: "7M",
-        description: "회전일수"
+        description: "회전일"
       },
       {
         title: "7.4%",
-        description: "회전일수"
+        description: "회전일"
       },
       {
         title: "49K",
-        description: "회전일수"
+        description: "회전일"
       }
     ],
     homeIntro1: {
@@ -90,6 +90,26 @@ const translation = {
   },
 
   digitalAvatarSystem: {
+    title: "디지털 아바타 시스템",
+    desc: "장면 지능화 · 영향력 혁신",
+    items: [
+      {
+        title: "셀러브리티",
+        desc: "AI가 음성과 이미지를 정확히 재현, 개성 IP의 심층 진화"
+      },
+      {
+        title: "업계 KOL",
+        desc: "콘텐츠 제작 최적화, 효율적 상호작용으로 영향력 향상"
+      },
+      {
+        title: "인플루언서",
+        desc: "AI 기반 창의적 콘텐츠로 정확한 타겟팅, 팔로워 성장 촉진"
+      },
+      {
+        title: "브랜드",
+        desc: "AI 기반 마케팅 혁신, 브랜드 가치의 정확한 향상"
+      }
+    ],
     das1: {
       title: "기술 혁신",
       description: "최첨단 AI 가상 이미지 기술, 음성 클론, 지능형 편집, AI 카피라이팅 등 핵심 기능을 통합하여 다중 모달 상호작용과 AI 기반 가상 아바타 생태계 구축."
@@ -159,6 +179,16 @@ const translation = {
       title: "AI 비디오 편집",
       description: "AI 테마 스타일 매칭, 원클릭 소재 편집, 다중 버전 비디오 자동 생성, 다양한 마케팅 시나리오 적응, 제작 효율성 극대화"
     }
+  },
+
+  wallet: {
+    connect: "지갑 연결",
+    connecting: "연결 중...",
+    disconnectSure: "연결을 해제하시겠습니까?",
+  },
+
+  cta: {
+    content: "나만의 디지털 아바타를 만들고 AI 상호작용의 새로운 경험을 시작하세요"
   }
 }
 

@@ -8,12 +8,12 @@ const translation = {
   navigation: {
     home: "首頁",
     about: "關於我們",
-    digitalAvatarSystem: "數位分身系統",
+    digitalAvatarSystem: "數字分身系統",
     features: "功能模塊",
     roadmap: "發展路線",
     useCases: "場景案例",
     resources: "資源",
-    blog: "部落格",
+    blog: "博客",
     docs: "文檔",
     team: "團隊",
     faq: "常見問題",
@@ -29,19 +29,19 @@ const translation = {
     homeDatas: [
       {
         title: "2.4M",
-        description: "週轉天數"
+        description: "周轉天數"
       },
       {
         title: "7M",
-        description: "週轉天數"
+        description: "周轉天數"
       },
       {
         title: "7.4%",
-        description: "週轉天數"
+        description: "周轉天數"
       },
       {
         title: "49K",
-        description: "週轉天數"
+        description: "周轉天數"
       }
     ],
     homeIntro1: {
@@ -75,7 +75,7 @@ const translation = {
       },
       {
         title: "品牌增值",
-        description: "定制數位形象，品牌煥新升級"
+        description: "定制數字形象，品牌煥新升級"
       },
       {
         title: "虛擬身份",
@@ -89,13 +89,33 @@ const translation = {
   },
 
   digitalAvatarSystem: {
+    title: "數字分身系統",
+    desc: "場景智融 · 煥新影響力",
+    items: [
+      {
+        title: "明星名人",
+        desc: "AI精準還原聲音形象，個性IP深度進化"
+      },
+      {
+        title: "行業KOL",
+        desc: "智能優化內容生產，高效互動提升影響"
+      },
+      {
+        title: "自媒體網紅",
+        desc: "AI創意內容精準觸達，助力流量破圈增長"
+      },
+      {
+        title: "企業品牌",
+        desc: "AI驅動營銷創新升級，品牌價值精準釋放"
+      }
+    ],
     das1: {
       title: "技術賦能",
       description: "前沿AI虛擬形象技術，融合聲音克隆、智能剪輯、智能文案等核心能力，打造多模態交互、AI驅動的虛擬人分身生態。"
     },
     das2: {
       title: "場景創新",
-      description: "虛擬人外貌還原、姿態仿真、動作捕捉、智能語音交互、自主學習與即時渲染，無限分身、無限場景，7*24h一站式數位人解決方案。"
+      description: "虛擬人外貌還原、姿態仿真、動作捕捉、智能語音交互、自主學習與實時渲染，無限分身、無限場景，7*24h一站式數字人解決方案。"
     },
     coreValues: {
       title: "核心價值",
@@ -106,10 +126,10 @@ const translation = {
         },
         {
           title: "降本增效",
-          description: "大幅縮短拍攝週期，降低製作成本與難度。"
+          description: "大幅縮短拍攝周期，降低製作成本與難度。"
         },
         {
-          title: "矩陣佈局",
+          title: "矩陣布局",
           description: "快速規模化落地，精準賦能流量引入與線索轉化。"
         }
       ]
@@ -158,6 +178,16 @@ const translation = {
       title: "智能剪輯",
       description: "AI智能匹配主題風格，一鍵剪輯素材，自動生成多版本視頻，輕鬆應對多場景營銷需求，極致提升創作效率"
     }
+  },
+
+  wallet: {
+    connect: "連接錢包",
+    connecting: "連接中...",
+    disconnectSure: "確定要斷開連接嗎？",
+  },
+
+  cta: {
+    content: "打造專屬虛擬數字人 開啟AI互動新體驗"
   }
 }
 

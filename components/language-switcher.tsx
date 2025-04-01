@@ -6,14 +6,12 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { languages } from '@/app/i18n/language'
 import { useTranslation } from 'react-i18next'
 import i18next from '@/app/i18n/i18next-config'
-import { useRouter } from 'next/navigation'
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
 export default function LanguageSwitcher() {
-  const router = useRouter()
   const { i18n } = useTranslation()
   const currentLanguage = languages.find(lang => lang.value === i18n.language) || languages[0]
 
@@ -22,8 +20,6 @@ export default function LanguageSwitcher() {
     document.cookie = `locale=${langValue};path=/;max-age=31536000`
     // 切换语言
     i18next.changeLanguage(langValue)
-    // 刷新页面
-    router.refresh()
   }
 
   return (

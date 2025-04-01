@@ -1,10 +1,11 @@
 const translation = {
+  
   common: {
     learnMore: "了解更多",
     getStarted: "开始使用",
     contactUs: "联系我们"
   },
-
+  
   navigation: {
     home: "首页",
     about: "关于我们",
@@ -81,6 +82,26 @@ const translation = {
   },
 
   digitalAvatarSystem: {
+    title: "数字分身系统",
+    desc: "场景智融 · 焕新影响力",
+    items: [
+      {
+        title: "明星名人",
+        desc: "AI精准还原声音形象，个性IP深度进化"
+      },
+      {
+        title: "行业KOL",
+        desc: "智能优化内容生产，高效互动提升影响"
+      },
+      {
+        title: "自媒体网红",
+        desc: "AI创意内容精准触达，助力流量破圈增长"
+      },
+      {
+        title: "企业品牌",
+        desc: "AI驱动营销创新升级，品牌价值精准释放"
+      }
+    ],
     das1: {
       title: "技术赋能",
       description: "前沿AI虚拟形象技术，融合声音克隆、智能剪辑、智能文案等核心能力，打造多模态交互、AI驱动的虚拟人分身生态。"
@@ -150,6 +171,16 @@ const translation = {
       title: "智能剪辑",
       description: "AI智能匹配主题风格，一键剪辑素材，自动生成多版本视频，轻松应对多场景营销需求，极致提升创作效率"
     }
+  },
+
+  wallet: {
+    connect: "连接钱包",
+    connecting: "连接中...",
+    disconnectSure: "确定要断开连接吗？",
+  },
+
+  cta: {
+    content: "打造专属虚拟数字人 开启AI交互新体验"
   }
 }
 

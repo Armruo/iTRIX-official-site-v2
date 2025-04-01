@@ -7,9 +7,9 @@ const translation = {
 
   navigation: {
     home: "Startseite",
-    about: "Über Uns",
+    about: "Über uns",
     digitalAvatarSystem: "Digitales Avatar-System",
-    features: "Funktionsmodule",
+    features: "Funktionen",
     roadmap: "Roadmap",
     useCases: "Anwendungsfälle",
     resources: "Ressourcen",
@@ -23,25 +23,25 @@ const translation = {
   home: {
     hero: {
       title: "Jederzeit und überall, unbegrenzte Möglichkeiten",
-      description: "ITRIX ist eine KI-gesteuerte Web3.0-Social-Media-Plattform, die aus den Aktivitätsdaten der Benutzer auf sozialen Plattformen lernt, um hochgradig personalisierte und realistische KI-Agenten als digitale Avatare für Multi-Szenario-Interaktion zu erstellen.",
+      description: "ITRIX ist eine KI-gesteuerte Web3.0-Social-Media-Plattform, die aus den Aktivitätsdaten der Benutzer auf sozialen Plattformen lernt, um hochpersonalisierte und realistische intelligente Agenten als KI-Avatare für Multi-Szenario-Interaktionen zu erstellen.",
       dAppButton: "DApp erkunden"
     },
     homeDatas: [
       {
         title: "2.4M",
-        description: "Umsatztage"
+        description: "Umschlagstage"
       },
       {
         title: "7M",
-        description: "Umsatztage"
+        description: "Umschlagstage"
       },
       {
         title: "7.4%",
-        description: "Umsatztage"
+        description: "Umschlagstage"
       },
       {
         title: "49K",
-        description: "Umsatztage"
+        description: "Umschlagstage"
       }
     ]
   },
@@ -81,6 +81,26 @@ const translation = {
   },
 
   digitalAvatarSystem: {
+    title: "Digitales Avatar-System",
+    desc: "Szenische Intelligenz · Erneuerte Einflussnahme",
+    items: [
+      {
+        title: "Prominente",
+        desc: "KI reproduziert präzise Stimme und Bild, tiefgreifende Entwicklung persönlicher IP"
+      },
+      {
+        title: "Branchen-KOLs",
+        desc: "Intelligente Content-Optimierung, effiziente Interaktion steigert Einfluss"
+      },
+      {
+        title: "Influencer",
+        desc: "KI-gesteuerte kreative Inhalte, präzises Follower-Wachstum"
+      },
+      {
+        title: "Marken",
+        desc: "KI-gesteuerte Marketing-Innovation, präzise Markenwertverbesserung"
+      }
+    ],
     das1: {
       title: "Technologische Innovation",
       description: "Modernste KI-virtuelle Bildtechnologie, Integration von Stimmklonen, intelligenter Videobearbeitung, KI-Texterstellung und anderen Kernfähigkeiten zur Schaffung eines KI-gesteuerten virtuellen Avatar-Ökosystems mit multimodaler Interaktion."
@@ -150,6 +170,16 @@ const translation = {
       title: "KI-Videobearbeitung",
       description: "KI-Themen-Stil-Matching, Ein-Klick-Materialbearbeitung, automatische Generierung mehrerer Videoversionen, Anpassung an verschiedene Marketing-Szenarien, Maximierung der Produktionseffizienz"
     }
+  },
+
+  wallet: {
+    connect: "Wallet verbinden",
+    connecting: "Verbindung wird hergestellt...",
+    disconnectSure: "Sind Sie sicher, dass Sie die Verbindung trennen möchten?",
+  },
+
+  cta: {
+    content: "Erstellen Sie Ihren persönlichen digitalen Avatar und entdecken Sie eine neue KI-Interaktionserfahrung"
   }
 }
 

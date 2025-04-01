@@ -28,11 +28,11 @@ export default function HeroHomeNew() {
                 {/* 内容容器 */}
                 <div className="relative z-10 flex flex-col justify-center max-w-[1900px] mx-auto px-6 sm:px-8 lg:px-10 2xl:px-16 h-full">
                     <div className="md:max-w-xl lg:max-w-2xl">
-                        {process.env.NODE_ENV === 'development' && (
+                        {/* {process.env.NODE_ENV === 'development' && (
                             <div className="text-sm text-gray-500 mb-4">
                                 Current Language: {currentLanguage}
                             </div>
-                        )}
+                        )} */}
                         <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-600 via-slate-200 to-slate-600" data-aos="fade-down">
                             <span className="block">{t('common.home.hero.title')}</span>
                         </h1>

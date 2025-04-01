@@ -8,9 +8,9 @@ const translation = {
   navigation: {
     "": "",
     home: "Inicio",
-    about: "Sobre Nosotros",
+    about: "Acerca de",
     digitalAvatarSystem: "Sistema de Avatar Digital",
-    features: "Módulos de Funciones",
+    features: "Características",
     roadmap: "Hoja de Ruta",
     useCases: "Casos de Uso",
     resources: "Recursos",
@@ -24,7 +24,7 @@ const translation = {
   home: {
     hero: {
       title: "En cualquier momento y lugar, posibilidades infinitas",
-      description: "ITRIX es una plataforma de redes sociales Web3.0 impulsada por IA que aprende de los datos de actividad de los usuarios en plataformas sociales para crear agentes de IA altamente personalizados y realistas como avatares digitales para interacción multiescenario.",
+      description: "ITRIX es una plataforma de redes sociales Web3.0 impulsada por IA que aprende de los datos de actividad de los usuarios en plataformas sociales para crear agentes inteligentes altamente personalizados y realistas como avatares de IA para interacción en múltiples escenarios.",
       dAppButton: "Explorar DApp"
     },
     homeDatas: [
@@ -82,6 +82,26 @@ const translation = {
   },
 
   digitalAvatarSystem: {
+    subTitle: "Sistema de Avatar Digital",
+    desc: "Inteligencia Escénica · Influencia Renovada",
+    items: [
+      {
+        title: "Celebridades",
+        desc: "IA recrea con precisión voz e imagen, evolución profunda del IP personal"
+      },
+      {
+        title: "KOLs de la Industria",
+        desc: "Optimización inteligente de contenido, interacción eficiente aumenta la influencia"
+      },
+      {
+        title: "Influencers",
+        desc: "Contenido creativo impulsado por IA, precisión en el crecimiento de seguidores"
+      },
+      {
+        title: "Marcas",
+        desc: "Innovación de marketing impulsada por IA, mejora precisa del valor de marca"
+      }
+    ],
     das1: {
       title: "Innovación Tecnológica",
       description: "Tecnología de imagen virtual AI de vanguardia, integrando clonación de voz, edición inteligente de video, redacción AI y otras capacidades centrales para crear un ecosistema de avatar virtual impulsado por AI con interacción multimodal."
@@ -151,6 +171,16 @@ const translation = {
       title: "Edición de Video AI",
       description: "Coincidencia de estilo temático AI, edición de material con un clic, generación automática de múltiples versiones de video, adaptación a diversos escenarios de marketing, maximización de eficiencia de producción"
     }
+  },
+
+  wallet: {
+    connect: "Conectar Billetera",
+    connecting: "Conectando...",
+    disconnectSure: "¿Estás seguro de que quieres desconectar?",
+  },
+
+  cta: {
+    content: "Crea tu Avatar Digital personalizado y descubre una nueva experiencia de interacción con IA"
   }
 }
 

@@ -1,4 +1,11 @@
+'use client'
+
+import { useTranslation } from "react-i18next"
+
 export default function Stats() {  
+
+  const { t } = useTranslation()
+
   return (
     <section className="relative">
       {/* Background gradient (light version only) */}
@@ -9,23 +16,31 @@ export default function Stats() {
           <div className="grid grid-cols-2 gap-4 lg:gap-6 md:grid-cols-4 text-center" data-aos-id-stats>
             {/* 1st item */}
             <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]">
-              <div className="font-red-hat-display text-3xl font-black tracking-tighter mb-1">2.4M</div>
-              <div className="text-gray-600 dark:text-gray-400">Days turn around</div>
+              <div className="font-red-hat-display text-3xl font-black tracking-tighter mb-1">
+                {t('common.home.homeDatas.0.title')}
+              </div>
+              <div className="text-gray-600 dark:text-gray-400">{t('common.home.homeDatas.0.description')}</div>
             </div>
             {/* 2nd item */}
             <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="100">
-              <div className="font-red-hat-display text-3xl font-black tracking-tighter mb-1">7M</div>
-              <div className="text-gray-600 dark:text-gray-400">Days turn around</div>
+              <div className="font-red-hat-display text-3xl font-black tracking-tighter mb-1">
+                {t('common.home.homeDatas.1.title')}
+              </div>
+              <div className="text-gray-600 dark:text-gray-400">{t('common.home.homeDatas.1.description')}</div>
             </div>
             {/* 3rd item */}
             <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="200">
-              <div className="font-red-hat-display text-3xl font-black tracking-tighter mb-1">7.4%</div>
-              <div className="text-gray-600 dark:text-gray-400">Days turn around</div>
+              <div className="font-red-hat-display text-3xl font-black tracking-tighter mb-1">
+                {t('common.home.homeDatas.2.title')}
+              </div>
+              <div className="text-gray-600 dark:text-gray-400">{t('common.home.homeDatas.2.description')}</div>
             </div>
             {/* 4th item */}
             <div className="bg-white dark:bg-gray-800 py-8 px-1 shadow-2xl" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="300">
-              <div className="font-red-hat-display text-3xl font-black tracking-tighter mb-1">49K</div>
-              <div className="text-gray-600 dark:text-gray-400">Days turn around</div>
+              <div className="font-red-hat-display text-3xl font-black tracking-tighter mb-1">
+                {t('common.home.homeDatas.3.title')}
+              </div>
+              <div className="text-gray-600 dark:text-gray-400">{t('common.home.homeDatas.3.description')}</div>
             </div>
           </div>
         </div>

@@ -82,6 +82,26 @@ const translation = {
   },
 
   digitalAvatarSystem: {
+    title: "Digital Avatar System",
+    desc: "Intelligent Integration · Renewed Influence",
+    items: [
+      {
+        title: "Celebrities",
+        desc: "AI precisely recreates voice and image, deeply evolving personal IP."
+      },
+      {
+        title: "Industry KOLs",
+        desc: "Smart content optimization, efficient interaction boosts influence."
+      },
+      {
+        title: "Influencers",
+        desc: "AI-driven creative content accurately targets, expanding follower growth."
+      },
+      {
+        title: "Brands",
+        desc: "AI-powered marketing innovation, precise brand value enhancement."
+      }
+    ],
     das1: {
       title: "Technology Empowerment",
       description: "Cutting-edge AI avatar technology integrating voice cloning, smart editing, and intelligent copywriting, creating multimodal interaction and AI-driven avatar ecosystem."
@@ -151,6 +171,16 @@ const translation = {
       title: "Intelligent Editing",
       description: "AI-powered Theme Matching, One-click Material Editing, Auto-generation of Multi-version Videos, Easily Meets Multi-scenario Marketing, Maximizes Creative Efficiency"
     }
+  },
+
+  wallet: {
+    connect: "Connect Wallet",
+    connecting: "Connecting...",
+    disconnectSure: "Are you sure you want to disconnect?",
+  },
+
+  cta: {
+    content: "Create Your Digital Avatar, Unlock AI Interaction"
   }
 }
 
