@@ -1,0 +1,68 @@
+{
+    "languages": [
+      {
+        "value": "en-US",
+        "name": "English (United States)",
+        "prompt_name": "English",
+        "example": "Hello, ITRIX!",
+        "supported": true
+      },
+      {
+        "value": "zh-Hans",
+        "name": "简体中文",
+        "prompt_name": "Chinese Simplified",
+        "example": "你好，ITRIX！",
+        "supported": true
+      },
+      {
+        "value": "zh-Hant",
+        "name": "繁體中文",
+        "prompt_name": "Chinese Traditional",
+        "example": "你好，ITRIX！",
+        "supported": true
+      },
+      {
+        "value": "es-ES",
+        "name": "Español (España)",
+        "prompt_name": "Spanish",
+        "example": "Saluton, ITRIX!",
+        "supported": true
+      },
+      {
+        "value": "fr-FR",
+        "name": "Français (France)",
+        "prompt_name": "French",
+        "example": "Bonjour, ITRIX!",
+        "supported": true
+      },
+      {
+        "value": "de-DE",
+        "name": "Deutsch (Deutschland)",
+        "prompt_name": "German",
+        "example": "Hallo, ITRIX!",
+        "supported": true
+      },
+      {
+        "value": "ja-JP",
+        "name": "日本語 (日本)",
+        "prompt_name": "Japanese",
+        "example": "こんにちは、ITRIX!",
+        "supported": true
+      },
+      {
+        "value": "ko-KR",
+        "name": "한국어 (대한민국)",
+        "prompt_name": "Korean",
+        "example": "안녕하세요, ITRIX!",
+        "supported": true
+      },
+      {
+        "value": "ru-RU",
+        "name": "Русский (Россия)",
+        "prompt_name": "Russian",
+        "example": " Привет, ITRIX!",
+        "supported": true
+      }
+    ]
+  }
+  

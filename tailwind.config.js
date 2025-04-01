@@ -22,7 +22,7 @@ module.exports = {
           600: '#52525A',
           700: '#3F3F45',
           800: '#2E2E33',
-          900: '#1D1D20',
+          900: '#000000',
         },
         teal: {
           50: '#F4FFFD',
@@ -85,6 +85,7 @@ module.exports = {
       fontFamily: {
         inter: ['var(--font-inter)', 'sans-serif'],
         'red-hat-display': ['var(--font-red-hat-display)', 'sans-serif'],
+        'cabinet-grotesk': ['var(--font-cabinet-grotesk)', 'sans-serif'], 
       },
       fontSize: {
         xs: ['0.75rem', { lineHeight: '1.5' }],

@@ -6,7 +6,7 @@ import OrdersTableItem from './orders-table-item'
 
 export interface Order {
   id: number
-  image: StaticImageData
+  image?: StaticImageData
   order: string
   date: string
   customer: string

@@ -77,11 +77,6 @@ export default function Footer() {
                   </li>
                   <li className="mb-1">
                     <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Use cases
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
                       Blog
                     </a>
                   </li>

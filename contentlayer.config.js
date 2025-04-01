@@ -1,8 +1,26 @@
-import { defineDocumentType, makeSource } from 'contentlayer/source-files'
+import { defineNestedType, defineDocumentType, makeSource } from 'contentlayer/source-files'
+import remarkGfm from 'remark-gfm'
+import rehypePrettyCode from 'rehype-pretty-code'
+import rehypeSlug from 'rehype-slug'
+import { remarkPlugins } from './mdx-plugins'
+
+const NameSlugPair = defineNestedType(() => ({
+  name: 'NameSlugPair',
+  fields: {
+    name: {
+      type: 'string',
+      required: true
+    },
+    slug: {
+      type: 'string',
+      required: true
+    },    
+  },
+}))
 
 const Post = defineDocumentType(() => ({
   name: 'Post',
-  filePathPattern: `**/*.mdx`,
+  filePathPattern: `blog/**/*.mdx`,
   contentType: 'mdx',
   fields: {
     title: {
@@ -27,17 +45,75 @@ const Post = defineDocumentType(() => ({
     },
     image: {
       type: 'string',
-    },        
+    }
   },
   computedFields: {
     slug: {
       type: 'string',
-      resolve: (doc) => doc._raw.flattenedPath,
-    },    
+      resolve: (doc) => doc._raw.flattenedPath.replace(/^blog\//, ''),
+    }
+  },
+}))
+
+const Doc = defineDocumentType(() => ({
+  name: 'Doc',
+  filePathPattern: `docs/**/*.mdx`,
+  contentType: 'mdx',
+  fields: {
+    title: {
+      type: 'string',
+      required: true
+    },
+    summary: {
+      type: 'string',
+      required: true,
+    },
+    topic: {
+      type: 'nested',
+      of: NameSlugPair,
+      required: true,
+    },
+    prev: {
+      type: 'nested',
+      of: NameSlugPair,
+    },
+    next: {
+      type: 'nested',
+      of: NameSlugPair,
+    }
+  },
+  computedFields: {
+    slug: {
+      type: 'string',
+      resolve: (doc) => doc._raw.flattenedPath.replace(/^docs\//, ''),
+    }
   },
 }))
 
 export default makeSource({
   contentDirPath: 'content',
-  documentTypes: [Post],
+  documentTypes: [Post, Doc],
+  mdx: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [
+      rehypeSlug,
+      [
+        rehypePrettyCode,
+        {
+          theme: 'github-dark',
+          onVisitLine(node) {
+            if (node.children.length === 0) {
+              node.children = [{ type: 'text', value: ' ' }]
+            }
+          },
+          onVisitHighlightedLine(node) {
+            node.properties.className.push('line--highlighted')
+          },
+          onVisitHighlightedWord(node) {
+            node.properties.className = ['word--highlighted']
+          },
+        },
+      ],
+    ],    
+  }
 })

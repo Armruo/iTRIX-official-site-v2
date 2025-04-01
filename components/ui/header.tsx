@@ -25,33 +25,42 @@ export default function Header() {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   About
+                </Link>
+              </li>
+              
+              <li>
+                <Link
+                  href="/digital-avatar-system"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Digital Avatar System
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/features"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Features
                 </Link>
               </li>
               <li>
                 <Link
                   href="/roadmap"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Roadmap
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/blog"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  href="/use-cases"
+                  className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/testimonials"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Testimonials
+                  Use Cases
                 </Link>
               </li>
               {/* 1st level: hover */}
@@ -59,20 +68,44 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href="/help"
-                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
+                    href="/blog"
+                    className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
                   >
-                    Help center
+                    Blog
                   </Link>
                 </li>
-                {/* <li>
+                <li>
                   <Link
-                    href="/404"
+                    href="/docs"
+                    className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  >
+                    Docs
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/team"
+                    className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  >
+                    Team
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/faq"
+                    className="text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-500 px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                  >
+                    FAQ
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/user/3HhCohCQhyEMUcZRZqkVmasFsedAJjSFyRRMhVPHW2Sz"
                     className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
                   >
-                    404
+                    User Account(临时)
                   </Link>
-                </li> */}
+                </li>
               </Dropdown>
             </ul>
 
@@ -83,7 +116,7 @@ export default function Header() {
             <ul className="flex justify-end flex-wrap items-center">
               {/* <li>
                 <Link href="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">
-                  Invite Code
+                  Explorer dApp
                 </Link>
               </li> */}
               <li className="ml-6">
