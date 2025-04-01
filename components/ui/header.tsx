@@ -4,6 +4,7 @@ import Dropdown from '@/components/utils/dropdown'
 import ThemeToggle from './theme-toggle'
 import MobileMenu from './mobile-menu'
 import ConnectWallet from '@/components/connect-wallet';
+import LanguageSwitcher from '@/components/language-switcher';
 
 export default function Header() {
   return (
@@ -109,21 +110,18 @@ export default function Header() {
               </Dropdown>
             </ul>
 
-            {/* Desktop lights switch */}
-            <ThemeToggle className="ml-3" />
+            {/* Desktop language and theme switches */}
+            <div className="flex items-center ml-3">
+              <LanguageSwitcher />
+              <ThemeToggle className="ml-3" />
+            </div>
 
             {/* Desktop CTA on the right */}
             <ul className="flex justify-end flex-wrap items-center">
-              {/* <li>
-                <Link href="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">
-                  Explorer dApp
-                </Link>
-              </li> */}
               <li className="ml-6">
                 <ConnectWallet size="small" />
               </li>
             </ul>
-
 
           </nav>
 

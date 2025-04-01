@@ -10,14 +10,13 @@ import { initReactI18next } from 'react-i18next/initReactI18next'
 import { i18n } from '.'
 import type { Locale } from '.'
 
-// https://locize.com/blog/next-13-app-dir-i18n/
 const initI18next = async (lng: Locale, ns: string) => {
     const i18nInstance = createInstance()
     await i18nInstance
       .use(initReactI18next)
       .use(resourcesToBackend((language: string, namespace: string) => import(`./${language}/${namespace}.ts`)))
       .init({
-        lng: lng === 'zh-Hans' ? 'zh-Hans' : lng,
+        lng,
         ns,
         fallbackLng: 'en-US',
       })
@@ -35,26 +34,12 @@ export async function useTranslation(lng: Locale, ns = '', options: Record<strin
 export const getLocaleOnServer = (): Locale => {
     const locales: string[] = i18n.locales
   
-    let languages: string[] | undefined
-    // get locale from cookie
+    // 首先检查 cookie 中是否有语言设置
     const localeCookie = cookies().get('locale')
-    languages = localeCookie?.value ? [localeCookie.value] : []
-  
-    // 从请求头中获取语言偏好
-    if (!languages.length) {
-      // Negotiator expects plain object so we need to transform headers
-      const negotiatorHeaders: Record<string, string> = {}
-      headers().forEach((value, key) => (negotiatorHeaders[key] = value))
-      // Use negotiator and intl-localematcher to get best locale
-      languages = new Negotiator({ headers: negotiatorHeaders }).languages()
+    if (localeCookie?.value && locales.includes(localeCookie.value)) {
+        return localeCookie.value as Locale
     }
   
-    // Validate languages
-    if (!Array.isArray(languages) || languages.length === 0 || !languages.every(lang => typeof lang === 'string' && /^[\w-]+$/.test(lang)))
-      languages = [i18n.defaultLocale]
-  
-    // match locale
-    const matchedLocale = match(languages, locales, i18n.defaultLocale) as Locale
-    return matchedLocale
+    // 如果是首次访问（没有 cookie），返回英文
+    return 'en-US' as Locale
 }
-  
