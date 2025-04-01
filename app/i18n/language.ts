@@ -6,26 +6,25 @@ export type Item = {
 }
 
 export type I18nText = {
-    'en-US': string
-    'zh-Hans': string
-    'pt-BR': string
-    'es-ES': string
-    'fr-FR': string
-    'de-DE': string
-    'ja-JP': string
-    'ko-KR': string
-    'ru-RU': string
-    'it-IT': string
-    'uk-UA': string
-    'vi-VN': string
-    'de_DE': string
-    'zh_Hant': string
-    'ro-RO': string
-    'pl-PL': string
-    'hi-IN': string
-    'fa-IR': string
-    'sl-SI': string
-    'th-TH': string
+    'en-US': string    // 英语（美国）
+    'zh-Hans': string  // 简体中文
+    'pt-BR': string    // 葡萄牙语（巴西）
+    'es-ES': string    // 西班牙语（西班牙）
+    'fr-FR': string    // 法语（法国）
+    'de-DE': string    // 德语（德国）
+    'ja-JP': string    // 日语（日本）
+    'ko-KR': string    // 韩语（韩国）
+    'ru-RU': string    // 俄语（俄罗斯）
+    'it-IT': string    // 意大利语（意大利）
+    'uk-UA': string    // 乌克兰语（乌克兰）
+    'vi-VN': string    // 越南语（越南）
+    'zh-Hant': string  // 繁体中文
+    'ro-RO': string    // 罗马尼亚语（罗马尼亚）
+    'pl-PL': string    // 波兰语（波兰）
+    'hi-IN': string    // 印地语（印度）
+    'fa-IR': string    // 波斯语（伊朗）
+    'sl-SI': string    // 斯洛文尼亚语（斯洛文尼亚）
+    'th-TH': string    // 泰语（泰国）
 }
 
 export const languages = data.languages
