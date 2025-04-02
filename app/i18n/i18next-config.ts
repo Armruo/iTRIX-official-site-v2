@@ -7,6 +7,7 @@ import { LanguagesSupported } from './language'
 const loadLangResources = (lang: string) => ({
     translation: {
       common: require(`./${lang}/common`).default,
+      roadmap: require(`./${lang}/roadmap`).default
     },
 })
 
