@@ -18,6 +18,7 @@ import FeaturesBlocks from '@/components/features-blocks'
 import Cta from '@/components/cta'
 import FeaturesAnimation from '@/components/features-animation'
 import Clients from '@/components/hero-client'
+import NewHomePage from '@/components/newHome/temp-next'
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
       {/* <FeaturesBlocks /> */}
       {/* <HowToUse /> */}
       <Cta />
+      <NewHomePage />
     </>
   )
 }
