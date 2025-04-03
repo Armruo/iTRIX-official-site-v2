@@ -74,8 +74,8 @@ const Features2 = ({}: RoadmapProps) => {
                                             />
                                         </div>
                                     </div>
-                                    <h4 className="h4 mb-4">{item.title}</h4>
-                                    <p className="body-2 text-n-4">{item.text}</p>
+                                    <h4 className="h4 mb-4">{t(item.title)}</h4>
+                                    <p className="body-2 text-n-4">{t(item.text)}</p>
                                 </div>
                             </div>
                         </div>
