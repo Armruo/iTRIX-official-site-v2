@@ -75,7 +75,19 @@ const Features2 = ({}: RoadmapProps) => {
                                         </div>
                                     </div>
                                     <h4 className="h4 mb-4">{t(item.title)}</h4>
-                                    <p className="body-2 text-n-4">{t(item.text)}</p>
+                                    
+                                    {item.items ? (
+                                        <div className="space-y-4">
+                                            {item.items.map((subItem, idx) => (
+                                                <div key={idx} className="space-y-2">
+                                                    <h5 className="subtitle-2 text-n-1">{t(subItem.title)}</h5>
+                                                    <p className="body-2 text-n-4">{t(subItem.description)}</p>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    ) : (
+                                        <p className="body-2 text-n-4">{t(item.text)}</p>
+                                    )}
                                 </div>
                             </div>
                         </div>
