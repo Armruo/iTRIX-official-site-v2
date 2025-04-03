@@ -43,7 +43,7 @@ export default function Home() {
       {/* <FeaturesBlocks /> */}
       {/* <HowToUse /> */}
       <Cta />
-      <NewHomePage />
+      {/* <NewHomePage /> */}
     </>
   )
 }
