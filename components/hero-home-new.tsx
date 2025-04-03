@@ -32,23 +32,23 @@ export default function HeroHomeNew() {
                 </div>
                 
                 {/* 内容容器 */}
-                <div className="relative z-10 flex flex-col justify-center max-w-[1900px] mx-auto px-6 sm:px-8 lg:px-10 2xl:px-16 h-full">
-                    <div className="w-full sm:w-4/5 md:w-3/4 lg:w-3/5 xl:w-1/2">
+                <div className="relative z-10 flex flex-col justify-center max-w-[1900px] mx-auto px-4 sm:px-8 lg:px-10 2xl:px-16 h-full pt-16 sm:pt-24 md:pt-28">
+                    <div className="w-full text-center sm:text-left mx-auto sm:mx-0 sm:w-4/5 md:w-3/4 lg:w-3/5 xl:w-1/2">
                         {/* {process.env.NODE_ENV === 'development' && (
                             <div className="text-sm text-gray-500 mb-4">
                                 Current Language: {currentLanguage}
                             </div>
                         )} */}
-                        <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-600 via-slate-200 to-slate-600 whitespace-pre-line" data-aos="fade-down">
+                        <h1 className="h1 text-4xl lg:text-6xl mb-6 sm:mb-4 font-red-hat-display font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-600 via-slate-200 to-slate-600 whitespace-pre-line" data-aos="fade-down">
                             {t('common.home.hero.title')}
                         </h1>
-                        <p className="text-xl text-gray-600 dark:text-gray-400 max-w-[90%]" data-aos="fade-down" data-aos-delay="150">
+                        <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-full sm:max-w-[90%] mx-auto sm:mx-0" data-aos="fade-down" data-aos-delay="150">
                             {t('common.home.hero.description')}
                         </p>
 
                         {/* CTA form */}
-                        <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
-                            <div className="flex justify-start max-w-sm mx-auto sm:max-w-md md:mx-0">
+                        <form className="mt-8 sm:mt-8" data-aos="fade-down" data-aos-delay="300">
+                            <div className="flex justify-center sm:justify-start max-w-sm mx-auto sm:max-w-md sm:mx-0">
                                 <a className="btn relative group overflow-hidden bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-500 hover:to-blue-400
                                     text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105
                                     before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent 
