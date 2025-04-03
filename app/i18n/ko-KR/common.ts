@@ -23,7 +23,7 @@ const translation = {
 
   home: {
     hero: {
-      title: "언제 어디서나, 무한한 가능성",
+      title: "언제 어디서나 \n 무한한 가능성",
       description: "ITRIX는 사용자의 소셜 플랫폼 활동 데이터를 학습하여 다중 시나리오 상호작용을 위한 AI 아바타로서 개인화된 고충실도 지능형 에이전트를 생성하는 AI 기반 Web3.0 소셜 미디어 플랫폼입니다.",
       dAppButton: "DApp 탐색"
     },
