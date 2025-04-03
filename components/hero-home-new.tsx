@@ -13,8 +13,8 @@ export default function HeroHomeNew() {
     const currentLanguage = i18next.language || 'en-US'
 
     return (
-        <section>
-            <div className="relative w-full h-screen">
+        <section className="min-h-screen">
+            <div className="relative w-full h-screen flex items-center">
                 {/* Spline容器 */}
                 {/* <div className="absolute inset-0 w-full h-full">
                     <Spline 
