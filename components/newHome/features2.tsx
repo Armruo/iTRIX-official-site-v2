@@ -7,14 +7,57 @@ import Heading from "@/components/newHome/heading";
 import { roadmap } from "@/components/newHome/mocks/roadmap";
 import Tagline from "@/components/newHome/tagline/tagline";
 import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 
 type RoadmapProps = {};
 
 const Features2 = ({}: RoadmapProps) => {
     const { t } = useTranslation();
+    const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+    const [sectionRect, setSectionRect] = useState({ top: 0, left: 0, width: 0, height: 0 });
+
+    useEffect(() => {
+        const section = document.querySelector('.features2-section');
+        if (section) {
+            const updateRect = () => {
+                const rect = section.getBoundingClientRect();
+                setSectionRect({
+                    top: rect.top,
+                    left: rect.left,
+                    width: rect.width,
+                    height: rect.height
+                });
+            };
+            
+            updateRect();
+            window.addEventListener('resize', updateRect);
+            window.addEventListener('scroll', updateRect);
+
+            return () => {
+                window.removeEventListener('resize', updateRect);
+                window.removeEventListener('scroll', updateRect);
+            };
+        }
+    }, []);
+
+    useEffect(() => {
+        const handleMouseMove = (e: MouseEvent) => {
+            const x = e.clientX - sectionRect.left;
+            const y = e.clientY - sectionRect.top;
+            setMousePosition({ x, y });
+        };
+
+        window.addEventListener('mousemove', handleMouseMove);
+        return () => window.removeEventListener('mousemove', handleMouseMove);
+    }, [sectionRect]);
+
+    const gradientStyle = {
+        transform: `translate(calc(${mousePosition.x}px - 50%), calc(${mousePosition.y}px - 50%))`,
+        transition: 'transform 0.2s ease-out'
+    };
     
     return (
-        <Section className="overflow-hidden relative">
+        <Section className="overflow-hidden relative features2-section">
             <div className="container md:pb-10">
                 <Heading tag="real-time influence anywhere anytime" title={t("common.features.title")} />
                 <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
@@ -94,8 +137,11 @@ const Features2 = ({}: RoadmapProps) => {
                 </div>
             </div>
             {/* Gradient background */}
-            <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute inset-0 pointer-events-none overflow-hidden">
+                <div 
+                    className="absolute left-0 top-0"
+                    style={gradientStyle}
+                >
                     <Image
                         className="w-[58.85rem] opacity-60 mix-blend-color-dodge"
                         src="/images/new-home/gradient.png"
