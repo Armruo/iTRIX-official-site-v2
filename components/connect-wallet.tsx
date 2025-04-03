@@ -12,7 +12,7 @@ import IndexBtn from '@/components/IndexBtn';
 
 interface Props {
   style?: React.CSSProperties;
-  size?: 'small' | 'middle' | 'large';
+  size?: 'small';
 }
 
 const MyConnectButton: React.FC<ConnectorTriggerProps & Props> = ({

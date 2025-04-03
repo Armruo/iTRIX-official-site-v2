@@ -4,6 +4,8 @@ import Spline from '@splinetool/react-spline';
 
 import { useTranslation } from 'react-i18next'
 import i18next from '@/app/i18n/i18next-config'
+import Image from 'next/image'
+import NewHomeHero from '@/public/images/new-home/home-hero.png'
 
 export default function HeroHomeNew() {
 
@@ -14,7 +16,7 @@ export default function HeroHomeNew() {
         <section>
             <div className="relative w-full h-screen">
                 {/* Spline容器 */}
-                <div className="absolute inset-0 w-full h-full">
+                {/* <div className="absolute inset-0 w-full h-full">
                     <Spline 
                         // scene="https://prod.spline.design/Wa-Xmo2KATInDEzN/scene.splinecode" // robot
                         scene="https://prod.spline.design/olAQR3L0cJoJh1zU/scene.splinecode"
@@ -23,22 +25,27 @@ export default function HeroHomeNew() {
                             console.error('Spline error:', error);
                         }}
                     />
+                </div> */}
+                {/* Illustration */}
+                <div className="absolute left-1/2 -translate-x-1/2 pointer-events-none -z-10" aria-hidden="true">
+                    <Image src={NewHomeHero} className="max-w-none" priority alt="Hero Illustration" />
                 </div>
                 
                 {/* 内容容器 */}
                 <div className="relative z-10 flex flex-col justify-center max-w-[1900px] mx-auto px-6 sm:px-8 lg:px-10 2xl:px-16 h-full">
-                    <div className="md:max-w-xl lg:max-w-2xl">
+                    <div className="w-full sm:w-4/5 md:w-3/4 lg:w-3/5 xl:w-1/2">
                         {/* {process.env.NODE_ENV === 'development' && (
                             <div className="text-sm text-gray-500 mb-4">
                                 Current Language: {currentLanguage}
                             </div>
                         )} */}
-                        <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-600 via-slate-200 to-slate-600" data-aos="fade-down">
-                            <span className="block">{t('common.home.hero.title')}</span>
+                        <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-800 to-blue-600 via-slate-200 to-slate-600 whitespace-pre-line" data-aos="fade-down">
+                            {t('common.home.hero.title')}
                         </h1>
-                        <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
+                        <p className="text-xl text-gray-600 dark:text-gray-400 max-w-[90%]" data-aos="fade-down" data-aos-delay="150">
                             {t('common.home.hero.description')}
                         </p>
+
                         {/* CTA form */}
                         <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
                             <div className="flex justify-start max-w-sm mx-auto sm:max-w-md md:mx-0">

@@ -3,7 +3,7 @@
 export default function NewFeatures() {
     return (
         <div>
-            <div className="left-[547px] top-[7352px] absolute inline-flex justify-center items-center gap-3">
+            <div className="left-[547px] top-[7352px] absolute inline-flex justify-center items-center gap-3 mb-8">
                 <div className="w-1 h-3 outline outline-1 outline-offset-[-0.50px] outline-orange-300"></div>
                 <div className="justify-start text-gray-400 text-xs font-normal font-['Space_Grotesk'] uppercase leading-none tracking-widest">Real-time Influence Anywhere,  Anytime</div>
                 <div className="w-1 h-3 origin-top-left rotate-180 outline outline-1 outline-offset-[-0.50px] outline-orange-300"></div>
@@ -85,8 +85,8 @@ export default function NewFeatures() {
                         <div className="w-0.5 h-6 left-[144px] top-[6.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
                         <div className="w-0.5 h-5 left-[148px] top-[9.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
                         <div className="w-0.5 h-5 left-[152px] top-[9.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
-                        <div className="w-0.5 h-5 left-[156px] top-[9.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
-                        <div className="w-0.5 h-6 left-[160px] top-[7.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
+                        <div className="w-0.5 h-6 left-[156px] top-[7.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
+                        <div className="w-0.5 h-2.5 left-[160px] top-[14.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
                         <div className="w-0.5 h-2.5 left-[164px] top-[14.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
                         <div className="w-0.5 h-2.5 left-[168px] top-[14.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
                         <div className="w-0.5 h-2.5 left-[172px] top-[14.50px] absolute bg-gradient-to-b from-indigo-400 to-pink-300 rounded-sm"></div>
@@ -209,9 +209,7 @@ export default function NewFeatures() {
                             <div className="inline-flex justify-start items-start gap-40">
                                 <div className="w-9 h-9 relative bg-purple-500 rounded-xl overflow-hidden">
                                     <div className="w-6 h-6 left-[5px] top-[5px] absolute overflow-hidden">
-                                        <div className="w-5 h-5 left-[2.17px] top-[2.16px] absolute">
-                                            <div className="w-5 h-5 left-0 top-0 absolute bg-white"></div>
-                                        </div>
+                                        <div className="w-5 h-5 left-[2.17px] top-[2.16px] absolute bg-white"></div>
                                     </div>
                                 </div>
                                 <div className="justify-start text-gray-400 text-[10px] font-normal font-['Space_Grotesk'] uppercase leading-3 tracking-wider">1m ago</div>
@@ -534,8 +532,6 @@ export default function NewFeatures() {
                     <div className="self-stretch justify-start text-gray-500 text-base font-light font-['Poppins'] leading-normal">AI matches themes intelligently, auto-edits multiple video versions with one click, simplifies multi-scenario marketing, maximizing creative efficiency</div>
                 </div>
             </div>
-
-
         </div>
 
     )

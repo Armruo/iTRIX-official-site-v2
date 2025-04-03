@@ -23,7 +23,7 @@ const translation = {
 
   home: {
     hero: {
-      title: "Real-time Influence Anywhere, Anytime",
+      title: "Real-time Influence \n Anywhere, Anytime",
       description: "ITRIX is an AI-powered Web3.0 social media platform that creates personalized, highly realistic AI agents as digital avatars for users by learning from their activity data on social platforms. These AI agents enable multi-scenario interactions.",
       dAppButton: "Explore DApp"
     },
