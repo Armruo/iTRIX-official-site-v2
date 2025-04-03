@@ -19,6 +19,7 @@ import Cta from '@/components/cta'
 import FeaturesAnimation from '@/components/features-animation'
 import Clients from '@/components/hero-client'
 import NewHomePage from '@/components/newHome/temp-next'
+import Features2 from '@/components/newHome/features2'
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
       <Clients />
       {/* <SplineBlockchain /> */}
       <HeroBlockChain />
+      <Features2 />
       <Carousel />
       <FeaturesAnimation />
       {/* <Tabs /> */}

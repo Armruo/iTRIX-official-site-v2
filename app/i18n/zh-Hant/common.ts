@@ -208,7 +208,7 @@ const translation = {
   },
 
   cta: {
-    content: "打造專屬虛擬數字人 開啟AI互動新體驗"
+    content: "打造專屬虛擬數字人\n開啟AI互動新體驗"
   }
 }
 
