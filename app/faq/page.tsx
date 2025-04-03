@@ -7,6 +7,7 @@ import PageIllustration from '@/components/page-illustration'
 import Hero from '@/components/hero-help'
 import Content from './content'
 import RelatedLinks from '@/components/related-links'
+import NewTrainFlow from '@/components/newHome/train-flow'
 
 export default function Help() {
   return (
@@ -17,6 +18,7 @@ export default function Help() {
       </div>    
       <Hero />
       <Content />
+      <NewTrainFlow />
       {/* <RelatedLinks /> */}
     </>
   )
