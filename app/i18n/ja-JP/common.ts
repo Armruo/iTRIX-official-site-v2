@@ -23,7 +23,7 @@ const translation = {
 
   home: {
     hero: {
-      title: "いつでもどこでも、無限の可能性",
+      title: "いつでもどこでも、\n無限の可能性",
       description: "ITRIXは、ユーザーのソーシャルプラットフォームのアクティビティデータを学習し、マルチシナリオインタラクション用のAIアバターとして、パーソナライズされた高忠実度のインテリジェントエージェントを作成するAI駆動のWeb3.0ソーシャルメディアプラットフォームです。",
       dAppButton: "DAppを探索"
     },
@@ -167,6 +167,7 @@ const translation = {
   },
 
   features: {
+    title: "機能",
     avatar: {
       title: "バーチャルイメージクローン",
       items: [

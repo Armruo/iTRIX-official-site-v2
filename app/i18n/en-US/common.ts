@@ -23,7 +23,7 @@ const translation = {
 
   home: {
     hero: {
-      title: "Real-time Influence Anywhere, Anytime",
+      title: "Real-time Influence \n Anywhere, Anytime",
       description: "ITRIX is an AI-powered Web3.0 social media platform that creates personalized, highly realistic AI agents as digital avatars for users by learning from their activity data on social platforms. These AI agents enable multi-scenario interactions.",
       dAppButton: "Explore DApp"
     },
@@ -151,46 +151,47 @@ const translation = {
   },
 
   features: {
+    title: "Features",
     avatar: {
       title: "Virtual Avatar Cloning",
       items: [
         {
-          title: "Appearance · Hyper-realistic Restoration",
-          description: "Advanced algorithms deeply learn and finely replicate facial features, skin textures, and hair details, faithfully restoring lifelike appearance."
+          title: "Appearance · Lifelike",
+          description: "Advanced algorithms recreate facial features, skin textures, and hair details for ultra-realism."
         },
         {
-          title: "Motion · Natural Fluidity",
-          description: "Cutting-edge motion capture precisely synchronizes real movements, vivid and natural."
+          title: "Motion · Fluid",
+          description: "Motion capture precisely mirrors human gestures, vivid and natural."
         },
         {
-          title: "Visuals · Refined Authenticity",
-          description: "Real-time rendering accurately presents detailed lighting and environments, delivering immersive experiences."
+          title: "Visuals · Immersive",
+          description: "Real-time rendering enhances lighting and scene details, delivering realistic experiences."
         }
       ]
     },
 
     voice: {
-      title: "Intelligent Voice Cloning",
+      title: "AI Voice Cloning",
       items: [
         {
-          title: "Voice · Precision Cloning",
-          description: "Advanced acoustic algorithms precisely replicate voice, authentically restoring vocal charm."
+          title: "Voice · Accurate",
+          description: "Advanced acoustic algorithms precisely replicate original voice tone and style."
         },
         {
-          title: "Language · Seamless Multilingual Communication",
-          description: "Intelligent real-time language switching breaks barriers, empowering global interactions."
+          title: "Language · Seamless",
+          description: "Real-time multilingual switching, breaking barriers for global communication."
         }
       ]
     },
 
     writing: {
-      title: "Intelligent Copywriting",
-      description: "AI generates precise, scenario-based copywriting with efficient refinement, achieving perfect expression."
+      title: "AI Copywriting",
+      description: "AI-generated contextual copy, efficiently polished for perfect expression."
     },
 
     editing: {
-      title: "Intelligent Editing",
-      description: "AI-powered Theme Matching, One-click Material Editing, Auto-generation of Multi-version Videos, Easily Meets Multi-scenario Marketing, Maximizes Creative Efficiency"
+      title: "AI Editing",
+      description: "AI matches themes intelligently, auto-edits multiple video versions with one click, simplifies multi-scenario marketing, maximizing creative efficiency."
     }
   },
 

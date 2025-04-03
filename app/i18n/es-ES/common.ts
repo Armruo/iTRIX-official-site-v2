@@ -134,6 +134,7 @@ const translation = {
   },
 
   features: {
+    title: "Características",
     avatar: {
       title: "Clonación de Imagen Virtual",
       items: [

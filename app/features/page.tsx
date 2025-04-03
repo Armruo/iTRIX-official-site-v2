@@ -7,6 +7,7 @@ import PageIllustration from '@/components/page-illustration'
 import Hero from './hero'
 import Content from './content'
 import Video from '@/components/use-cases-video'
+import NewFeatures from '@/components/newHome/features'
 
 export default function Features() {
   return (
@@ -14,7 +15,8 @@ export default function Features() {
       {/*  Page illustration */}
       <div className="relative max-w-6xl mx-auto h-0 pointer-events-none -z-1" aria-hidden="true">
         <PageIllustration />
-      </div>    
+      </div>   
+      <NewFeatures /> 
       <Hero />
       <Content />
       <Video />
