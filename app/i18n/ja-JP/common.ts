@@ -167,6 +167,7 @@ const translation = {
   },
 
   features: {
+    title: "機能",
     avatar: {
       title: "バーチャルイメージクローン",
       items: [

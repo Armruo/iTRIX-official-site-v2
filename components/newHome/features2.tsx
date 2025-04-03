@@ -16,7 +16,7 @@ const Features2 = ({}: RoadmapProps) => {
     return (
         <Section className="overflow-hidden">
             <div className="container md:pb-10">
-                <Heading tag="Ready to get started" title={t("What we’re working on")} />
+                <Heading tag="real-time influence anywhere anytime" title={t("common.features.title")} />
                 <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
                     {roadmap.map((item, index) => (
                         <div
@@ -70,7 +70,7 @@ const Features2 = ({}: RoadmapProps) => {
                                                 src={item.imageUrl}
                                                 width={628}
                                                 height={426}
-                                                alt={item.title}
+                                                alt={t(item.title)}
                                             />
                                         </div>
                                     </div>

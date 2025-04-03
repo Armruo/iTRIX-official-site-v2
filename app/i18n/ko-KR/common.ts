@@ -167,6 +167,7 @@ const translation = {
   },
 
   features: {
+    title: "기능",
     avatar: {
       title: "가상 이미지 클론",
       items: [

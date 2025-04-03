@@ -134,6 +134,7 @@ const translation = {
   },
 
   "features": {
+    "title": "Функциональные Модули",
     "avatar": {
       "title": "Клонирование виртуального образа",
       "items": [

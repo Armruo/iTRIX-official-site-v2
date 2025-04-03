@@ -158,6 +158,7 @@ const translation = {
   },
 
   features: {
+    title: "功能模塊",
     avatar: {
       title: "虛擬形象克隆",
       items: [

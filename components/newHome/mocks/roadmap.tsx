@@ -1,3 +1,5 @@
+'use client';
+
 export const roadmap = [
     {
         id: "0",
@@ -13,7 +15,7 @@ export const roadmap = [
         title: "Gamification",
         text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
         date: "ITRIX",
-        status: "progress",
+        status: "done",
         imageUrl: "/images/new-home/roadmap/222.png",
     },
     {
@@ -29,7 +31,7 @@ export const roadmap = [
         title: "Integration with APIs",
         text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
         date: "ITRIX",
-        status: "progress",
+        status: "done",
         imageUrl: "/images/new-home/roadmap/444.png",
     },
 ];
