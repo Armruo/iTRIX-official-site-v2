@@ -2,15 +2,15 @@ const translation = {
   common: {
     learnMore: "Mehr erfahren",
     getStarted: "Loslegen",
-    contactUs: "Kontakt"
+    contactUs: "Kontaktieren Sie uns"
   },
-
+  
   navigation: {
     home: "Startseite",
     about: "Über uns",
     digitalAvatarSystem: "Digitales Avatar-System",
     features: "Funktionen",
-    roadmap: "Roadmap",
+    roadmap: "Entwicklungsplan",
     useCases: "Anwendungsfälle",
     resources: "Ressourcen",
     blog: "Blog",
@@ -22,182 +22,207 @@ const translation = {
 
   home: {
     hero: {
-      title: "Jederzeit und überall, unbegrenzte Möglichkeiten",
-      description: "ITRIX ist eine KI-gesteuerte Web3.0-Social-Media-Plattform, die aus den Aktivitätsdaten der Benutzer auf sozialen Plattformen lernt, um hochpersonalisierte und realistische intelligente Agenten als KI-Avatare für Multi-Szenario-Interaktionen zu erstellen.",
+      title: "Echtzeit-Einfluss\nÜberall, Jederzeit",
+      description: "ITRIX ist eine KI-gestützte Web3.0-Sozialplattform, die durch die Analyse von sozialen Aktivitäten personalisierte und realistische digitale Avatare erstellt und vielfältige Interaktionen ermöglicht.",
       dAppButton: "DApp erkunden"
     },
     homeDatas: [
       {
-        title: "2.4M",
-        description: "Umschlagstage"
+        title: "Solana",
+        description: "Blockchain"
       },
       {
-        title: "7M",
-        description: "Umschlagstage"
+        title: "$ITX",
+        description: "Token"
       },
       {
-        title: "7.4%",
-        description: "Umschlagstage"
+        title: "50M",
+        description: "Gesamtangebot"
       },
       {
-        title: "49K",
-        description: "Umschlagstage"
+        title: "10",
+        description: "Airdrop-Phasen"
       }
     ]
   },
 
   about: {
-    title: "Creator-Wert-Steigerung",
+    title: "Aufwertung des Creator-Werts",
     items: [
       {
         title: "Persönliche Interaktion",
-        description: "Präzise Kommunikation mit KI-Avatar, personalisierte Fan-Erfahrung"
+        description: "KI-Avatare kommunizieren präzise und gestalten Fan-Erlebnisse."
       },
       {
         title: "Fan-Monetarisierung",
-        description: "Mitgliedschafts-Zahlungssystem, Maximierung des Fan-Werts"
+        description: "Mitgliedschaftssystem maximiert den Fan-Wert."
       },
       {
-        title: "Effiziente Unterstützung",
-        description: "Automatische Avatar-Interaktion, Kostenreduzierung und Effizienzsteigerung"
+        title: "Effiziente Befähigung",
+        description: "Automatische Avatar-Interaktion reduziert Kosten und steigert Effizienz."
       },
       {
         title: "Datenschutz",
-        description: "Blockchain-Technologie, Gewährleistung der Datensicherheit"
+        description: "Blockchain-gestützte Datensicherheit, zuverlässig und sicher."
       },
       {
-        title: "Markenverbesserung",
-        description: "Personalisiertes digitales Image, Markenerneuerung und -entwicklung"
+        title: "Markenaufwertung",
+        description: "Personalisierte digitale Avatare erneuern und verbessern Marken."
       },
       {
         title: "Virtuelle Identität",
-        description: "Virtueller sozialer Avatar, nahtlose Interaktion im Metaverse"
+        description: "Virtuelle soziale Avatare ermöglichen immersive Metaverse-Interaktionen."
       },
       {
-        title: "Kreative Monetarisierung",
-        description: "Token-Ökonomie, vielfältige Einnahmequellen"
+        title: "Innovative Monetarisierung",
+        description: "Token-Wirtschaft ermöglicht vielfältige Einnahmequellen."
       }
-    ]
+    ],
+    business: {
+      title: "Geschäftecosystem",
+      items: [
+        {
+          title: "Bezahlte Kanäle",
+          description: "Abonnieren Sie die Kanäle der Kreatoren, um intelligente interaktive Erfahrungen zu entsperren."
+        },
+        {
+          title: "In-Feed-Werbung",
+          description: "Präzises Targeting, maximale Brand-Exposure."
+        },
+        {
+          title: "Content-Boosting",
+          description: "Bezahlte Werbung für Beiträge/Live-Streams, um die Reichweite des Publikums zu erhöhen."
+        },
+        {
+          title: "Virtuelle Geschenke",
+          description: "Direkte Belohnungen, die Wert direkt an die Kreatoren übertragen."
+        },
+        {
+          title: "Social Commerce",
+          description: "Verkauf durch digitale Avatare und inhaltsbasierte Empfehlungen."
+        }
+      ]
+    }
   },
 
   digitalAvatarSystem: {
     title: "Digitales Avatar-System",
-    desc: "Intelligente Integration · Erneuerte Einflussnahme",
+    desc: "Intelligente Integration · Erneuerter Einfluss",
     items: [
       {
         title: "Prominente",
-        desc: "KI reproduziert präzise Stimme und Bild, entwickelt persönliche IP weiter"
+        desc: "KI reproduziert präzise Stimme und Aussehen, entwickelt persönliche IP weiter."
       },
       {
         title: "Branchen-KOLs",
-        desc: "Intelligente Inhaltsoptimierung, effiziente Interaktion steigert Einfluss"
+        desc: "Intelligente Content-Optimierung, effiziente Interaktion steigert Einfluss."
       },
       {
-        title: "Content Creators",
-        desc: "KI-gesteuerte kreative Inhalte treffen präzise die Zielgruppe, fördern unbegrenztes Wachstum"
+        title: "Influencer",
+        desc: "KI-gesteuerter kreativer Content trifft präzise, fördert Wachstum der Reichweite."
       },
       {
-        title: "Unternehmensmarken",
-        desc: "KI-gestützte Marketing-Innovation, präzise Markenwertsteigerung"
+        title: "Marken",
+        desc: "KI-gestützte Marketing-Innovation, präzise Markenwertsteigerung."
       }
     ],
     techEmpower: {
       title: "Technologische Befähigung",
-      description: "Modernste KI-Avatar-Technologie, die Stimmklonen, intelligentes Editing und KI-Texterstellung integriert, schafft multimodale Interaktion und ein KI-gesteuertes Avatar-Ökosystem.",
-      subTitle: "ITRIX nutzt modernste KI- und Blockchain-Technologien",
-      subDesc: "Durch KI-gestützte Avatar-Technologie können Nutzer mit hochrealistischen digitalen Avataren interagieren und ein immersives soziales Erlebnis genießen. Ob für Content-Erstellung, Fan-Interaktion oder persönlichen Ausdruck, ITRIXs technologische Befähigung eröffnet neue Möglichkeiten für Nutzer und Creator.",
+      description: "Moderne KI-Avatar-Technologie integriert Stimmklonen, intelligente Bearbeitung und intelligentes Copywriting für multimodale Interaktion und ein KI-gesteuertes Avatar-Ökosystem.",
+      subTitle: "ITRIX nutzt modernste KI & Blockchain-Technologie",
+      subDesc: "Durch KI-gestützte Avatar-Technologie können Nutzer mit hochrealistischen digitalen Avataren interagieren und immersive soziale Erfahrungen genießen. Ob für Content-Erstellung, Fan-Interaktion oder persönlichen Ausdruck, ITRIXs technologische Befähigung eröffnet Nutzern und Erstellern neue Möglichkeiten.",
       features: [
-        "Multimodale Interaktion, immersives Erlebnis",
-        "KI-gesteuerte Erstellung, niedrige Einstiegshürden",
-        "Hochrealistische Avatare, persönlicher Ausdruck"
+        "Multimodale Interaktion, Immersives Erlebnis",
+        "KI-gesteuerte Erstellung, Reduzierte Barrieren",
+        "Hochrealistische Avatare, Persönlicher Ausdruck"
       ]
     },
     scenario: {
       title: "Szenario-Innovation",
-      description: "Avatar-Erscheinungsbild-Wiederherstellung, Gestensimulation, Bewegungserfassung, intelligente Sprachinteraktion, autonomes Lernen, Echtzeit-Rendering. Unbegrenzte Avatare und Szenarien, 24/7 One-Stop digitale Mensch-Lösung.",
+      description: "Avatar-Aussehen-Wiederherstellung, Gestensimulation, Bewegungserfassung, intelligente Sprachinteraktion, autonomes Lernen und Echtzeit-Rendering. Unbegrenzte Avatare und Szenarien, 24/7 All-in-One digitale Humanlösung.",
       features: [
         {
           title: "Avatar",
-          desc: "Erstellen Sie einzigartige digitale Avatare mit hochrealistischer virtueller Bildtechnologie und läuten Sie eine neue Ära der personalisierten sozialen Interaktion ein."
+          desc: "Erstellen Sie einzigartige digitale Avatare mit hochrealistischer virtueller Bildtechnologie für eine neue Ära personalisierter sozialer Interaktion."
         },
         {
           title: "Interaktion",
-          desc: "Bieten Sie multimodale intelligente Interaktionserlebnisse für natürliches und immersives Engagement mit virtuellen Avataren."
+          desc: "Bieten Sie intelligente multimodale Interaktionserlebnisse für natürliche und immersive Teilnahme mit virtuellen Avataren."
         },
         {
           title: "Lösung",
-          desc: "Bieten Sie eine One-Stop digitale Mensch-Lösung, die den gesamten Weg von der Erstellung bis zur Monetarisierung abdeckt."
+          desc: "Bieten Sie eine All-in-One digitale Humanlösung, die den gesamten Weg von der Erstellung bis zur Monetarisierung abdeckt."
         }
       ]
-    },
-    das1: {
-      title: "Technologische Innovation",
-      description: "Modernste KI-virtuelle Bildtechnologie, Integration von Stimmklonen, intelligenter Videobearbeitung, KI-Texterstellung und anderen Kernfähigkeiten zur Schaffung eines KI-gesteuerten virtuellen Avatar-Ökosystems mit multimodaler Interaktion."
-    },
-    das2: {
-      title: "Szenario-Innovation",
-      description: "Reproduktion virtueller Charaktere, Posensimulation, Bewegungserfassung, intelligente Sprachinteraktion, autonomes Lernen und Echtzeit-Rendering, unbegrenzte Avatare und Szenarien, 24/7 digitale Human-Komplettlösung."
     },
     coreValues: {
       title: "Kernwerte",
       items: [
         {
           title: "Virtuelle Präsenz",
-          description: "KI-Avatar-Ersatz für Realaufnahmen, Innovation in der Kurzvideo-Produktion."
+          description: "KI-Avatare ersetzen Menschen, revolutionieren Kurzvideo-Produktion."
         },
         {
           title: "Kosteneffizienz",
-          description: "Deutliche Reduzierung der Aufnahmezeit, Produktionskosten und -schwierigkeit."
+          description: "Kürzere Aufnahmezyklen, reduzierte Produktionskosten und Komplexität."
         },
         {
-          title: "Matrix-Einsatz",
-          description: "Schnelle Skalierung, präzise Traffic-Akquise und Lead-Konvertierung."
+          title: "Matrix-Skalierung",
+          description: "Schnelle Skalierung, präzise Traffic-Generierung und Lead-Konvertierung."
         }
       ]
+    },
+    ui: {
+      generating: "KI generiert......",
+      command: "Was kann ich für Sie tun?",
+      video: "Video generiert!",
+      justNow: "Gerade eben"
     }
   },
 
   features: {
+    title: "Funktionen",
+    subTitle: "KI ersetzt menschliche Arbeit,\nerstellt schnell Ihren exklusiven digitalen Avatar!",
     avatar: {
-      title: "Virtuelles Bild-Klonen",
+      title: "Virtuelles Avatar-Klonen",
       items: [
         {
-          title: "Aussehen · Höchster Realismus",
-          description: "Deep Learning mit fortschrittlichen Algorithmen, präzise Wiedergabe von Gesichtszügen, Hauttextur und Haardetails, ganzheitliche Nachbildung realer Personen"
+          title: "Aussehen · Realistisch",
+          description: "Fortschrittliche Algorithmen lernen Gesichtszüge, Hauttexturen und Haardetails für Ultra-Realismus."
         },
         {
-          title: "Bewegung · Natürliche Flüssigkeit",
-          description: "Fortschrittliche Bewegungserfassungstechnologie, präzise Synchronisation menschlicher Gesten, lebendiger Ausdruck"
+          title: "Bewegung · Flüssig",
+          description: "Fortschrittliche Bewegungserfassung spiegelt menschliche Gesten präzise, lebendig und natürlich."
         },
         {
-          title: "Visuell · Detaillierter Realismus",
-          description: "Echtzeit-Rendering-Engine, detaillierte Darstellung verschiedener Beleuchtungen und Szenen-Texturen, Schaffung von Immersion"
+          title: "Visuals · Immersiv",
+          description: "Echtzeit-Rendering verbessert Beleuchtung und Szenendetails für realistische Erlebnisse."
         }
       ]
     },
 
     voice: {
-      title: "Intelligentes Stimmklonen",
+      title: "KI-Stimmklonen",
       items: [
         {
-          title: "Stimme · Präzise Replikation",
-          description: "Fortschrittliche Audioalgorithmen für präzises Klonen von Original-Stimmproben, hohe Wiedergabetreue der Stimmcharakteristik"
+          title: "Stimme · Präzise",
+          description: "Fortschrittliche Akustik-Algorithmen replizieren Original-Stimmton und -stil präzise."
         },
         {
-          title: "Sprache · Grenzenlose Kommunikation",
-          description: "KI-gesteuerte mehrsprachige Echtzeitumschaltung, Beseitigung von Sprachbarrieren, Ermöglichung globaler Kommunikation"
+          title: "Sprache · Fließend",
+          description: "Echtzeit-Mehrsprachenwechsel überwindet Sprachbarrieren für globale Kommunikation."
         }
       ]
     },
 
     writing: {
-      title: "KI-Texterstellung",
-      description: "Intelligente Generierung raffinierter szenariobasierter Texte, effiziente Bearbeitung, Streben nach perfektem Ausdruck"
+      title: "KI-Copywriting",
+      description: "KI-generierte kontextuelle Kopien, effizient verfeinert für perfekten Ausdruck."
     },
 
     editing: {
-      title: "KI-Videobearbeitung",
-      description: "KI-Themen-Stil-Matching, Ein-Klick-Materialbearbeitung, automatische Generierung mehrerer Videoversionen, Anpassung an verschiedene Marketing-Szenarien, Maximierung der Produktionseffizienz"
+      title: "KI-Bearbeitung",
+      description: "KI passt Themen intelligent an, auto-editiert mehrere Video-Versionen mit einem Klick, vereinfacht Multi-Szenario-Marketing, maximiert kreative Effizienz."
     }
   },
 
@@ -208,7 +233,9 @@ const translation = {
   },
 
   cta: {
-    content: "Erstellen Sie Ihren persönlichen digitalen Avatar und entdecken Sie eine neue KI-Interaktionserfahrung"
+    content: "Erstellen Sie Ihren persönlichen digitalen Avatar und entdecken Sie eine neue KI-Interaktionserfahrung",
+    description: "Bildklonung · Stimmklonung · Inhaltserstellung · Virtual Live · API-Integration",
+    tryNow: "Jetzt ausprobieren"
   }
 }
 

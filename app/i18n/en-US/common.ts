@@ -23,26 +23,26 @@ const translation = {
 
   home: {
     hero: {
-      title: "Real-time Influence Anywhere, Anytime",
-      description: "ITRIX is an AI-powered Web3.0 social media platform that creates personalized, highly realistic AI agents as digital avatars for users by learning from their activity data on social platforms. These AI agents enable multi-scenario interactions.",
+      title: "Real-time Influence\nAnywhere, Anytime",
+      description: "ITRIX is an AI-powered Web3.0 social platform that generates personalized, realistic digital avatars by analyzing users' social activities, enabling diverse interactions.",
       dAppButton: "Explore DApp"
     },
     homeDatas: [
       {
-        title: "2.4M",
-        description: "Days turn around"
+        title: "Solana",
+        description: "Blockchain"
       },
       {
-        title: "7M",
-        description: "Days turn around"
+        title: "$ITX",
+        description: "Token"
       },
       {
-        title: "7.4%",
-        description: "Days turn around"
+        title: "50M",
+        description: "Total Supply"
       },
       {
-        title: "49K",
-        description: "Days turn around"
+        title: "10",
+        description: "Airdrop Seasons"
       }
     ]
   },
@@ -78,7 +78,32 @@ const translation = {
         title: "Innovative Monetization",
         description: "Token economy empowerment, diverse revenue channels."
       }
-    ]
+    ],
+    business: {
+      title: "Business Ecosystem",
+      items: [
+        {
+          title: "Paid Channels",
+          description: "Subscribe to creators' channels, unlocking smart interactive experiences."
+        },
+        {
+          title: "In-feed Ads",
+          description: "Precise targeting, maximizing brand exposure."
+        },
+        {
+          title: "Content Boosting",
+          description: "Paid promotion for posts/live streams, increasing audience reach."
+        },
+        {
+          title: "Virtual Gifts",
+          description: "Instant rewards, directly transferring value to creators."
+        },
+        {
+          title: "Social Commerce",
+          description: "Convert sales through digital avatars and content-driven recommendations."
+        }
+      ]
+    }
   },
 
   digitalAvatarSystem: {
@@ -135,62 +160,70 @@ const translation = {
       title: "Core Values",
       items: [
         {
-          title: "Virtual Presence",
-          description: "AI avatars replace humans, innovating short-video production."
+          title: "Virtual Appearance",
+          description: "AI avatars replace humans, revolutionizing short-video production."
         },
         {
           title: "Cost Efficiency",
-          description: "Significantly reduce production time, costs, and complexity."
+          description: "Shorter filming cycles, reduced production costs and complexity."
         },
         {
-          title: "Matrix Deployment",
-          description: "Rapid scaling, precise traffic acquisition and lead conversion."
+          title: "Matrix Scaling",
+          description: "Rapid expansion, precise traffic generation and lead conversion."
         }
       ]
+    },
+    ui: {
+      generating: "AI is generating......",
+      command: "What can I do with you?",
+      video: "Video generated!",
+      justNow: "just now"
     }
   },
 
   features: {
+    title: "Features",
+    subTitle: "AI replaces manpower, rapidly creating\nyour exclusive digital avatar!",
     avatar: {
       title: "Virtual Avatar Cloning",
       items: [
         {
-          title: "Appearance · Hyper-realistic Restoration",
-          description: "Advanced algorithms deeply learn and finely replicate facial features, skin textures, and hair details, faithfully restoring lifelike appearance."
+          title: "Appearance · Lifelike",
+          description: "Advanced algorithms recreate facial features, skin textures, and hair details for ultra-realism."
         },
         {
-          title: "Motion · Natural Fluidity",
-          description: "Cutting-edge motion capture precisely synchronizes real movements, vivid and natural."
+          title: "Motion · Fluid",
+          description: "Motion capture precisely mirrors human gestures, vivid and natural."
         },
         {
-          title: "Visuals · Refined Authenticity",
-          description: "Real-time rendering accurately presents detailed lighting and environments, delivering immersive experiences."
+          title: "Visuals · Immersive",
+          description: "Real-time rendering enhances lighting and scene details, delivering realistic experiences."
         }
       ]
     },
 
     voice: {
-      title: "Intelligent Voice Cloning",
+      title: "AI Voice Cloning",
       items: [
         {
-          title: "Voice · Precision Cloning",
-          description: "Advanced acoustic algorithms precisely replicate voice, authentically restoring vocal charm."
+          title: "Voice · Accurate",
+          description: "Advanced acoustic algorithms precisely replicate original voice tone and style."
         },
         {
-          title: "Language · Seamless Multilingual Communication",
-          description: "Intelligent real-time language switching breaks barriers, empowering global interactions."
+          title: "Language · Seamless",
+          description: "Real-time multilingual switching, breaking barriers for global communication."
         }
       ]
     },
 
     writing: {
-      title: "Intelligent Copywriting",
-      description: "AI generates precise, scenario-based copywriting with efficient refinement, achieving perfect expression."
+      title: "AI Copywriting",
+      description: "AI-generated contextual copy, efficiently polished for perfect expression."
     },
 
     editing: {
-      title: "Intelligent Editing",
-      description: "AI-powered Theme Matching, One-click Material Editing, Auto-generation of Multi-version Videos, Easily Meets Multi-scenario Marketing, Maximizes Creative Efficiency"
+      title: "AI Editing",
+      description: "AI matches themes intelligently, auto-edits multiple video versions with one click, simplifies multi-scenario marketing, maximizing creative efficiency."
     }
   },
 
@@ -201,7 +234,9 @@ const translation = {
   },
 
   cta: {
-    content: "Create Your Digital Avatar, Unlock AI Interaction"
+    content: "Create Your Digital Avatar, Unlock AI Interaction",
+    description: "Image Clone · Voice Clone · Content Creation · Virtual Streaming · API Integration",
+    tryNow: "Try Now"
   }
 }
 

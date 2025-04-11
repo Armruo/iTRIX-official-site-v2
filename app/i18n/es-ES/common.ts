@@ -4,45 +4,44 @@ const translation = {
     getStarted: "Comenzar",
     contactUs: "Contáctenos"
   },
-
+  
   navigation: {
-    "": "",
     home: "Inicio",
-    about: "Acerca de",
+    about: "Sobre nosotros",
     digitalAvatarSystem: "Sistema de Avatar Digital",
     features: "Características",
-    roadmap: "Hoja de Ruta",
-    useCases: "Casos de Uso",
+    roadmap: "Plan de desarrollo",
+    useCases: "Casos de uso",
     resources: "Recursos",
     blog: "Blog",
     docs: "Documentación",
     team: "Equipo",
-    faq: "Preguntas Frecuentes",
-    temp: "Página Temporal"
+    faq: "FAQ",
+    temp: "Página temporal"
   },
 
   home: {
     hero: {
-      title: "En cualquier momento y lugar, posibilidades infinitas",
-      description: "ITRIX es una plataforma de redes sociales Web3.0 impulsada por IA que aprende de los datos de actividad de los usuarios en plataformas sociales para crear agentes inteligentes altamente personalizados y realistas como avatares de IA para interacción en múltiples escenarios.",
+      title: "Influencia en Tiempo Real En Cualquier Lugar, En Cualquier Momento",
+      description: "ITRIX es una plataforma social Web3.0 impulsada por IA que genera avatares digitales personalizados y realistas mediante el análisis de actividades sociales, permitiendo interacciones diversas.",
       dAppButton: "Explorar DApp"
     },
     homeDatas: [
       {
-        title: "2.4M",
-        description: "Días de rotación"
+        title: "Solana",
+        description: "Blockchain"
       },
       {
-        title: "7M",
-        description: "Días de rotación"
+        title: "$ITX",
+        description: "Token"
       },
       {
-        title: "7.4%",
-        description: "Días de rotación"
+        title: "50M",
+        description: "Suministro Total"
       },
       {
-        title: "49K",
-        description: "Días de rotación"
+        title: "10",
+        description: "Fases Airdrop"
       }
     ]
   },
@@ -52,33 +51,58 @@ const translation = {
     items: [
       {
         title: "Interacción Personal",
-        description: "Comunicación precisa con avatar AI, experiencia de fan personalizada"
+        description: "Los avatares de IA se comunican con precisión, personalizando experiencias de fans."
       },
       {
         title: "Monetización de Fans",
-        description: "Sistema de pago por membresía, maximización del valor del fan"
+        description: "Sistema de membresía maximiza el valor de los fans."
       },
       {
-        title: "Soporte Eficiente",
-        description: "Interacción automática del avatar, reducción de costos y mejora de eficiencia"
+        title: "Potenciación Eficiente",
+        description: "Interacción automática de avatares reduce costos y aumenta eficiencia."
       },
       {
         title: "Protección de Privacidad",
-        description: "Tecnología blockchain, garantía de seguridad de datos"
+        description: "Seguridad de datos basada en blockchain, confiable y segura."
       },
       {
         title: "Mejora de Marca",
-        description: "Imagen digital personalizada, renovación y evolución de marca"
+        description: "Avatares digitales personalizados renuevan y mejoran marcas."
       },
       {
         title: "Identidad Virtual",
-        description: "Avatar social virtual, interacción fluida en el metaverso"
+        description: "Avatares sociales virtuales permiten interacciones inmersivas en el metaverso."
       },
       {
-        title: "Monetización Creativa",
-        description: "Economía de tokens, canales de ingresos diversos"
+        title: "Monetización Innovadora",
+        description: "Economía de tokens permite diversos canales de ingresos."
       }
-    ]
+    ],
+    business: {
+      title: "Ecosistema Empresarial",
+      items: [
+        {
+          title: "Canales de Pago",
+          description: "Suscríbete a los canales de los creadores para desbloquear experiencias interactivas inteligentes."
+        },
+        {
+          title: "Anuncios In-Feed",
+          description: "Targeting preciso, maximización de la exposición de la marca."
+        },
+        {
+          title: "Amplificación de Contenido",
+          description: "Promoción pagada para publicaciones/transmisiones en vivo, aumentando el alcance de la audiencia."
+        },
+        {
+          title: "Regalos Virtuales",
+          description: "Recompensas instantáneas, transferencia directa de valor a los creadores."
+        },
+        {
+          title: "Comercio Social",
+          description: "Convertir ventas a través de avatares digitales y recomendaciones basadas en contenido."
+        }
+      ]
+    }
   },
 
   digitalAvatarSystem: {
@@ -87,104 +111,131 @@ const translation = {
     items: [
       {
         title: "Celebridades",
-        desc: "La IA reproduce con precisión voz e imagen, evolucionando profundamente el IP personal"
+        desc: "IA recrea con precisión voz e imagen, evoluciona profundamente IP personal."
       },
       {
         title: "KOLs de la Industria",
-        desc: "Optimización inteligente de contenido, interacción eficiente aumenta la influencia"
+        desc: "Optimización inteligente de contenido, interacción eficiente aumenta influencia."
       },
       {
-        title: "Creadores de Contenido",
-        desc: "Contenido creativo impulsado por IA alcanza con precisión al público objetivo"
+        title: "Influencers",
+        desc: "Contenido creativo impulsado por IA alcanza con precisión, impulsa crecimiento de alcance."
       },
       {
-        title: "Marcas Empresariales",
-        desc: "Innovación de marketing impulsada por IA, mejora precisa del valor de marca"
+        title: "Marcas",
+        desc: "Innovación de marketing impulsada por IA, mejora precisa del valor de marca."
       }
     ],
     techEmpower: {
-      title: "Empoderamiento Tecnológico",
-      description: "Tecnología de avatar de IA de vanguardia que integra clonación de voz, edición inteligente y redacción inteligente, creando interacción multimodal y un ecosistema de avatares impulsado por IA.",
-      subTitle: "ITRIX aprovecha las tecnologías de IA y Blockchain de vanguardia",
-      subDesc: "A través de la tecnología de avatar impulsada por IA, los usuarios pueden interactuar con avatares digitales altamente realistas, disfrutando de una experiencia social inmersiva. Ya sea para creación de contenido, interacción con fans o expresión personalizada, el empoderamiento tecnológico de ITRIX abre nuevas posibilidades para usuarios y creadores.",
+      title: "Potenciación Tecnológica",
+      description: "Tecnología moderna de avatar de IA que integra clonación de voz, edición inteligente y redacción inteligente, creando interacción multimodal y un ecosistema de avatar impulsado por IA.",
+      subTitle: "ITRIX utiliza tecnología moderna de IA y Blockchain",
+      subDesc: "A través de la tecnología de avatar impulsada por IA, los usuarios pueden interactuar con avatares digitales altamente realistas y disfrutar de experiencias sociales inmersivas. Ya sea para creación de contenido, interacción con fans o expresión personal, la potenciación tecnológica de ITRIX abre nuevas posibilidades para usuarios y creadores.",
       features: [
         "Interacción Multimodal, Experiencia Inmersiva",
-        "Creación Impulsada por IA, Reducción de Barreras",
+        "Creación Impulsada por IA, Barreras Reducidas",
         "Avatares Altamente Realistas, Expresión Personal"
       ]
     },
     scenario: {
       title: "Innovación de Escenarios",
-      description: "Restauración de apariencia de avatar, simulación de gestos, captura de movimiento, interacción de voz inteligente, aprendizaje autónomo, renderizado en tiempo real. Avatares y escenarios ilimitados, solución digital humana todo en uno 24/7.",
+      description: "Restauración de apariencia de avatar, simulación de gestos, captura de movimiento, interacción de voz inteligente, aprendizaje autónomo y renderizado en tiempo real. Avatares y escenarios ilimitados, solución humana digital todo en uno 24/7.",
       features: [
         {
           title: "Avatar",
-          desc: "Cree avatares digitales únicos con tecnología de imagen virtual altamente realista, inaugurando una nueva era de interacción social personalizada."
+          desc: "Crea avatares digitales únicos con tecnología de imagen virtual altamente realista para una nueva era de interacción social personalizada."
         },
         {
           title: "Interacción",
-          desc: "Proporcione experiencias de interacción inteligente multimodal, permitiendo un compromiso natural e inmersivo con avatares virtuales."
+          desc: "Ofrece experiencias de interacción inteligente multimodal para participación natural e inmersiva con avatares virtuales."
         },
         {
           title: "Solución",
-          desc: "Ofrezca una solución digital humana todo en uno, cubriendo todo el viaje desde la creación hasta la monetización."
+          desc: "Proporciona una solución humana digital todo en uno que cubre todo el camino desde la creación hasta la monetización."
         }
       ]
     },
+    coreValues: {
+      title: "Valores Fundamentales",
+      items: [
+        {
+          title: "Presencia Virtual",
+          description: "Avatares de IA reemplazan humanos, revolucionan producción de videos cortos."
+        },
+        {
+          title: "Eficiencia de Costos",
+          description: "Ciclos de filmación más cortos, costos y complejidad de producción reducidos."
+        },
+        {
+          title: "Escalado Matricial",
+          description: "Escalado rápido, generación precisa de tráfico y conversión de leads."
+        }
+      ]
+    },
+    ui: {
+      generating: "IA generando......",
+      command: "¿Qué puedo hacer por ti?",
+      video: "¡Video generado!",
+      justNow: "Ahora mismo"
+    }
   },
 
   features: {
+    title: "Características",
+    subTitle: "¡IA reemplaza el trabajo humano,\ncrea rápidamente tu avatar digital exclusivo!",
     avatar: {
-      title: "Clonación de Imagen Virtual",
+      title: "Clonación de Avatar Virtual",
       items: [
         {
-          title: "Apariencia · Realismo Supremo",
-          description: "Aprendizaje profundo con algoritmos avanzados, reproducción precisa de rasgos faciales, textura de piel y detalles del cabello, recreación integral de personas reales"
+          title: "Apariencia · Realista",
+          description: "Algoritmos avanzados aprenden rasgos faciales, texturas de piel y detalles de cabello para ultra-realismo."
         },
         {
-          title: "Movimiento · Fluidez Natural",
-          description: "Tecnología avanzada de captura de movimiento, sincronización precisa de gestos humanos, expresión vívida"
+          title: "Movimiento · Fluido",
+          description: "Captura de movimiento avanzada refleja gestos humanos con precisión, vívida y natural."
         },
         {
-          title: "Visual · Realismo Detallado",
-          description: "Motor de renderizado en tiempo real, representación detallada de iluminación y texturas de escena variadas, creación de inmersión"
+          title: "Visuales · Inmersivos",
+          description: "Renderizado en tiempo real mejora iluminación y detalles de escena para experiencias realistas."
         }
       ]
     },
 
     voice: {
-      title: "Clonación de Voz Inteligente",
+      title: "Clonación de Voz IA",
       items: [
         {
-          title: "Voz · Réplica Precisa",
-          description: "Algoritmos acústicos avanzados para clonar con precisión muestras de voz original, alta fidelidad de características vocales"
+          title: "Voz · Precisa",
+          description: "Algoritmos acústicos avanzados replican con precisión tono y estilo de voz original."
         },
         {
-          title: "Idioma · Comunicación Sin Fronteras",
-          description: "Cambio multilingüe en tiempo real con IA, eliminación de barreras lingüísticas, habilitación de comunicación global"
+          title: "Idioma · Fluido",
+          description: "Cambio multilingüe en tiempo real rompe barreras para comunicación global."
         }
       ]
     },
 
     writing: {
-      title: "Redacción AI",
-      description: "Generación inteligente de copias refinadas según el escenario, edición eficiente, búsqueda de expresión perfecta"
+      title: "Redacción IA",
+      description: "Copias contextuales generadas por IA, refinadas eficientemente para expresión perfecta."
     },
 
     editing: {
-      title: "Edición de Video AI",
-      description: "Coincidencia de estilo temático AI, edición de material con un clic, generación automática de múltiples versiones de video, adaptación a diversos escenarios de marketing, maximización de eficiencia de producción"
+      title: "Edición IA",
+      description: "IA coincide temas inteligentemente, auto-edita múltiples versiones de video con un clic, simplifica marketing multi-escenario, maximiza eficiencia creativa."
     }
   },
 
   wallet: {
-    connect: "Conectar Billetera",
+    connect: "Conectar cartera",
     connecting: "Conectando...",
     disconnectSure: "¿Estás seguro de que quieres desconectar?",
   },
 
   cta: {
-    content: "Crea tu Avatar Digital personalizado y descubre una nueva experiencia de interacción con IA"
+    content: "Crea tu avatar digital personalizado, descubre una nueva experiencia de interacción KI",
+    description: "Clonación de imagen · Clonación de voz · Creación de contenido · Transmisión virtual · Integración de API",
+    tryNow: "Probar ahora"
   }
 }
 

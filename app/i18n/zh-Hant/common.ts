@@ -4,7 +4,7 @@ const translation = {
     getStarted: "開始使用",
     contactUs: "聯繫我們"
   },
-
+  
   navigation: {
     home: "首頁",
     about: "關於我們",
@@ -23,35 +23,27 @@ const translation = {
   home: {
     hero: {
       title: "隨時隨處，無限可能",
-      description: "ITRIX是一個AI驅動的Web3.0社交媒體平台，通過學習用戶社交平台活動數據，為用戶創建個性化高仿真的智能體作為AI分身，用於多場景交互。",
+      description: "ITRIX是一個AI驅動的Web3.0社交平台，通過分析用戶社交活動，生成個性化、真實的數字分身，實現多元互動。",
       dAppButton: "探索DApp"
     },
     homeDatas: [
       {
-        title: "2.4M",
-        description: "周轉天數"
+        title: "Solana",
+        description: "公鏈生態"
       },
       {
-        title: "7M",
-        description: "周轉天數"
+        title: "$ITX",
+        description: "代幣"
       },
       {
-        title: "7.4%",
-        description: "周轉天數"
+        title: "50M",
+        description: "總供應量"
       },
       {
-        title: "49K",
-        description: "周轉天數"
+        title: "10",
+        description: "空投期數"
       }
-    ],
-    homeIntro1: {
-      title: "個性化互動",
-      description: "AI分身精準溝通，定制粉絲體驗"
-    },
-    homeIntro2: {
-      title: "粉絲變現",
-      description: "會員付費模式，最大化粉絲價值"
-    }
+    ]
   },
 
   about: {
@@ -85,7 +77,32 @@ const translation = {
         title: "創作變現",
         description: "代幣經濟賦能，收益渠道多元"
       }
-    ]
+    ],
+    business: {
+      title: "商業生態",
+      items: [
+        {
+          title: "付費頻道",
+          description: "訂閱創作者頻道，解鎖智慧互動體驗"
+        },
+        {
+          title: "資訊流廣告",
+          description: "精準投放，增強品牌曝光"
+        },
+        {
+          title: "內容推流",
+          description: "作品/直播付費加熱，提升觸達率"
+        },
+        {
+          title: "虛擬禮物",
+          description: "即時激勵，價值流轉直達創作者"
+        },
+        {
+          title: "社交電商",
+          description: "通過分身帶貨、內容種草，實現轉化變現"
+        }
+      ]
+    }
   },
 
   digitalAvatarSystem: {
@@ -147,23 +164,31 @@ const translation = {
         },
         {
           title: "降本增效",
-          description: "大幅縮短拍攝周期，降低製作成本與難度。"
+          description: "大幅縮短拍攝週期，降低製作成本與難度。"
         },
         {
           title: "矩陣布局",
           description: "快速規模化落地，精準賦能流量引入與線索轉化。"
         }
       ]
+    },
+    ui: {
+      generating: "AI正在生成......",
+      command: "我能為您做什麼？",
+      video: "視頻已生成！",
+      justNow: "剛剛"
     }
   },
 
   features: {
+    title: "功能模塊",
+    subTitle: "AI替代人力，\n快速完成專屬數字人分身！",
     avatar: {
       title: "虛擬形象克隆",
       items: [
         {
           title: "外觀 · 臻於真實",
-          description: "尖端算法深度學習，精緻呈現面容五官、肌理細節與髮絲質感，全方位還原真人形象"
+          description: "尖端算法深度學習，精緻呈現面容五官、肌理細節與發絲質感，全方位還原真人形象"
         },
         {
           title: "動作 · 自然流暢",
@@ -171,7 +196,7 @@ const translation = {
         },
         {
           title: "畫面 · 細膩逼真",
-          description: "即時渲染引擎賦能，細膩呈現多元光影與場景質感，沉浸呈現"
+          description: "實時渲染引擎賦能，細膩呈現多元光影與場景質感，沉浸呈現"
         }
       ]
     },
@@ -180,12 +205,12 @@ const translation = {
       title: "智能語音克隆",
       items: [
         {
-          title: "聲音 · 精準複刻",
+          title: "聲音 · 精準復刻",
           description: "前沿聲學算法精準克隆原聲樣本，韻味聲線高度還原"
         },
         {
           title: "語言 · 無界暢達",
-          description: "智能多語種即時切換，打破語言壁壘，賦能全球溝通"
+          description: "智能多語種實時切換，打破語言壁壘，賦能全球溝通"
         }
       ]
     },
@@ -208,7 +233,9 @@ const translation = {
   },
 
   cta: {
-    content: "打造專屬虛擬數字人 開啟AI互動新體驗"
+    content: "創建您的數字分身，開啟AI互動新體驗",
+    description: "形象克隆 · 聲音克隆 · 內容創作 · 虛擬直播 · API集成",
+    tryNow: "立即體驗"
   }
 }
 

@@ -29,20 +29,20 @@ const translation = {
     },
     homeDatas: [
       {
-        title: "2.4M",
-        description: "周转天数"
+        title: "Solana",
+        description: "公链生态"
       },
       {
-        title: "7M",
-        description: "周转天数"
+        title: "$ITX",
+        description: "代币"
       },
       {
-        title: "7.4%",
-        description: "周转天数"
+        title: "50M",
+        description: "总供应量"
       },
       {
-        title: "49K",
-        description: "周转天数"
+        title: "10",
+        description: "空投期数"
       }
     ]
   },
@@ -78,7 +78,32 @@ const translation = {
         title: "创作变现",
         description: "代币经济赋能，收益渠道多元"
       }
-    ]
+    ],
+    business: {
+      title: "商业生态",
+      items: [
+        {
+          title: "付费频道",
+          description: "订阅创作者频道，解锁智能互动体验"
+        },
+        {
+          title: "信息流广告",
+          description: "精准投放，增强品牌曝光"
+        },
+        {
+          title: "内容推流",
+          description: "作品/直播付费加热，提升触达率"
+        },
+        {
+          title: "虚拟礼物",
+          description: "即时激励，价值流转直达创作者"
+        },
+        {
+          title: "社交电商",
+          description: "通过分身带货、内容种草，实现转化变现"
+        }
+      ]
+    }
   },
 
   digitalAvatarSystem: {
@@ -147,10 +172,18 @@ const translation = {
           description: "快速规模化落地，精准赋能流量引入与线索转化。"
         }
       ]
+    },
+    ui: {
+      generating: "AI正在生成......",
+      command: "我能为您做什么？",
+      video: "视频已生成！",
+      justNow: "刚刚"
     }
   },
 
   features: {
+    title: "功能模块",
+    subTitle: "AI替代人力，\n快速完成专属数字人分身！",
     avatar: {
       title: "虚拟形象克隆",
       items: [
@@ -201,7 +234,9 @@ const translation = {
   },
 
   cta: {
-    content: "打造专属虚拟数字人 开启AI交互新体验"
+    content: "打造专属虚拟数字人\n开启AI交互新体验",
+    description: "形象克隆 · 声音复刻 · 内容生产 · 虚拟直播 · API接入",
+    tryNow: "立即体验"
   }
 }
 

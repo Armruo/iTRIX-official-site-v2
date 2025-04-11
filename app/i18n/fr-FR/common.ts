@@ -25,7 +25,7 @@ const translation = {
     hero: {
       title: "Partout et à tout moment, des possibilités infinies",
       description: "ITRIX est une plateforme de médias sociaux Web3.0 alimentée par l'IA qui apprend des données d'activité des utilisateurs sur les plateformes sociales pour créer des agents intelligents hautement personnalisés et réalistes en tant qu'avatars IA pour l'interaction multi-scénarios.",
-      dAppButton: "Explorer DApp"
+      dAppButton: "Explore DApp"
     },
     homeDatas: [
       {
@@ -78,7 +78,32 @@ const translation = {
         title: "Monétisation Créative",
         description: "Économie de jetons, canaux de revenus diversifiés"
       }
-    ]
+    ],
+    business: {
+      title: "Écosystème Commercial",
+      items: [
+        {
+          title: "Canaux Payants",
+          description: "Abonnez-vous aux chaînes des créateurs pour débloquer des expériences interactives intelligentes."
+        },
+        {
+          title: "Publicités In-Feed",
+          description: "Ciblage précis, maximisation de l'exposition de la marque."
+        },
+        {
+          title: "Amplification de Contenu",
+          description: "Promotion payante des publications/diffusions en direct, augmentant la portée du public."
+        },
+        {
+          title: "Cadeaux Virtuels",
+          description: "Récompenses instantanées, transférant directement de la valeur aux créateurs."
+        },
+        {
+          title: "Commerce Social",
+          description: "Convertir les ventes via des avatars numériques et des recommandations basées sur le contenu."
+        }
+      ]
+    }
   },
 
   digitalAvatarSystem: {
@@ -130,10 +155,18 @@ const translation = {
           desc: "Offrez une solution humaine numérique tout-en-un, couvrant tout le parcours de la création à la monétisation."
         }
       ]
+    },
+    ui: {
+      generating: "L'IA est en train de générer",
+      command: "Que puis-je faire pour vous ?",
+      video: "Vidéo générée !",
+      justNow: "à l'instant"
     }
   },
 
   features: {
+    title: "Fonctionnalités",
+    subTitle: "L'IA remplace la main-d'œuvre, créant rapidement votre avatar numérique exclusif !",
     avatar: {
       title: "Clonage d'Image Virtuelle",
       items: [
@@ -184,7 +217,9 @@ const translation = {
   },
 
   cta: {
-    content: "Créez votre Avatar Numérique personnalisé et découvrez une nouvelle expérience d'interaction IA"
+    content: "Créez votre Avatar Numérique personnalisé et découvrez une nouvelle expérience d'interaction IA",
+    description: "Clonage d'images · Clonage vocal · Création de contenu · Livraison virtuelle · Intégration API",
+    tryNow: "Essayer maintenant"
   }
 }
 
